@@ -2,6 +2,6 @@ package Teacher;
 class test {
     public static void main(String[] args)
     {
-        System.out.println("Hello world, Java Guru Teacher!");
+        System.out.println("Hello world, JavaGuru QA 2.0 course Teacher!");
     }
 }
