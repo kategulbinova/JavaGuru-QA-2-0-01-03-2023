@@ -1,0 +1,327 @@
+{
+  "id": "2a6ada47-6c62-4f71-87b0-4c94ec6a2639",
+  "version": "2.0",
+  "name": "Homework1",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "b1f3c27d-3449-4819-8edc-121a4e3559ae",
+    "name": "Homework 1",
+    "commands": [{
+      "id": "c076da6a-fb92-4c20-8260-a8f5371d2f30",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "605dfa42-b821-4c89-b52c-6ef70cfaea8c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "917x853",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e629e402-a568-4b15-9284-6625f1a8dc05",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "javaguru.lv"
+    }, {
+      "id": "9c5adccb-f440-48b6-9013-fcd9a1651ae4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "dc2845ad-a1db-4e3f-b7fc-5b0f7e088f33",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.uEierd:nth-child(3) .CCgQ5 > span",
+      "targets": [
+        ["css=.uEierd:nth-child(3) .CCgQ5 > span", "css:finder"],
+        ["xpath=//div[@id='tads']/div/div/div/div/div/a/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Курсы Программирования - Выбери Курс Уже Сегодня')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc3208e3-f8f2-4a85-a299-e861ad11307c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.uEierd:nth-child(3) .CCgQ5 > span",
+      "targets": [
+        ["css=.uEierd:nth-child(3) .CCgQ5 > span", "css:finder"],
+        ["xpath=//div[@id='tads']/div/div/div/div/div/a/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Курсы Программирования - Выбери Курс Уже Сегодня')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92454682-7d9f-43cd-9a10-8f8f90bcd1b5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.uEierd:nth-child(3) .CCgQ5",
+      "targets": [
+        ["css=.uEierd:nth-child(3) .CCgQ5", "css:finder"],
+        ["xpath=//div[@id='tads']/div/div/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fb66409-89db-40fd-acff-d7f3f093efd4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.uEierd:nth-child(3) .CCgQ5",
+      "targets": [
+        ["css=.uEierd:nth-child(3) .CCgQ5", "css:finder"],
+        ["xpath=//div[@id='tads']/div/div/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48dfb567-4422-429a-b532-ea8ef417abde",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [
+        ["css=.tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'JAVA GURU — профессиональные ИТ курсы | javaguru.lv')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f75273d8-b856-4d9f-806f-5fcb50593152",
+      "comment": "",
+      "command": "click",
+      "target": "css=.single-hero-button > .pulse-button",
+      "targets": [
+        ["css=.single-hero-button > .pulse-button", "css:finder"],
+        ["xpath=(//a[contains(text(),'Зарегистрироваться')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://javaguru.lv/registracija/')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edbb5084-b941-44c5-b33b-1ec9f5336033",
+      "comment": "",
+      "command": "click",
+      "target": "name=form-name",
+      "targets": [
+        ["name=form-name", "name"],
+        ["css=.name-input", "css:finder"],
+        ["xpath=//input[@name='form-name']", "xpath:attributes"],
+        ["xpath=//form[@id='registration-form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76f33f4c-f2ee-4f11-a95b-ec53b4f4c87d",
+      "comment": "",
+      "command": "type",
+      "target": "name=form-name",
+      "targets": [
+        ["name=form-name", "name"],
+        ["css=.name-input", "css:finder"],
+        ["xpath=//input[@name='form-name']", "xpath:attributes"],
+        ["xpath=//form[@id='registration-form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "c4c7d0d8-42a7-4159-af6a-af1e91f4ed6f",
+      "comment": "",
+      "command": "click",
+      "target": "name=form-surname",
+      "targets": [
+        ["name=form-surname", "name"],
+        ["css=.surname-input", "css:finder"],
+        ["xpath=//input[@name='form-surname']", "xpath:attributes"],
+        ["xpath=//form[@id='registration-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1194c91-2b29-4141-bdeb-c039d0d3b823",
+      "comment": "",
+      "command": "type",
+      "target": "name=form-surname",
+      "targets": [
+        ["name=form-surname", "name"],
+        ["css=.surname-input", "css:finder"],
+        ["xpath=//input[@name='form-surname']", "xpath:attributes"],
+        ["xpath=//form[@id='registration-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "8a23c53a-9673-4c7c-8574-84233defc601",
+      "comment": "",
+      "command": "click",
+      "target": "name=form-email",
+      "targets": [
+        ["name=form-email", "name"],
+        ["css=.email-input", "css:finder"],
+        ["xpath=//input[@name='form-email']", "xpath:attributes"],
+        ["xpath=//form[@id='registration-form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51ed5a28-d8d2-4b0f-a157-0d0d6d45bf67",
+      "comment": "",
+      "command": "type",
+      "target": "name=form-email",
+      "targets": [
+        ["name=form-email", "name"],
+        ["css=.email-input", "css:finder"],
+        ["xpath=//input[@name='form-email']", "xpath:attributes"],
+        ["xpath=//form[@id='registration-form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "32019d03-58be-4d32-8f30-18d579c9c42f",
+      "comment": "",
+      "command": "click",
+      "target": "name=form-phone",
+      "targets": [
+        ["name=form-phone", "name"],
+        ["css=.phone-input", "css:finder"],
+        ["xpath=//input[@name='form-phone']", "xpath:attributes"],
+        ["xpath=//form[@id='registration-form']/div[4]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cb3601c-561b-4189-8330-939599de0b74",
+      "comment": "",
+      "command": "type",
+      "target": "name=form-phone",
+      "targets": [
+        ["name=form-phone", "name"],
+        ["css=.phone-input", "css:finder"],
+        ["xpath=//input[@name='form-phone']", "xpath:attributes"],
+        ["xpath=//form[@id='registration-form']/div[4]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "49238f14-cf86-47f3-88f0-fef18a9fb409",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selectric-course-input > .selectric",
+      "targets": [
+        ["css=.selectric-course-input > .selectric", "css:finder"],
+        ["xpath=//form[@id='registration-form']/div[5]/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f409594-386e-4dad-87a7-fc3066a15771",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selectric-scroll li:nth-child(6)",
+      "targets": [
+        ["css=.selectric-scroll li:nth-child(6)", "css:finder"],
+        ["xpath=//form[@id='registration-form']/div[5]/div/div/div[3]/div/ul/li[6]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/ul/li[6]", "xpath:position"],
+        ["xpath=//li[contains(.,'Курс QA 3.0.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74e5a5b4-3233-43b4-a85b-e2a4ac6f6c5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.reg-message",
+      "targets": [
+        ["css=.reg-message", "css:finder"],
+        ["xpath=//form[@id='registration-form']/div[7]", "xpath:idRelative"],
+        ["xpath=//div[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1087032-e474-40cc-ae93-0a6dd6331e58",
+      "comment": "",
+      "command": "click",
+      "target": "name=form-message",
+      "targets": [
+        ["name=form-message", "name"],
+        ["css=.message-input", "css:finder"],
+        ["xpath=//textarea[@name='form-message']", "xpath:attributes"],
+        ["xpath=//form[@id='registration-form']/div[7]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca0fa6f7-1f08-4bd0-8cb3-bcddd7392982",
+      "comment": "",
+      "command": "type",
+      "target": "name=form-message",
+      "targets": [
+        ["name=form-message", "name"],
+        ["css=.message-input", "css:finder"],
+        ["xpath=//textarea[@name='form-message']", "xpath:attributes"],
+        ["xpath=//form[@id='registration-form']/div[7]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "69c55047-be3a-434a-942c-1973bb1fa94a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.reg-privacy .checkbox-title",
+      "targets": [
+        ["css=.reg-privacy .checkbox-title", "css:finder"],
+        ["xpath=//form[@id='registration-form']/div[8]/div/label/div[2]", "xpath:idRelative"],
+        ["xpath=//label/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40ee7f62-e6f8-4c80-9889-871a9c8a3ac9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkbox-single:nth-child(2) .checkbox-title",
+      "targets": [
+        ["css=.checkbox-single:nth-child(2) .checkbox-title", "css:finder"],
+        ["xpath=//form[@id='registration-form']/div[8]/div[2]/label/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/label/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a636ee9-daeb-42df-b4de-8daf002a655c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submit-button > .default-button",
+      "targets": [
+        ["css=.submit-button > .default-button", "css:finder"],
+        ["xpath=//input[@value='Зарегистрироваться']", "xpath:attributes"],
+        ["xpath=//form[@id='registration-form']/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "59af3e49-af98-4531-9589-77ce8d175375",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b1f3c27d-3449-4819-8edc-121a4e3559ae"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
