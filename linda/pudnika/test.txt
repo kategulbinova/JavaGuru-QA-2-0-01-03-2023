@@ -1,0 +1,1 @@
+This is the test task from Lesson 3 on the JavaGuru QA2 Course.
