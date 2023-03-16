@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<style>
+  			body {
+   				background-color: #f2f2f2;
+   				font-family: Monospace;
+			}
+			table,th,td {
+				border: 1px solid #3B9C9C;
+				border-collapse: collapse;
+				color:green;
+			}
+			h1 {
+				text-align: center;
+				color:  #43C6DB;
+			}
+			h2 {
+				text-align: center;
+				font-size: 10px;
+				color: grey;
+
+			}
+			h3 {
+				font-family: comic sans ms;
+				font-size: 30px;
+				text-align: center;
+				color: #3B9C9C;
+			}
+P { text-align: center }
+		</style>
+
+	</head>
+	<body>
+		<table border=1>
+			<tr>
+				<th colspan="4"><h1>Crystals</h1></th>
+
+			</tr>
+			<tr>
+				<td style="width: 20%; height: 400px">
+					<a href="crystal.html">About crystals</a><br>
+					<a href="Fireopal.html">Fire opal</a><br>
+					<a href="Bismut.html">Bismuth</a><br>
+					<a href="Wavellite.html">Wavellite</a><br>
+				</td>
+				<td width=100%; >
+<h3>Wavellite</h3>
+Wavellite is an aluminum phosphate hydroxide hydrate.
+
+It usually occurs in globular or hemispherical aggregates of botryoidal crusts on matrix, radiating crystals, or stalactitic deposits.
+
+This stone also forms as a secondary mineral in crevices of aluminous, metaphoric, low-grade rocks.
+
+Wavellite is a translucent stone with a vitreous to resinous or pearly luster.
+
+It’s named after the English physician who first discovered it, William Wavell.
+
+Wavellite exhibits different shades of green, which range from dark emerald green, apple green, bright green, to pale green.
+
+There are also Wavellite stones that are black, brown, yellow, and blue, although they are quite rare.
+
+Wavellite is usually found in the USA, Ireland, England, Australia.
+<p><img src="https://64.media.tumblr.com/00cf1d4c27a261227883d68e9d6a160c/tumblr_mnho0bx9SB1rjxhlko2_r1_500.jpg"
+ 	width="300"
+     	height="341"></p>
+<p><a href="https://en.wikipedia.org/wiki/Wavellite">More about Wavellite</a></p>
+</td>
+				<tr>
+				<td colspan="4"><h2>© 2023 Crystal</h2></td>
+				</tr>
+		</table>
+	</body>
+</html>
