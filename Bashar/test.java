@@ -1,4 +1,4 @@
-package basarsalahmads;
+package Bashar;
 
 class test {
     public static void main(String[] args)
