@@ -1,0 +1,24 @@
+			html {
+				background-image: linear-gradient(to right, #B89468, #9DAB6B, #E3CE93);
+			}
+			table, tr, td, th {
+				border-collapse:collapse;
+				border: 0px;
+				color:white;
+				padding: 8px;
+			}
+			th {
+				border: 0px;
+  				text-align: left;
+			}
+			h1 {
+				text-align:center;
+				text-shadow: 1px 1px 3px Black;
+			}
+			h2 {
+				text-align:center;
+				font-size:10px;
+			}
+			a {
+				color:white;
+			}
