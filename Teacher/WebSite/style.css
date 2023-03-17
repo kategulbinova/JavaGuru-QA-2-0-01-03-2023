@@ -1,0 +1,17 @@
+h1 {
+	font-family:”Times New Roman”, Tahoma, Verdana;
+	text-align: center;
+	color: blue;
+	size: 14px
+}
+
+p {
+	font-family:”Times New Roman”, Tahoma, Verdana;
+	text-align: justify;
+	color: black;
+	size: 10px
+}
+
+body {
+	background-color: #A2C2D5;
+}
