@@ -1,0 +1,231 @@
+{
+  "id": "e9298650-db83-4b94-b0c8-fde0f65db19e",
+  "version": "2.0",
+  "name": "Google-JavaGuru",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "dc507a52-0fae-4d16-ac2a-ab6cb52b3df7",
+    "name": "Google_Java",
+    "commands": [{
+      "id": "bcd157c0-79c9-49de-a9b8-0fc75c3d6854",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58478216-0c80-4e27-9260-28b1371ee6d6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x772",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "422ed331-dca5-4acc-8c74-66cff6f6f52b",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9605bd2e-f339-43a8-9e96-3592ebc0769c",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "Java Guru"
+    }, {
+      "id": "b2174cee-f01c-468f-8771-981ca9a11710",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "9bc314e9-e4e3-4e1d-a668-946cbc2bc844",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div:nth-child(2) > .tF2Cxc a > .TbwUpd",
+      "targets": [
+        ["css=div:nth-child(2) > .tF2Cxc a > .TbwUpd", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a43a9122-003e-4ee6-abf8-6d2732601e7b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div:nth-child(2) > .tF2Cxc .LC20lb",
+      "targets": [
+        ["css=div:nth-child(2) > .tF2Cxc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'JAVA GURU — профессиональные ИТ курсы | javaguru.lv')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8849da28-74c5-4263-8966-e42826b6ba18",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .tF2Cxc .LC20lb",
+      "targets": [
+        ["css=div:nth-child(2) > .tF2Cxc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'JAVA GURU — профессиональные ИТ курсы | javaguru.lv')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c91924f-3c04-4bb7-99cf-c0550368666f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu li:nth-child(1) > a",
+      "targets": [
+        ["css=.menu li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Курсы')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://javaguru.lv/kursy-programmirovanija/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d01fa59-3054-4757-84e8-4b07517072d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.single-list:nth-child(2) .single-course:nth-child(2) .default-button",
+      "targets": [
+        ["css=.single-list:nth-child(2) .single-course:nth-child(2) .default-button", "css:finder"],
+        ["xpath=(//a[contains(text(),'Узнать больше')])[4]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://javaguru.lv/qa2/')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd093b4a-fe40-46fc-9988-e05c6713bb18",
+      "comment": "",
+      "command": "click",
+      "target": "name=form-name",
+      "targets": [
+        ["name=form-name", "name"],
+        ["css=.name-input", "css:finder"],
+        ["xpath=//input[@name='form-name']", "xpath:attributes"],
+        ["xpath=//form[@id='single-course-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc25b900-56fb-40aa-8c94-38813249574d",
+      "comment": "",
+      "command": "type",
+      "target": "name=form-name",
+      "targets": [
+        ["name=form-name", "name"],
+        ["css=.name-input", "css:finder"],
+        ["xpath=//input[@name='form-name']", "xpath:attributes"],
+        ["xpath=//form[@id='single-course-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Lana"
+    }, {
+      "id": "a8a0a7c5-00c0-4c1c-ba5f-baddbde06231",
+      "comment": "",
+      "command": "click",
+      "target": "name=form-phone",
+      "targets": [
+        ["name=form-phone", "name"],
+        ["css=.phone-input", "css:finder"],
+        ["xpath=//input[@name='form-phone']", "xpath:attributes"],
+        ["xpath=//form[@id='single-course-form']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "199995f6-200f-4643-83e6-0df5ffc79c3b",
+      "comment": "",
+      "command": "type",
+      "target": "name=form-phone",
+      "targets": [
+        ["name=form-phone", "name"],
+        ["css=.phone-input", "css:finder"],
+        ["xpath=//input[@name='form-phone']", "xpath:attributes"],
+        ["xpath=//form[@id='single-course-form']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "111"
+    }, {
+      "id": "6845579d-cdc7-4f26-85e7-203ed2a6d095",
+      "comment": "",
+      "command": "click",
+      "target": "name=form-email",
+      "targets": [
+        ["name=form-email", "name"],
+        ["css=.email-input", "css:finder"],
+        ["xpath=//input[@name='form-email']", "xpath:attributes"],
+        ["xpath=//form[@id='single-course-form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92f5d5d9-64c9-4597-9afd-e3700a2cca2a",
+      "comment": "",
+      "command": "type",
+      "target": "name=form-email",
+      "targets": [
+        ["name=form-email", "name"],
+        ["css=.email-input", "css:finder"],
+        ["xpath=//input[@name='form-email']", "xpath:attributes"],
+        ["xpath=//form[@id='single-course-form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "www"
+    }, {
+      "id": "397f0f4c-2071-4209-bacf-a41501a2507f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkbox-mark",
+      "targets": [
+        ["css=.checkbox-mark", "css:finder"],
+        ["xpath=//form[@id='single-course-form']/div[5]/label/div/div/div", "xpath:idRelative"],
+        ["xpath=//label/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "053bd632-b0b6-423d-a27e-755ed754cff2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.default-button-submit",
+      "targets": [
+        ["css=.default-button-submit", "css:finder"],
+        ["xpath=//input[@value='Зарегистрироваться']", "xpath:attributes"],
+        ["xpath=//form[@id='single-course-form']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2bd8b4ec-3e43-434c-a5e3-602155259e68",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dc507a52-0fae-4d16-ac2a-ab6cb52b3df7"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
