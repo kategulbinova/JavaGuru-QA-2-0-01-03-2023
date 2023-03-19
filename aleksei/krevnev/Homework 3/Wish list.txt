@@ -1,0 +1,25 @@
+<html>
+	<link rel="stylesheet" href="style.css">
+	<body>
+		<table border=1 width=100%>
+			<tr>	
+				<td colspan=2> <h1> Wish list of the cities to be visited in the future </h1> </td>
+			</tr>
+			<tr>
+				<td style="width:20%; height:400px">
+					<a href="index.html"><b>Home</b></a><br>
+					<a href="Cities.html">Cities</a><br>
+					<a href="Wish list.html">Wish list</a>
+				</td>
+				<td>
+						<img src="Sydney.jpg" width="400" height="300">
+						<img src="New York.jpg" width="400" height="300">
+						<img src="Zilupe.jpg" width="400" height="300">
+				</td>
+			</tr>
+			<tr>
+				<td colspan=2><h2>2023, all right reserved. Created by A.K.</h2></td>
+			</tr>
+		</table>		
+	</body>
+</html>
