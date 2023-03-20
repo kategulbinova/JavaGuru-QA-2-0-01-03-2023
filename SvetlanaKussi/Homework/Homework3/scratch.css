@@ -1,0 +1,27 @@
+body {
+   				background-color: #f2f2f2;
+   				font-family: Monospace;
+			}
+			table,th,td {
+				border: 1px solid #3B9C9C;
+				border-collapse: collapse;
+				color:green;
+			}
+			h1 {
+				text-align: center;
+				color: #43C6DB;
+			}
+			h2 {
+				text-align: center;
+				font-size: 10px;
+				color: grey;
+			}
+			h3 {
+				font-family: comic sans ms;
+				font-size: 30px;
+				text-align: center;
+				color: #3B9C9C;
+			}
+			P {
+				text-align: center
+			}
