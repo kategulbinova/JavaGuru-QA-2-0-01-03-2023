@@ -1,0 +1,131 @@
+{
+  "id": "9d6e12c9-aa5b-4280-be87-a35479c93a81",
+  "version": "2.0",
+  "name": "JavaGuru",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "6bba23b5-c59b-4c9b-b053-3ace70b22fe6",
+    "name": "JavaGuruTest",
+    "commands": [{
+      "id": "b9775b68-5156-438a-b409-c2381991457d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "469047f2-0694-44b4-acda-f140e859279a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1464x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1aba620-b541-4773-9e1e-29236fc3e150",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "JavaGuru"
+    }, {
+      "id": "814bb2de-2c0b-4c9e-8f9c-6e3187d7dc56",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sbre .wM6W7d > span",
+      "targets": [
+        ["css=.sbre .wM6W7d > span", "css:finder"],
+        ["xpath=//div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'javaguru.lv')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "040d466c-a056-4720-ba1e-333f9fd7490f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,24.799999237060547)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7d94739-48f4-4565-9198-111d81d6d113",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [
+        ["css=.tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'JAVA GURU — профессиональные ИТ курсы | javaguru.lv')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff5a8a65-27fe-4797-ba55-03c540ae983f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=LV",
+      "targets": [
+        ["linkText=LV", "linkText"],
+        ["css=.single-language:nth-child(1) > .text-uppercase", "css:finder"],
+        ["xpath=(//a[contains(text(),'LV')])[2]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/div/div[3]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://javaguru.lv/lv/')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37340d4c-b031-4948-9ff0-d36d422bf86a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu li:nth-child(1) > a",
+      "targets": [
+        ["css=.menu li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Kursi')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://javaguru.lv/lv/programmesanas-kursi/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96dc00f0-c706-4218-a8d4-591d69192da3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,400)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9dfbb070-cb00-471d-9dfd-402d80308777",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,768.7999877929688)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8caca828-c46d-4387-bb86-285d11ddb0dd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4133.60009765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7d681e4-0d9e-40b0-861e-da0d3a0dd5e6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5140)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cbd066f9-2406-49b3-8d0d-969c09a0ec7b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6bba23b5-c59b-4c9b-b053-3ace70b22fe6"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

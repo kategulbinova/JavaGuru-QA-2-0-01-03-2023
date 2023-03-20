@@ -1,0 +1,45 @@
+<style>
+		 table {
+			border:1px solid white;
+			border-collapse: collapse;
+		}
+		 td{
+				background-color:DDDFD6;
+				border:1px solid black;
+		}
+		
+		h1{
+			color:2A4615;
+		}
+		
+		h2 {
+		color:grey
+		font-size:15px;
+		text-align:center;
+		
+		}
+		
+		h3{
+		color:125A7D;
+		font-size:20px;
+		text-align:center;
+		}
+		
+		h4{
+		color:5D8440;
+		font-size:15px;
+		font-weight:bold;
+		font-family:"Times New Roman","Arial";
+		text-align:left;
+				}
+		
+		h5 {
+		color:2C2358
+		font-size:15px;
+		font-style:italics;
+		font-family:"Times New Roman", "Arial";
+		text-align:center;
+		
+		}
+		
+		</style>

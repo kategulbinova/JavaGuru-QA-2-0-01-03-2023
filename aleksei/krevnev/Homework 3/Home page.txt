@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<style>
+			table {
+				border: 1px solid white;
+				border-collapse: collapse;
+			}
+			td {
+				background-color:EFED6C;
+			}
+			h1 {
+				text-align:center;
+				color: A165CF;
+			}
+			h2 { 
+				color: grey;
+				font-size: 10px;
+				text-align: center;
+			}
+				
+		</style>
+	</head>
+	<body>
+		<table border=1 width=100%>
+			<tr>	
+				<td colspan=2> <h1> My top of the cities visited </h1> </td>
+			</tr>
+			<tr>
+				<td style="width:20%; height:400px">
+					<a href="index.html">Home</a><br>
+					<a href="Cities.html">Cities</a>
+				</td>
+				<td>
+				 	This web site is about top cities I have visited.<br>
+					Please, navigate <a href = "Cities.html">here</a>
+				</td>
+			</tr>
+			<tr>
+				<td colspan=2><h2>2023, all right reserved</h2></td>
+			</tr>
+		</table>		
+	</body>
+</html>
