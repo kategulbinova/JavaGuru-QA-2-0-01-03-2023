@@ -1,0 +1,45 @@
+table {
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+
+td {
+	background-color: PaleGreen;
+	line-height: 26px;
+	
+}
+h1 {
+	text-align: center;
+	color: DarkGreen;
+	font-family: Verdana Pro Black; 
+	font-size: 40pt;
+	letter-spacing: 5px; 
+	text-shadow:2px 2px 5px white; 
+}
+
+h2 {
+	color: Green;
+	font-size: 24pt; 
+	font-family: Comic Sans MS;
+	text-align: center;
+	text-shadow:2px 2px 5px DarkGreen; 
+}
+
+h3 {
+	color: OliveDrab;
+	font-size: 14pt;
+	text-align: left;
+	font-family: Magneto;
+}
+
+h4 { 
+	color: gray;
+	font-size: 10pt;
+	text-align: center;
+}
+h5 {
+	color: DarkOliveGreen;
+	font-family: Algerian;
+	font-size: 14pt;
+}
+
