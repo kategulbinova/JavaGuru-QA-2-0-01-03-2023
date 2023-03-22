@@ -1,0 +1,89 @@
+body {
+  background: #C2B3AC;
+  background: url(img/back2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a {
+  color: black;
+  text-decoration: none;
+  }
+
+#navigation {
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border: 0px solid blue;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+#navigation H1 {
+  color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#navigation img {
+  height: 100%;
+  padding-left: 10px;
+}
+
+#main {
+  padding-top: 20px;
+  height: auto;
+  width: auto;
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+}
+
+.main_side {
+  height: 200px;
+  justify-items: center;
+  max-width: 160px;
+  min-width: 120px;
+  padding-top: 20px;
+  display: grid;
+}
+
+.main_center {
+  padding-left: 10px;
+  width: 100%;
+  min-height: 500px;
+}
+
+#read H1, H2{
+  text-align: center;
+}
+
+#books {
+  border: 0px solid red;
+  width: 100%;
+  max-height: 1000px;
+}
+
+#books img {
+  height: 100%;
+}
+
+#books td {
+  text-align: center;
+  border: 0px solid red;
+  width: 30%;
+  height: 150px;
+}
+#book {
+  display: flex;
+  
+}
+#book p {
+  margin-top: 0;
+  padding-left: 10px;
+  font-size: x-large;
+}
+
+#footer {
+  border: 0px solid rgb(0, 255, 8);
+  height: 50px;
+  width: 100%;
+}

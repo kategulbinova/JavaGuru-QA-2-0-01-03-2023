@@ -1,0 +1,31 @@
+table {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+td {
+    background-color: rgb(251, 244, 246);
+}
+
+h1 {
+    text-align: center;
+    color: cadetblue;
+}
+
+h2 {
+    color: lightsteelblue;
+    font-size: 10px;
+    text-align: center;
+}
+
+body {
+    background-color: antiquewhite;
+}
+img {
+    width: 600px;
+    height: 500px; 
+
+}
+p {
+    font-size: 20px;
+}

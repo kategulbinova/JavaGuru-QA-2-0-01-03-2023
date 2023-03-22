@@ -1,0 +1,71 @@
+{
+  "id": "fff38e42-c3b0-4fe1-9da2-6c9bc2f32a23",
+  "version": "2.0",
+  "name": "Google",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "e78317ce-97ef-4a1b-9fef-49e2e93791d7",
+    "name": "Google",
+    "commands": [{
+      "id": "b3802b1d-5ad6-400a-beef-d89e95b2ecc9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e6cd2fc-10c9-42e6-934c-890938a93ce4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea15d460-9ca5-4e5b-98fc-af1f934c67bd",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "JavaGuru"
+    }, {
+      "id": "cddf0942-d3dd-485e-bdf6-eee03e92eb5e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "90174c30-0dee-4b27-975c-91c96d414a93",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [
+        ["css=div:nth-child(2) > .tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'JAVA GURU — профессиональные ИТ курсы | javaguru.lv')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7ccbd45b-a183-418d-914a-34fb7a185163",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e78317ce-97ef-4a1b-9fef-49e2e93791d7"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

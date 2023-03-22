@@ -1,0 +1,35 @@
+table {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+td {
+    background-color: rgb(251, 244, 246);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(5, 75, 53);
+}
+
+h2 {
+    color: lightsteelblue;
+    font-size: 10px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(1, 54, 39);
+}
+.myImage1 {
+
+    width: 600px;
+    height: 500px; 
+
+}
+
+.myImage2 {
+    
+    width: 600px;
+    height: 500px; 
+}

@@ -1,0 +1,225 @@
+{
+  "id": "3573d0f2-fed2-4697-840c-303a62125554",
+  "version": "2.0",
+  "name": "JavaGuruTest1",
+  "url": "https://javaguru.lv",
+  "tests": [{
+    "id": "71a498ca-11c2-4253-b79e-6ea2ffa3c538",
+    "name": "ChekRegestration",
+    "commands": [{
+      "id": "e125bbe9-cc39-4da8-b15e-9d18fb728491",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf3030da-f9c2-482d-ad19-9af2f6366d6c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aad041e5-b334-4ab4-968f-4685f653d9f5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=LV",
+      "targets": [
+        ["linkText=LV", "linkText"],
+        ["css=.mobile-above-header-languages > .text-uppercase", "css:finder"],
+        ["xpath=//a[contains(text(),'LV')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://javaguru.lv/lv/')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'LV')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19298f58-5a60-425d-ab29-2cdaa7665c15",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=LV",
+      "targets": [
+        ["linkText=LV", "linkText"],
+        ["css=.mobile-above-header-languages > .text-uppercase", "css:finder"],
+        ["xpath=//a[contains(text(),'LV')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://javaguru.lv/lv/')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'LV')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75fd2fe9-ce27-4847-b829-494e134ac89a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.line:nth-child(2)",
+      "targets": [
+        ["css=.line:nth-child(2)", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75f7548d-e949-4e92-b9ad-6141bdd10580",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Курсы",
+      "targets": [
+        ["linkText=Курсы", "linkText"],
+        ["css=.justify-content-end > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Курсы')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://javaguru.lv/kursy-programmirovanija/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Курсы')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37cd8925-19ef-4a47-8ec0-baf8cb29ec53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.single-list:nth-child(2) .single-course:nth-child(2) .course-image img",
+      "targets": [
+        ["css=.single-list:nth-child(2) .single-course:nth-child(2) .course-image img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://javaguru.lv/wp-content/uploads/2021/07/qa_2.0_ikona.png')]", "xpath:img"],
+        ["xpath=//div[2]/div[2]/div[2]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dcf6050-074b-481b-974c-ae3328809ac6",
+      "comment": "",
+      "command": "click",
+      "target": "name=form-name",
+      "targets": [
+        ["name=form-name", "name"],
+        ["css=.name-input", "css:finder"],
+        ["xpath=//input[@name='form-name']", "xpath:attributes"],
+        ["xpath=//form[@id='single-course-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fea285f4-0930-401c-86ab-888e46f6727d",
+      "comment": "",
+      "command": "type",
+      "target": "name=form-name",
+      "targets": [
+        ["name=form-name", "name"],
+        ["css=.name-input", "css:finder"],
+        ["xpath=//input[@name='form-name']", "xpath:attributes"],
+        ["xpath=//form[@id='single-course-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "svds"
+    }, {
+      "id": "71e72f24-6a3b-4705-a53c-4c5855191b5e",
+      "comment": "",
+      "command": "click",
+      "target": "name=form-phone",
+      "targets": [
+        ["name=form-phone", "name"],
+        ["css=.phone-input", "css:finder"],
+        ["xpath=//input[@name='form-phone']", "xpath:attributes"],
+        ["xpath=//form[@id='single-course-form']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95f6f810-195a-4f31-a2d8-8c50a010abc6",
+      "comment": "",
+      "command": "type",
+      "target": "name=form-phone",
+      "targets": [
+        ["name=form-phone", "name"],
+        ["css=.phone-input", "css:finder"],
+        ["xpath=//input[@name='form-phone']", "xpath:attributes"],
+        ["xpath=//form[@id='single-course-form']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "vsvf"
+    }, {
+      "id": "fcca3163-c22e-490f-9396-aa028fb23c20",
+      "comment": "",
+      "command": "click",
+      "target": "name=form-email",
+      "targets": [
+        ["name=form-email", "name"],
+        ["css=.email-input", "css:finder"],
+        ["xpath=//input[@name='form-email']", "xpath:attributes"],
+        ["xpath=//form[@id='single-course-form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ec3c63b-349e-4f1b-8a67-4fce1d559c05",
+      "comment": "",
+      "command": "type",
+      "target": "name=form-email",
+      "targets": [
+        ["name=form-email", "name"],
+        ["css=.email-input", "css:finder"],
+        ["xpath=//input[@name='form-email']", "xpath:attributes"],
+        ["xpath=//form[@id='single-course-form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "vsfsv"
+    }, {
+      "id": "95e17e31-79ed-4f29-a51b-65f84db4605a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.label",
+      "targets": [
+        ["css=.label", "css:finder"],
+        ["xpath=//form[@id='single-course-form']/div[4]/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Дата будет известна позже')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b719a352-461d-4ea5-8dd8-8beb3543af6a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.label",
+      "targets": [
+        ["css=.label", "css:finder"],
+        ["xpath=//form[@id='single-course-form']/div[4]/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Дата будет известна позже')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd31c3fb-af6a-4197-bdb5-eb1c09f3d18f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkbox-mark > img",
+      "targets": [
+        ["css=.checkbox-mark > img", "css:finder"],
+        ["xpath=//img[@alt='check']", "xpath:img"],
+        ["xpath=//form[@id='single-course-form']/div[5]/label/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//label/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d835ad6d-379e-4f3d-94cd-21aa30c688e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.default-button-submit",
+      "targets": [
+        ["css=.default-button-submit", "css:finder"],
+        ["xpath=//input[@value='Зарегистрироваться']", "xpath:attributes"],
+        ["xpath=//form[@id='single-course-form']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ea954916-1f44-40b0-a57f-b009de74e8d2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["71a498ca-11c2-4253-b79e-6ea2ffa3c538"]
+  }],
+  "urls": ["https://javaguru.lv/"],
+  "plugins": []
+}
