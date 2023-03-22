@@ -13,5 +13,6 @@ public class CatAge {
         int myCatsAge = 7;
         //printing result using string and variable
         System.out.println("My cat's age in human years = " + myCatsAge*7);
+
     }
 }
