@@ -1,0 +1,32 @@
+table, td {
+	border: 1 px solid white;
+	border-collapse: collapse;
+}
+td {
+	background-color: #c8cbe0;
+}
+h1 {
+	text-align: center;
+	color: #FF7F50;
+}
+h2 {
+	font-family: Tahoma;
+	font-size: 20px;
+	text-align: center;
+}
+h3 {
+    font-family: Tahoma;
+    font-size: 30px;
+    text-align: left;
+}
+h4 {
+    font-family: trebuchet ms, sans-serif;
+    font-size: 15px;
+    font-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
