@@ -1,0 +1,45 @@
+<html>
+	<link rel="stylesheet" href="style.css">
+	<body>
+		<table border=1 width=100%>
+			<tr>	
+				<td colspan=2> <h1> Useful information </h1> </td>
+			</tr>
+			<tr>
+				<td style="width:20%; height:400px">
+					<a href="index.html"><b>Home</b></a><br>
+					<a href="Cities.html">Cities</a><br>
+					<a href="Wish list.html">Wish list</a>
+				</td>
+				<td>
+				 	<p><font size="14" font color="C34A57">10 Powerful Reasons Why Travel is Important</font></p>
+					<h3>  
+						1. Travel is educational<br>
+						2. Travel as a stress buster<br>
+						3. Helps you re-discover yourself<br>
+						4. Travel creates everlasting memories<br>
+						5. The fun of adventure<br>
+						6. Strengthens your relationships<br>
+						7. You get great business ideas<br>
+						8. Helps you gain some new friends<br>
+						9. You will be rejuvenated<br>
+						10. Enjoy the pleasure of planning your travel<br>
+														<br>
+						For more information visit <a href="https://www.etravel.com/explore/travel-tips/why-travel-is-important/">here</a>
+					<h/3>
+					<center>
+						<img src="photo-collage.jpg" width="600" height="450">
+					</center>
+					<left>
+						<img src="collage1.jpg" width="600" height="450">
+					</left>
+				</td>
+			</tr>
+			<tr>
+				<td colspan=2><h2>2023, all right reserved. Created by A.K.</h2></th>
+			</tr>
+		</table>		
+	</body>
+	
+	
+</html>

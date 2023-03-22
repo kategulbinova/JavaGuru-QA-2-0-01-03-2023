@@ -1,0 +1,28 @@
+			table {
+				border: 1px solid white;
+				border-collapse: collapse;
+			}
+			td {
+				background-color:79A6AA;
+			}
+			h1 {
+				text-align:center;
+				color: A165CF;
+			}
+			h2 { 
+				color: grey;
+				font-size: 10px;
+				text-align: center;
+			}
+			figure {
+  				border: 1px solid #245488;
+  				padding: 10px;
+ 				 min-width: 250px;
+			}
+			figcaption {
+  			text-align: center;
+  			background-color: #bac8d6;
+			}
+			img {
+  			width: 60%;
+			}
