@@ -3,7 +3,7 @@ package marijaplumite;
 public class Homework4 {
     public static void main(String[] args) {
         int myAge; // Declare variable
-        myAge = 26; // Initialize it with value 27 (my actual age in years)
+        myAge = 26; // Initialize it with value 26 (my actual age in years)
         int catsAge; // Declare variable
         catsAge = 4; // Initialize it with value 4 (my cat`s actual age in years + months)
         int answer; // Declare variable answer. It is now Null
