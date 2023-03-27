@@ -1,0 +1,28 @@
+			h1 {
+				font-size:60px;
+				color:Black;
+				text-shadow: 2px 2px 5px orange;
+			}
+			table {
+				border-collapse:collapse;
+				border: 0px solid white;
+			}
+			td {
+				border-collapse:collapse;
+				border: 0px solid white;
+				
+			}
+			th {
+				background-color:#F5F5F5;
+				text-align: center;
+			}
+			h5 {
+				color:red;
+				text-align: center;
+				
+			}
+			h2 {
+				color: brown;
+				font-size: 20px;
+				text-align: center;
+			}
