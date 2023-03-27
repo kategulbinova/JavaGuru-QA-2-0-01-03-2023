@@ -1,6 +1,6 @@
 package teacher;
 
-public class starHomework {
+public class StarHomework {
     public static void main(String[] args) {
         for (int i = 0; i<8; i++) {
             for (int j = 0; j<15; j++) {

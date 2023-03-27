@@ -1,6 +1,6 @@
 package teacher;
 
-public class arrayExample {
+public class ArrayExample {
 
     public static void main(String[] args) {
 
