@@ -9,8 +9,9 @@ public class Age {
 
     }
 }
-public class Cat {
-    public static void main(String[] args) {
+
+/* public class Cat {
+    public  void main(String[] args) {
         float catsAge;
         catsAge = 7;
         float answer;
@@ -20,5 +21,5 @@ public class Cat {
         answer = (7 / 7);
         System.out.println("My cat's age in 'human' years: " + answer);
     }
-}
+} */
 
