@@ -2,8 +2,8 @@ package natuksa;
 
 public class homeworkStars {
     public static void main(String[] args) {
-        for (int a = 0; a < 8; a++) {
-            for (int b = 0; b < 15; b++) {
+        for (int x = 0; x < 8; x++) {
+            for (int y = 0; y < 15; y++) {
                 System.out.print("*");
             }
             System.out.println();
