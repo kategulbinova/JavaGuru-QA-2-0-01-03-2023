@@ -38,10 +38,12 @@ public class CheckRegistrationTest {
   }
   @Test
   public void checkRegistration() {
-    driver.get("https://javaguru.lv/");
+    driver.get("https://google.lv/");
     driver.manage().window().setSize(new Dimension(834, 816));
-    driver.findElement(By.cssSelector(".big-container:nth-child(3)")).click();
-    driver.findElement(By.cssSelector(".close-popup-cross")).click();
+    driver.findElement(By.name("q")).click();
+    driver.findElement(By.name("q")).sendKeys("JavaGuru");
+    driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
+    driver.findElement(By.cssSelector("div:nth-child(2) > .tF2Cxc > .yuRUbf .LC20lb")).click();
     driver.findElement(By.linkText("LV")).click();
     {
       WebElement element = driver.findElement(By.cssSelector(".mobile-header-wrapper > .main-container"));
