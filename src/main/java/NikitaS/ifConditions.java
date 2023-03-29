@@ -2,7 +2,7 @@ package NikitaS;
 
 public class ifConditions {
     public static void main(String[] args) {
-        int a = 1;
+        int a = 3;
         if (a==1) {
             System.out.println("Monday");
         }
