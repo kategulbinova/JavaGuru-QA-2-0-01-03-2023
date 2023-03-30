@@ -3,7 +3,7 @@ package svetlanakussi.practice;
 public class JavaConditionsWeekDays {
     public static void main(String[] args) {
 
-        int dayNr = 11;
+        int dayNr = 6;
         String dayName;
         switch ( dayNr) {
 

@@ -2,7 +2,7 @@ package AlekseiKrevnev;
 
 public class IfPracticeWeekDay {
     public static void main(String[] args) {
-        int weekDay=9;
+        int weekDay=7;
         if (weekDay==1) {
             System.out.println("Monday");
         }
@@ -23,7 +23,7 @@ public class IfPracticeWeekDay {
         }
         if (weekDay==7) {
             System.out.println("Friday");
-            //позволяет выборочно изменять ход выполнения программы
+
         }
     }
 }
