@@ -1,6 +1,6 @@
 package marijaplumite;
 
-public class Homework4 {
+public class Homework4CatsAge {
     public static void main(String[] args) {
         int myAge; // Declare variable
         myAge = 26; // Initialize it with value 26 (my actual age in years)

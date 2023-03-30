@@ -1,4 +1,4 @@
-package svetlanakussi;
+package svetlanakussi.homework;
 
 public class Homework4 {
     public static void main(String[] args)
@@ -22,7 +22,7 @@ public class Homework4 {
         System.out.println("That mean my cat is already " + (catAge * humanYears) + " years old.");
         // additional question
         System.out.println("If I older than my cat? ");
-        System.out.println("Result - " + (catAge < humanYears));
+        System.out.println("Result - " + (catAge < myAge));
     }
 }
 
