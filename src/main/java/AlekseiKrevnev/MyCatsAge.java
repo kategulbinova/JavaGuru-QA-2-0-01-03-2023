@@ -1,5 +1,5 @@
 
-package alekseikrevnev;
+package AlekseiKrevnev;
 
 
 public class MyCatsAge {
