@@ -1,17 +1,16 @@
-package svetlanakussi.practice;
+package aleksejs_lukins;
 
-public class JavaConditionsWeekDays {
+public class Lesson5PracticeWithLoops {
     public static void main(String[] args) {
-
-        int dayNr = 6;
+        int day = 2;
         String dayName;
-        switch ( dayNr) {
 
+        switch ( day ) {
             case 6: dayName = "Saturday"; break;
             case 7: dayName = "Sunday"; break;
-            default: dayName = "looking forward to the weekend"; break;
+            default: dayName = "the day when I am waiting for the weekend";
         }
         System.out.println("Today is " + dayName);
+
     }
 }
-

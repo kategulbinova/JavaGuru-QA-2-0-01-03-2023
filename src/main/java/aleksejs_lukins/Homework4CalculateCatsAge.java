@@ -1,6 +1,6 @@
 package aleksejs_lukins; //name of package we are using
 
-public class Homework4 { //start of new java class
+public class Homework4CalculateCatsAge { //start of new java class
     public static void main(String[] args) { //start of main method
         int myAge = 32; //declaring "int" variable to store my age and setting its value already
         int myCatsAge = 8; //declaring "int" variable to store my cats age and setting its value already
