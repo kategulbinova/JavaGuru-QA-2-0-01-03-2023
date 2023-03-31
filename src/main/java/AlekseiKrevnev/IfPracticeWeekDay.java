@@ -2,28 +2,29 @@ package AlekseiKrevnev;
 
 public class IfPracticeWeekDay {
     public static void main(String[] args) {
-        int weekDay=7;
-        if (weekDay==1) {
+    int dayNr=1;
+        if (dayNr ==1){
             System.out.println("Monday");
         }
-        if (weekDay==2) {
+        if (dayNr==2){
             System.out.println("Tuesday");
         }
-        if (weekDay==3){
+        if (dayNr==3){
             System.out.println("Wednesday");
         }
-        if (weekDay==4) {
+        if (dayNr==4){
             System.out.println("Thursday");
         }
-        if (weekDay==5) {
+        if (dayNr==5){
             System.out.println("Friday");
         }
-        if (weekDay==6) {
+        if (dayNr==6){
             System.out.println("Saturday");
         }
-        if (weekDay==7) {
-            System.out.println("Friday");
-
+        if (dayNr==7){
+            System.out.println("Sunday");
         }
     }
 }
+
+
