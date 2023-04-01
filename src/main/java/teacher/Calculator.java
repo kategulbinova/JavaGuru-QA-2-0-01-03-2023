@@ -8,7 +8,7 @@ public class Calculator {
         return a * b;
     }
     public static void main(String[] args) {
-        int x = 120;
+        int x = 125;
         int y = 13;
 
         System.out.println(x + " + " + y + " = " + addition(x, y));
