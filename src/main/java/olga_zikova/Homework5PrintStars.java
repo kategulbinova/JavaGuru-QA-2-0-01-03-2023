@@ -5,8 +5,8 @@ public class Homework5PrintStars {
         int maxRow = 8;
         int maxColumn = 15;
 
-        for (int row=0; row<maxRow; row++){
-            for (int column=0; column<maxColumn; column++) {
+        for (int i=0; i<maxRow; i++){
+            for (int j=0; j<maxColumn; j++) {
                 System.out.print("* ");
             }
             System.out.println();
