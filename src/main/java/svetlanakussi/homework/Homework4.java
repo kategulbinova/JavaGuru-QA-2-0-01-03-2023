@@ -1,4 +1,4 @@
-package svetlanakussi;
+package svetlanakussi.homework;
 
 public class Homework4 {
     public static void main(String[] args)

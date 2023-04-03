@@ -1,4 +1,4 @@
-package svetlanakussi;
+package svetlanakussi.practice;
 
 public class HelloWorld {
     public static void main(String[] args) {
