@@ -1,7 +1,7 @@
 package olga_zikova;
 
 //new class creating
-public class Homework4_CatsAge {
+public class Homework4CatsAge {
 
     // main method
 
