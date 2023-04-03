@@ -2,8 +2,13 @@ package gleb;
 
 public class HomeworkWithStars {
     public static void main(String[] args) {
-        int a;
-        for (a = 1 ; a < 15; a++) ;
-        System.out.println(a);
+        for (int a = 0; a < 8; a++) {
+            for (int b = 0; b < 15; b++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 }
+
+
