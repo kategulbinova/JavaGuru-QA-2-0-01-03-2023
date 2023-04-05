@@ -1,6 +1,6 @@
 package svetlanakussi.practice;
 
-public class Strings {
+public class StringsLesson5 {
     public static void main(String[] args) {
         String hello = "Hello world!";
         int stringLength;

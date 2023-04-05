@@ -1,6 +1,6 @@
 package svetlanakussi.practice;
 
-public class HelloWorld {
+public class HelloWorldLesson1 {
     public static void main(String[] args) {
         // Comment
         /* Long comment*/
