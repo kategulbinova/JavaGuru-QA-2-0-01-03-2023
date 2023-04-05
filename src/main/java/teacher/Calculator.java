@@ -7,6 +7,10 @@ public class Calculator {
     public static int multiplication(int a, int b) {
         return a * b;
     }
+    public static double squareRoot(int a) {
+        return Math.sqrt(a);
+    }
+
     public static void main(String[] args) {
         int x = 125;
         int y = 13;
@@ -15,6 +19,8 @@ public class Calculator {
         System.out.println(x + " * " + y + " = " + multiplication(x, y));
 
         int z;
+
+        System.out.println(squareRoot(13));
 
         z = multiplication( multiplication(x, y), addition(x, y) );
 
