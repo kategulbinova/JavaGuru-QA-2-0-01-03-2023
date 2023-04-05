@@ -1,6 +1,6 @@
 package svetlanakussi.practice;
 
-public class LoopPractice {
+public class LoopPracticeLesson5 {
     public static void main(String[] args) {
         int a = 0;
         int sguere;
