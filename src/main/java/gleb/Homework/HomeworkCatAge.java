@@ -1,4 +1,4 @@
-package gleb;
+package gleb.Homework;
 
 public class HomeworkCatAge {
     public static void main(String[] args) {
