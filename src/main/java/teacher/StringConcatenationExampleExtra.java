@@ -7,6 +7,7 @@ public class StringConcatenationExampleExtra {
         boolean female = true; // true for female, false for male
         boolean married = false; // true for married, false for not married
         String fullName = "";
+        int nameLength = fullName.length();
 
         if (female) {
             if (married) {
@@ -18,6 +19,6 @@ public class StringConcatenationExampleExtra {
             fullName = fullName.concat("Mr ").concat(name).concat(" ").concat(surname);
         }
 
-        System.out.println(fullName);
+        System.out.println(fullName + nameLength);
     }
 }
