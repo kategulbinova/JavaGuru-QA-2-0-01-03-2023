@@ -1,6 +1,6 @@
 package marijaplumite.classworks;
 
-public class weekDaysSwitchPractice {
+public class WeekDaysSwitchPractice {
     public static void main(String[] args) {
         int weekday = 5;
         String dayName;

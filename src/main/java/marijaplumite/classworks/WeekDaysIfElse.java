@@ -1,6 +1,6 @@
 package marijaplumite.classworks;
 
-public class weekDaysIfElse {
+public class WeekDaysIfElse {
     public static void main(String[] args) {
     int weekday = 3;
         if (weekday == 1){
