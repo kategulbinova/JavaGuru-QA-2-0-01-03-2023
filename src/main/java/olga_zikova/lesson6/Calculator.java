@@ -11,7 +11,7 @@ public class Calculator {
     public static int division(int a, int b) {
         return a / b;
     }
-    public static int cbrt(int a, int b) {
+    public static int cbrt(int a) {
         return (int) Math.cbrt(a);
     }
 
@@ -23,7 +23,7 @@ public class Calculator {
         System.out.println(x + " * " + y + " = " + multiplication(x, y));
         System.out.println(x + " - " + y + " = " + substraction(x, y));
         System.out.println(x + " / " + y + " = " + division(x, y));
-        System.out.println("3V " + x + " = " + cbrt(x, x));
+        System.out.println("3V " + x + " = " + cbrt(x));
 
         int z;
 
