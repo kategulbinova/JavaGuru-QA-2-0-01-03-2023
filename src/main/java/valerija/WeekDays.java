@@ -6,22 +6,14 @@ public class WeekDays {
             String dayName;
 
             switch (weekDay) {
-                case 1:
-                    dayName = "Monday"; break;
-                case 2:
-                   dayName = "Tuesday"; break;
-                case 3:
-                    dayName = "Wednesday"; break;
-                case 4:
-                    dayName = "Thursday"; break;
-                case 5:
-                    dayName = "Friday"; break;
                 case 6:
-                    dayName = "Saturday"; break;
+                    dayName = "Saturday";
+                    break;
                 case 7:
-                    dayName = "Sunday"; break;
-                default: dayName = "unknown day"; break;
+                    dayName = "Sunday";
+                    break;
+                default: dayName = "Better days are coming. They are called: Saturday and Sunday";break;
             }
-            System.out.println("Today is " + dayName);
+            System.out.println(dayName);
         }
 }
