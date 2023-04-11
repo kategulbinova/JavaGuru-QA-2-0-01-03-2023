@@ -15,8 +15,15 @@ public class arraysMethodsHometask {
 
         for (int j = 0; j < numbers.length; j++) {
             System.out.println(numbers[j]);
+        }
 
 
+        for (int o = 0; o < numbers.length; o++) {
+            numbers [o] = numbers [o] +5;
+        }
+
+        for (int j = 0; j < numbers.length; j++) {
+            System.out.println(numbers[j]);
         }
 
         String[] names = {"a", "b", "Sun", "Spring", "Flowers"};
