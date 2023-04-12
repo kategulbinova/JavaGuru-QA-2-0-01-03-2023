@@ -8,11 +8,11 @@ public class BankAccount {
     double checkBalanceSum = currentBalance + depositSum - withdrawSum;
 
     public void deposit() {
-        this.depositSum = currentBalance + depositSum;
+        this.depositSum = depositSum;
         System.out.println("You have deposited " + depositSum + " euros");
     }
     public void withdraw () {
-        this.withdrawSum = currentBalance - withdrawSum;
+        this.withdrawSum = withdrawSum;
         System.out.println("You have withdrawn " + withdrawSum + " euros");
     }
     public void checkBalance () {
