@@ -12,20 +12,24 @@ public class Homework6ArraysAndMethods {
         System.out.println("Array with 11 Fibonacci numbers: ");
         printArray(numbers);
 
+
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] += 5;
         }
         System.out.println();
         System.out.println("Increased by 5 array with 11 Fibonacci numbers: ");
         printArray(numbers);
+
     }
+
     public static void printArray(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
     }
-
 }
+
+
 
 
 
