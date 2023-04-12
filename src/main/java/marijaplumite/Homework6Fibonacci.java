@@ -1,6 +1,6 @@
 package marijaplumite;
 
-public class HomeworkFibonacci {
+public class Homework6Fibonacci {
     static void printArray(int[] array) {
         for (int i : array) {
             System.out.print(i + " ");

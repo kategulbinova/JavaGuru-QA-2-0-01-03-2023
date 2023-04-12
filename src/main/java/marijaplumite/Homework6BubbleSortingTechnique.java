@@ -1,6 +1,6 @@
 package marijaplumite;
 
-public class HomeworkBubbleSortingTechnique {
+public class Homework6BubbleSortingTechnique {
     static void printArray(int[] array) {
         for (int i : array) {
             System.out.print(i + " ");
@@ -21,15 +21,15 @@ public class HomeworkBubbleSortingTechnique {
 
         }
     }
-    public static void main (String[]args){
+        public static void main (String[]args){
 
-        int[] array = {12, -6, 4, 1, -15, 10, 1587, -922, 1987, -44};
+            int[] array = {12, -6, 4, 1, -15, 10, 1587, -922, 1987, -44};
 
-        System.out.print("Before sorting: ");
-        printArray(array);
-        System.out.print("After sorting: ");
-        bubbleSort(array);
-        printArray(array);
+            System.out.print("Before sorting: ");
+            printArray(array);
+            System.out.print("After sorting: ");
+            bubbleSort(array);
+            printArray(array);
 
         }
     }

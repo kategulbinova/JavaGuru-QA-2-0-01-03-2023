@@ -1,6 +1,6 @@
 package marijaplumite;
 
-public class HomeworkMethodAddFive {
+public class Homework6MethodAddFive {
     static void printArray(int[] array) {
         for (int i : array) {
             System.out.print(i + " ");
