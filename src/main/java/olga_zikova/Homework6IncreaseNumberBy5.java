@@ -1,6 +1,6 @@
 package olga_zikova;
 
-public class Homework6UseMethods {
+public class Homework6IncreaseNumberBy5 {
 
     public static void main(String[] args) {
         int [] numbers = {1, 33, 17, 40, 2, 67, 100, 78, 12, 55};
@@ -15,15 +15,17 @@ public class Homework6UseMethods {
         for (int i : arr) {
                 System.out.print(i + "; ");
             }
-
         }
-        public static void printArraySecondAddFive (int [] arr){
+        public static void printArraySecondAddFive (int [] arr) {
             for (int i = 0; i < arr.length; i++) {
-                arr [i] = arr [i] +5;
+                arr[i] = arr[i] + 5;
             }
-            for (int i: arr) {
-                System.out.print(i + "; ");
-            }
+            /*for (int i: arr) {
+                System.out.print(i + "; ");*/
+
+            //use method
+            printArrayFirstTime(arr);
+        }
     }
-}
+
 
