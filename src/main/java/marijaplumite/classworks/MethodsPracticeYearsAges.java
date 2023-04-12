@@ -1,6 +1,6 @@
 package marijaplumite.classworks;
 
-public class MethodsPracticeYears {
+public class MethodsPracticeYearsAges {
     static void myMethod1(String name, int age) {
         System.out.println(name + " is " + age + " years old");
     }
