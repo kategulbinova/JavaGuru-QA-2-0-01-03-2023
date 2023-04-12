@@ -1,4 +1,4 @@
-package lpudnika;
+package lpudnika.Lessons;
 
 public class Lesson4HelloWorld {
     public static void main(String[] args) {

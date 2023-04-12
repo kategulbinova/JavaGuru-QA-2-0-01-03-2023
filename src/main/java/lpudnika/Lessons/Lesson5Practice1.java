@@ -1,4 +1,4 @@
-package lpudnika;
+package lpudnika.Lessons;
 
 public class Lesson5Practice1 {
 
