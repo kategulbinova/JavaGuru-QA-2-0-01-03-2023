@@ -2,9 +2,6 @@ package marijaplumite.classworks.ObjectExample.BankOperations;
 
 public class BankAccount {
     int balance;
-    public void myAccount(int initialBalance) {
-        int balance = initialBalance;
-    }
     public void deposit(int amountToDeposit){
         int newBalance = balance + amountToDeposit;
         balance = newBalance;
