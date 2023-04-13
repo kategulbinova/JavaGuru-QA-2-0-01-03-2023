@@ -1,25 +1,25 @@
 package gleb.Homework;
 
 public class Homework6part2Methods {
-
-        static void inreaseOn5(int plus) {
-            int number = plus + 5;
-            System.out.println("Increase on 5 " + number);
-        }
-
-        public static void main(String[] args) {
-            inreaseOn5(40);
-            inreaseOn5(30);
-            inreaseOn5(20);
-            inreaseOn5(10);
-            inreaseOn5(0);
-            inreaseOn5(-5);
-            inreaseOn5(-10);
-            inreaseOn5(-20);
-            inreaseOn5(-30);
-            inreaseOn5(-40);
-
+    public static void myArray(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.println("      Old Arrays: "+array[i]);
         }
     }
-
-
+    public static void myArrayNew ( int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.println("Increased Arrays: "+array[i]);
+        }
+    }
+        public static void incr ( int[] array,int b){
+            for (int i = 0; i < array.length; i++) {
+                array[i] += 5;
+            }
+        }
+        public static void main (String[]args){
+            int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+            myArray(numbers);
+            incr(numbers,5);
+            myArrayNew(numbers);
+        }
+    }
