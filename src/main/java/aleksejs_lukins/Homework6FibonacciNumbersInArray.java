@@ -4,7 +4,7 @@ public class Homework6FibonacciNumbersInArray {
 
     public static void fillFibonacciNumbers() {
         int[] fibonacciNumbers = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-        for (int i = 0; i < 11; i++){
+        for (int i = 0; i < fibonacciNumbers.length; i++){
             fibonacciNumbers[i] = 1;
             if (i > 1) {
                 fibonacciNumbers[i] = fibonacciNumbers[i-2] + fibonacciNumbers[i-1];
