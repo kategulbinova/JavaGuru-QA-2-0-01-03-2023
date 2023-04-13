@@ -7,12 +7,12 @@ public class Person {
     int age;
     boolean isHired;
 
-    public void setNameAndAge(String name, int age) {
+    Person(String name, int age){
         this.name = name;
         this.age = age;
     }
 
-    public void setName(String name) { //optional constructor
+    Person(String name){
         this.name = name;
         this.age = 0;
     }
