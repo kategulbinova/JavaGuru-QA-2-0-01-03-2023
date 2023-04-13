@@ -2,6 +2,10 @@ package romans.makna;
 
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        float myAge = 39f;
+        System.out.println(myAge);
+
     }
+
+
 }
