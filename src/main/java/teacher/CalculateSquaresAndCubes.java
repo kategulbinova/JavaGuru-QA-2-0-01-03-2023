@@ -1,6 +1,6 @@
 package teacher;
 
-public class LoopExample {
+public class CalculateSquaresAndCubes {
     public static void main(String[] args) {
         int a = 0;
         int square;

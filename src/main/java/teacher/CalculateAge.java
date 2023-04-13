@@ -1,6 +1,6 @@
 package teacher;
 
-public class MethodExampleCalculateAge {
+public class CalculateAge {
 
     public static void printAge(int yearOfBirth) {
         int calculatedAge = 2023 - yearOfBirth;

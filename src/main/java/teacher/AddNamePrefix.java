@@ -1,6 +1,6 @@
 package teacher;
 
-public class StringConcatenationExampleExtra {
+public class AddNamePrefix {
     public static void main(String[] args) {
         String name = "Jekaterina";
         String surname = "Gulbinova";
