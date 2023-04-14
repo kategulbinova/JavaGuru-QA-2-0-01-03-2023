@@ -1,5 +1,7 @@
 package teacher;
 
+import org.checkerframework.checker.units.qual.C;
+
 public class Calculator {
     public static int addition(int a, int b) {
         return a + b;
@@ -26,4 +28,40 @@ public class Calculator {
 
         System.out.println("What is this number? " + z);
     }
+}
+
+
+
+class CalculatorTest {
+
+    protected void check(int expectedValue, int realValue) {
+        if (expectedValue == realValue) {
+            System.out.println("OK");
+        } else {
+            System.out.println("FAIL");
+        }
+    }
+
+}
+
+
+class MyCalculatorTest extends CalculatorTest {
+
+    public static void main(String[] args) {
+        MyCalculatorTest test = new MyCalculatorTest();
+        test.testCase1();
+        test.testCase2();
+    }
+
+    public void testCase1() {
+        Calculator calculator = new Calculator();
+        int realResult = calculator.addition(1, 2);
+        check(3, realResult);
+    }
+
+    public void testCase2() {
+
+    }
+
+
 }
