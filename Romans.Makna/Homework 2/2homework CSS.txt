@@ -1,0 +1,54 @@
+.main-layout {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.header {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+.sidebar {
+	width: 20%;
+	background-color: #f1f1f1;
+	vertical-align: top;
+	padding: 10px;
+}
+
+.content {
+	width: 80%;
+	padding: 10px;
+	vertical-align: top;
+}
+
+.footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+	background-color: #333;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 10px auto;
+}

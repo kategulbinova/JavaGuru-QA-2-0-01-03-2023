@@ -2,7 +2,7 @@ package NikitaS;
 
 public class switchCaseBreak {
     public static void main(String[] args) {
-        int a = 99;
+        int a = 5;
         String dayName;
         switch (a) {
             case 1: dayName = "Monday"; break;
