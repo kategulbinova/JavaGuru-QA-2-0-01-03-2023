@@ -1,4 +1,4 @@
-package germans;
+package Germans;
 
 public class HomeworkMethodsIncreaseByFive {
     static void printArray(int[] arr) {
