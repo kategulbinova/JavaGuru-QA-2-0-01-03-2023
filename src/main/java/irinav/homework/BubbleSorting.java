@@ -1,4 +1,4 @@
-package irinav;
+package irinav.homework;
 
 public class BubbleSorting {
 
