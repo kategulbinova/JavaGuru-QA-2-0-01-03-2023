@@ -1,4 +1,4 @@
-package olga_zikova.lesson5;
+package olgaZikova.lesson5;
 
 public class If_Else_Switch {
     public static void main(String[] args) {

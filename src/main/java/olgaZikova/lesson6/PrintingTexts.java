@@ -1,4 +1,4 @@
-package olga_zikova.lesson6;
+package olgaZikova.lesson6;
 
 public class PrintingTexts {
     static void printMantra () {

@@ -1,4 +1,4 @@
-package olga_zikova.lesson5;
+package olgaZikova.lesson5;
 
 public class Loops {
     public static void main(String[] args) {

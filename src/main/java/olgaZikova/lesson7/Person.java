@@ -1,4 +1,4 @@
-package olga_zikova.lesson7;
+package olgaZikova.lesson7;
 
 public class Person {
     String name;

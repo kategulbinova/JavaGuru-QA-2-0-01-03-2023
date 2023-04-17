@@ -1,4 +1,4 @@
-package olga_zikova;
+package olgaZikova;
 
 public class HelloWorld {
     public static void main(String[] args) {

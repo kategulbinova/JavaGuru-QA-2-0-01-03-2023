@@ -1,4 +1,4 @@
-package olga_zikova.homework7.ObjectsManagement;
+package olgaZikova.homework7.ObjectsManagements;
 
 public class ProgramPerson {
     public static void main(String[] args) {

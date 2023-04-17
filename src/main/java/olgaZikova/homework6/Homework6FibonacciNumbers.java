@@ -1,4 +1,4 @@
-package olga_zikova.homework6;
+package olgaZikova.homework6;
 
 public class Homework6FibonacciNumbers {
     /* Exercise:

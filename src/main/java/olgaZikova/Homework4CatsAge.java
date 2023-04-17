@@ -1,4 +1,4 @@
-package olga_zikova;
+package olgaZikova;
 
 //new class creating
 public class Homework4CatsAge {

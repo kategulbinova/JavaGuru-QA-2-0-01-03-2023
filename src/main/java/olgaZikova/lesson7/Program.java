@@ -1,4 +1,4 @@
-package olga_zikova.lesson7;
+package olgaZikova.lesson7;
 
 public class Program {
     public static void main(String[] args) {

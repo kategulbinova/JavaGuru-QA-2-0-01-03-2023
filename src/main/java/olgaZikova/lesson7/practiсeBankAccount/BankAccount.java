@@ -1,4 +1,4 @@
-package olga_zikova.lesson7.practiсeBankAccount;
+package olgaZikova.lesson7.practiсeBankAccount;
 
 public class BankAccount {
     
