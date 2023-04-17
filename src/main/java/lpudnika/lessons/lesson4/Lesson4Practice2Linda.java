@@ -1,4 +1,4 @@
-package lpudnika.Lessons;
+package lpudnika.lessons.lesson4;
 
 public class Lesson4Practice2Linda {
     public static void main(String[] args) {

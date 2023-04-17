@@ -1,4 +1,4 @@
-package lpudnika.Lessons;
+package lpudnika.lessons.lesson6;
 
 public class Lesson6IncreaseBy5V2 {
     public static void main(String[] args) {
