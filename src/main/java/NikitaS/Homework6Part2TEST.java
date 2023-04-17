@@ -24,7 +24,7 @@ public class Homework6Part2TEST {
         }
         printarray(fibonacci);
         increaseFive(fibonacci);
-        System.out.println();
+       // System.out.println();
         printarray(fibonacci);
     }
 }
