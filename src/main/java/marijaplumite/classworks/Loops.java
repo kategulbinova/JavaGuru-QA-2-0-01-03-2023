@@ -11,6 +11,5 @@ public class Loops {
             System.out.println(a + " squared: " + square + "; cubed: " + cube );
             a++;
         }
-
     }
 }

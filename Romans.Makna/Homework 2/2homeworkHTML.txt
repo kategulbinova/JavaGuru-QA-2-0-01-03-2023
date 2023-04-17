@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<table class="main-layout">
+		<tr>
+			<td colspan="2" class="header">
+				<h1>Welcome to My Website!</h1>
+			</td>
+		</tr>
+		<tr>
+			<td class="sidebar">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</td>
+			<td class="content">
+				<h2>Welcome to our website</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies nisi ut est posuere ultrices. Nullam blandit bibendum metus, vel sagittis ex tristique non. Vestibulum dignissim massa non est tincidunt mollis. Fusce eu velit quis neque rhoncus vehicula. Proin id mi sapien. Nunc rhoncus, erat quis vestibulum venenatis, arcu nisl semper nisi, sit amet pellentesque odio purus a sapien. Sed dapibus nunc ut mauris semper, in aliquam lectus gravida. Fusce ut nulla et leo lacinia bibendum eget euismod tellus. Etiam tempor aliquet quam, eu maximus elit vestibulum at. Duis auctor, lorem quis viverra pharetra, neque velit bibendum dolor, in ultricies justo ex nec mauris.</p>
+				<img src="image1.jpg" alt="Image 1">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="footer">
+				<p>© 2023 My Website. All rights reserved.</p>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

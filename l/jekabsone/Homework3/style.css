@@ -1,0 +1,21 @@
+table, td {
+				border: 1 px solid white;
+				border-collapse: collapse;
+			}
+			td {
+				background-color: #e6e6ff;
+			}
+			h1 {
+				text-align: center;
+				color: #660066;
+			}
+			h2 {
+				color: grey;
+				font-size: 10px;
+				text-align: center;
+			}
+			h3 {
+				color: black;
+				font-size: 18px;
+				text-align: left;
+			}
