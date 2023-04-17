@@ -5,8 +5,8 @@ import java.time.LocalDate;
 public class PersonSheet {
     public static void main(String[] args) {
         // Create an array of  min 10 names (of type String)
-        String[] names = {"Elizabete", "Olīvija", "Marija", "Eduards", "Rafaels", "Linda", "Frančeska", "Anne", "Klāvs", "Jana"};
-        String[] surnames = {"Ozoliņa", "Bērziņa", "Gulbe", "Kalniņš", "Lācis", " ", "Gulbe", "", "Priede", ""};
+        String[] names = {"Elizabete", "Olivija", "Marija", "Eduards", "Rafaels", "Linda", "Franceska", "Anne", "Klavs", "Jana"};
+        String[] surnames = {"Ozolina", "Berzina", "Gulbe", "Kalnins", "Lacis", " ", "Gulbe", "", "Priede", ""};
 
         //Create an array of min 10 birth years (of type int) – some should be 0
         int[] birthYears = {1995, 2024, 0, 1978, 1875, 1945, 1956, 1997, 2015, 0};
