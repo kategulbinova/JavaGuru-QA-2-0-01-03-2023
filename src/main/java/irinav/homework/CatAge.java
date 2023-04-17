@@ -1,4 +1,4 @@
-package irinav;
+package irinav.homework;
 //importing Scanner
 import java.util.Scanner;
 

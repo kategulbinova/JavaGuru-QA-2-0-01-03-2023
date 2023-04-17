@@ -1,4 +1,4 @@
-package olga_zikova;
+package olga_zikova.homework6;
 
 public class Homework6BubbleSortingTechnique {
     public static void main(String[] args) {
@@ -12,7 +12,8 @@ public class Homework6BubbleSortingTechnique {
     }
     public static void printArray (int [] arr) {
         for (int i : arr) {
-            System.out.println(i);
+            //System.out.println(i); // print in column
+            System.out.print(i + "; "); // print in line
         }
         System.out.println();
     }

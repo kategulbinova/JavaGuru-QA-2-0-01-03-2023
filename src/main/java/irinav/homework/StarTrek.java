@@ -1,4 +1,4 @@
-package irinav;
+package irinav.homework;
 
 public class StarTrek {
     public static void main(String[] args) { //string + concatenation.

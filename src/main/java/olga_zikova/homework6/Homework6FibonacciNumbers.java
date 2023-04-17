@@ -1,4 +1,4 @@
-package olga_zikova;
+package olga_zikova.homework6;
 
 public class Homework6FibonacciNumbers {
     /* Exercise:
@@ -9,22 +9,31 @@ Create method to print an array (inside the method write for loop to print each 
     */
 
     public static void main(String[] args) {
-
         int [] arrayFib = {0,0,0,0,0,0,0,0,0,0,0};
-        arrayFib [0] = 1;
-        arrayFib [1] = 1;
 
-        for (int i = 2; i<arrayFib.length; i++)
-        {
-            arrayFib [i]= arrayFib [i-1] + arrayFib[i-2];
-        }
-        System.out.println("Fibonacci numbers: ");
+        System.out.println("Array: ");
         printArrayFib(arrayFib);
-
+        System.out.println();
+        System.out.println("Fibonacci numbers: ");
+        calculateFibonacci(arrayFib);
+        printArrayFib(arrayFib);
     }
+
+    //Method Nr.1
+    public static void calculateFibonacci (int [] arr) {
+        arr [0] = 1;
+        arr [1] = 1;
+
+        for (int i = 2; i<arr.length; i++)
+        {
+            arr [i]= arr [i-1] + arr[i-2];
+        }
+    }
+    //Method Nr.2
     public static void printArrayFib (int [] arr) {
         for (int i = 0; i< arr.length; i++) {
-            System.out.println(arr [i]);
+            //System.out.println(arr [i]);
+            System.out.print(arr [i] + "; ");
         }
     }
 }
