@@ -1,4 +1,4 @@
-package germans.HomeworkObjectPerson;
+package Germans.HomeworkObjectPerson;
 
 public class Person {
         String name;

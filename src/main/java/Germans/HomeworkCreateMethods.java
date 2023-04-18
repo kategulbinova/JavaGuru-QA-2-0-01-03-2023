@@ -1,4 +1,4 @@
-package germans;
+package Germans;
 
 public class HomeworkCreateMethods {
     static void printArray(int[] arr) {

@@ -1,4 +1,4 @@
-package germans;
+package Germans;
 
 public class CalculateFibonacciNumbers {
     static void printArray(int[] arr) {
