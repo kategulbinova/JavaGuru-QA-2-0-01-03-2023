@@ -1,4 +1,4 @@
-package germans;
+package Germans;
 
 public class CatHumanAge {
       public static void main(String[] args) {
