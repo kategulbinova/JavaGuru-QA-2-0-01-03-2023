@@ -54,7 +54,7 @@ public class Person {
     }//ready
      public boolean isHired() {
             return isHired;
-        }
+        }//ready
         public boolean HiringStatus() {
         if (age >= 18 && age <= 17) {
             this.isHired = true;
