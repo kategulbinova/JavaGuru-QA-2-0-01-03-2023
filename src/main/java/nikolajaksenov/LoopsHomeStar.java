@@ -6,7 +6,7 @@ public class LoopsHomeStar {
 
         //int lines = 15;
         //int rows = 8;
-        String star = "*";
+        String star = "* ";
 
         Scanner scanner = new Scanner(System.in);
 
@@ -17,7 +17,6 @@ public class LoopsHomeStar {
         int rows = scanner.nextInt();
 
         scanner.close();
-
 
         for (int r = 1; r <= lines; r++) {
             for(int i = 1; i <= rows; i++) {
