@@ -3,37 +3,32 @@ package AlekseiKrevnev.Homeworks.Constructors;
 
 
 public class Person {
-    private String name;
-    private String surname;
-    private int age;
-    private boolean isHired;
+    String name;
+    String surname;
+    int age;
+    Boolean isHired;
 
-    public Person(String name, int birthYear) {
-        this.name = name;
-        this.age = calculateAge(birthYear);
+    public Person(int birthYear, String name) {
+        this.name=name;
+        this.age=2023-birthYear;
     }
-
-    private int calculateAge(int birthYear) {
-        return java.time.LocalDate.now().getYear() - birthYear;
+    public Person(String name) {
+        this.name=name;
+        this.age =0;
     }
-
     public void hire() {
-        isHired = true;
+        this.isHired=true;
     }
-
     public void fire() {
-        isHired = false;
+        this.isHired=false;
     }
-
     public void makeOlder() {
-        age++;
+        this.age++;
     }
-
+    public void setSurname(String surname) {
+        this.surname=surname;
+    }
     public String getSurname() {
         return surname;
-    }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
     }
 }
