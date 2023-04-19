@@ -27,13 +27,14 @@ System.out.println();*/
         int[] factArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
         for (int i = 0; i < factArray.length; i++) {
-        if (i == 0) {
-            System.out.println(factArray[i]);
-        }
-        else {
-            factArray[i] = factArray[i - 1] * factArray[i];
-            System.out.println(factArray[i]);
+            if (i == 0) {
+                System.out.println(factArray[i]);
+            }
+            else {
+                factArray[i] = factArray[i - 1] * factArray[i];
+                System.out.println(factArray[i]);
 
-        }            }
+            }
+        }
     }
 }
