@@ -7,16 +7,22 @@ public class ArrayPracticeL4 {
 
         int[] testArray = {55, 87, 84, 52, 2, 1885, -51, 784};
 
-
-        for (int i = 0; i < testArray.length; i++) {
+        /*for (int i = 0; i < testArray.length; i++) {
             if (i % 2 != 0) {
                 testArray[i] += 5;
-            } else {
+            }
+            else {
                 testArray[i] += 10000;
             }
             System.out.println(testArray[i]);
         }
-System.out.println();
+System.out.println();*/
+
+        for (int i = 0; i < testArray.length; i++) {
+            testArray[i] += 5;
+            System.out.println(testArray[i]);
+        }
+        System.out.println();
 
         int[] factArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
