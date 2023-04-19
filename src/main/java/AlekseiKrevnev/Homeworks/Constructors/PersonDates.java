@@ -1,39 +1,55 @@
 package AlekseiKrevnev.Homeworks.Constructors;
 
-
 public class PersonDates {
-public static void main(String[] args) {
-//Person person1 = new Person("John", 1990);
-     // Person person2 = new Person("Mary", 1995);
+    public static void main(String[] args) {
+        Person aleksej = new Person(1902, "Aleksej");
+        Person andrew = new Person("Andrew");
+        aleksej.setSurname("Krevnev");
+        andrew.setSurname("Kutuzov");
 
-      //person1.setSurname("Doe");
-      //person2.setSurname("Smith");
+        if (aleksej.age>=18) {
+            aleksej.hire();
+            System.out.println(aleksej.name + " " + aleksej.getSurname() + " is " + aleksej.age + " years old. You are very experienced and you are hired");
+        } else {
+            aleksej.fire();
+            System.out.println(aleksej.name + " " + aleksej.getSurname() + " is " + aleksej.age + " years old");
+        }
 
-    // if (person1.getAge() > 18) {
-    //    person1.hire();
-    //}
+        if (andrew.age>=18) {
+            andrew.hire();
+            System.out.println(andrew.name + " " + andrew.getSurname() + " is " + andrew.age + " years old. You are hired");
+        } else {
+            andrew.fire();
+            System.out.println(andrew.name + " " + andrew.getSurname() + " is " + andrew.age + " years old");
+        }
 
-    //  if (person2.getAge() > 18) {
-    //     person2.hire();
-    //}
+        aleksej.makeOlder();
 
-//System.out.println("Person 1:");
-    //  System.out.println("Name: " + person1.getName());
-    //System.out.println("Surname: " + person1.getSurname());
-    //System.out.println("Age: " + person1.getAge());
-    //System.out.println("Is Hired: " + person1.isHired());
+        System.out.println("Best wishes on your special day " + aleksej.name + " " + aleksej.getSurname()+"!");
 
-    //System.out.println("\nPerson 2:");
-    //System.out.println("Name: " + person2.getName());
-    //System.out.println("Surname: " + person2.getSurname());
-    //System.out.println("Age: " + person2.getAge());
-    //System.out.println("Is Hired: " + person2.isHired());
+        if (aleksej.isHired == true) {
+            System.out.println("Hired");
+        } else {
+            if (aleksej.age<18) {
+                System.out.println("You cannot be hired");
+            } else {
+                System.out.println("You can be hired!");
+                aleksej.hire();
+            }
+        }
 
-    //person1.makeOlder();
-    //person2.makeOlder();
+        andrew.makeOlder();
+        System.out.println("Wishing you a fantastic birthday " + andrew.name + " " + andrew.getSurname());
+        if (andrew.isHired == true) {
+            System.out.println("Hired");
+        } else {
+            if (andrew.age<18) {
+                System.out.println("You cannot be hired");
+            } else {
+                System.out.println("You can now get hired!");
+                andrew.hire();
 
-    //System.out.println("\nAfter one year:");
-//System.out.println("Person 1 age: " + person1.getAge());
-    //                    System.out.println("Person 2 age: " + person2.getAge());
-  }
+            }
+        }
+    }
 }
