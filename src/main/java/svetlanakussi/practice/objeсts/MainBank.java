@@ -1,4 +1,4 @@
-package svetlanakussi.practice.Objekts;
+package svetlanakussi.practice.objeсts;
 
 //public class MainBank {
     //public static void main(String[] args) {
