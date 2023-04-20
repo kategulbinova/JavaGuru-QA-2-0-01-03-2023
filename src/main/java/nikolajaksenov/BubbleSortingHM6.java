@@ -28,6 +28,19 @@ public class BubbleSortingHM6 {
             }
         }
     }
+    static void bubbleSortReverse(int[] array) {
+        int n = array.length;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (array[j] < array[j + 1]) {
+                    // swap array[j] and array[j+1]
+                    int temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+                }
+            }
+        }
+    }
 
     static void print(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
@@ -38,13 +51,19 @@ public class BubbleSortingHM6 {
     public static void main(String[] args) {
 
         int[] numArray = buildArray();
-        System.out.println("Original Array:");
+        System.out.println("Original:");
         print(numArray);
 
         System.out.println();System.out.println(); // space
 
         bubbleSort(numArray);
-        System.out.println("Bubble Sorted Array:");
+        System.out.println("Bubble Sort:");
+        print(numArray);
+
+        System.out.println();System.out.println(); // space
+
+        bubbleSortReverse(numArray);
+        System.out.println("Bubble Sort Reversed:");
         print(numArray);
     }
 }
