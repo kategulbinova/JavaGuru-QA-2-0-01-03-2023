@@ -1,5 +1,4 @@
-package nikolajaksenov;
-import java.util.Arrays;
+package nikolajaksenov.homeworks;
 import java.util.Scanner;
 
 public class BubbleSortingHM6 {
@@ -28,14 +27,14 @@ public class BubbleSortingHM6 {
             }
         }
     }
-    static void bubbleSortReverse(int[] array) {
-        int n = array.length;
+    static void bubbleSortReverse(int[] arr) {
+        int n = arr.length;
         for (int i = 0; i < n - 1; i++) {
             for (int j = 0; j < n - i - 1; j++) {
-                if (array[j] < array[j + 1]) {
-                    int temp = array[j];
-                    array[j] = array[j + 1];
-                    array[j + 1] = temp;
+                if (arr[j] < arr[j + 1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
                 }
             }
         }
@@ -50,6 +49,7 @@ public class BubbleSortingHM6 {
     public static void main(String[] args) {
 
         int[] numArray = buildArray();
+        System.out.println();System.out.println(); // space
         System.out.println("Original:");
         print(numArray);
 
