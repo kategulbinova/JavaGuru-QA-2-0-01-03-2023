@@ -3,8 +3,11 @@ package teacher.farm;
 public class FarmManagement {
     public static void main(String[] args) {
         String a = "Test";
-        Animal myCat = new Animal();
+
         Animal mySecondCat = new Animal("Murka");
+        Animal myThirdCatV1 = new Animal("Vasilij");
+        Animal myCat = new Animal();
+
 
         System.out.println("My first animal: " + myCat.name);
         System.out.println("My second animal: " + mySecondCat.name);

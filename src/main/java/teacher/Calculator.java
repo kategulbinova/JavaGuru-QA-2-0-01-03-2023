@@ -1,7 +1,5 @@
 package teacher;
 
-import org.checkerframework.checker.units.qual.C;
-
 public class Calculator {
     public static int addition(int a, int b) {
         return a + b;
