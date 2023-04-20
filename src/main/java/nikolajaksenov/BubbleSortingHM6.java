@@ -49,7 +49,9 @@ public class BubbleSortingHM6 {
 
     public static void main(String[] args) {
 
+
         int[] numArray = buildArray();
+        System.out.println();
         System.out.println("Original:");
         print(numArray);
 
@@ -64,5 +66,6 @@ public class BubbleSortingHM6 {
         bubbleSortReverse(numArray);
         System.out.println("Bubble Sort Reversed:");
         print(numArray);
+        System.out.println();
     }
 }
