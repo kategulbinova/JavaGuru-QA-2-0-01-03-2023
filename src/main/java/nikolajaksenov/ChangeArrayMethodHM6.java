@@ -5,12 +5,10 @@ import java.util.Scanner;
 public class ChangeArrayMethodHM6 {
 
     static int[] buildArray() {
-        Scanner scanner = new Scanner(System.in);
+       Scanner scanner = new Scanner(System.in);
 
         System.out.print("How many figures to generate?: ");
         int n = scanner.nextInt();
-
-
         //int n = 10; // sets lenth of array.
         int[] numArray = new int[n];
         for (int i = 0; i < numArray.length; i++) {
@@ -25,13 +23,12 @@ public class ChangeArrayMethodHM6 {
         }
     }
 
-   /* static int[] addNumArray() {
-        int[] numArray = buildArray();
-        for (int i = 0; i < numArray.length; i++) {
-        numArray[i] += 5;
+  static int[] addNumArray(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+        arr[i] += 5;
         }
-        return numArray;
-    }*/
+        return arr;
+    }
 
     public static void main(String[] args) {
 
@@ -40,11 +37,7 @@ public class ChangeArrayMethodHM6 {
 
         System.out.println();System.out.println();
 
-        for (int i = 0; i < numArray.length; i++) {
-            int plus = 5;
-            numArray[i] += plus;
-        }
-        //addNumArray();
+        addNumArray(numArray);
         print(numArray);
     }
 }
