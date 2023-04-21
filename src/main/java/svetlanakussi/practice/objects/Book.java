@@ -1,4 +1,4 @@
-package svetlanakussi.practice.objeсts;
+package svetlanakussi.practice.objects;
 
 public class Book {
     String name;
