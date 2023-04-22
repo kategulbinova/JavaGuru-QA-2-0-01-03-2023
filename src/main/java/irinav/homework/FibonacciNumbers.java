@@ -1,4 +1,4 @@
-package irinav;
+package irinav.homework;
 
 public class FibonacciNumbers {
     public static void main(String[] args) {
