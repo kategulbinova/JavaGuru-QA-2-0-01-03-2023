@@ -1,13 +1,12 @@
 package irinav.homework.vehicleManagement;
 
-import java.lang.constant.Constable;
-
 public class Truck extends Car{
     double maxLoad;
 
     void showMaxLoad(){
-        System.out.println("Your truck is fully loaded");
+        System.out.println("Your truck is fully loaded.");
     }
+
     @Override
    public void wash(){
        System.out.println("Trucks are really difficult to wash!");
@@ -21,11 +20,14 @@ public class Truck extends Car{
    Truck(String driver, double maxLoad, String numberPlate) {
        super(driver, numberPlate);
        this.maxLoad =maxLoad;
-    }
+   }
 
     @Override
    void checkTechnicalCondition() {
         System.out.println("This truck is in a wonderful state!");
     }
-}
+
+ }
+
+
 

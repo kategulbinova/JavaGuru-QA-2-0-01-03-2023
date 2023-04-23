@@ -5,9 +5,8 @@ public class Vehicle {
    String colour;
    String driver;
 
-
     void getDriverInfo(){
-        System.out.println("This vehicle is operated by the driver:  " + this.driver);
+        System.out.println("This vehicle is operated by the driver:  " + driver);
     }
 
     void checkTechnicalCondition(){
@@ -15,16 +14,19 @@ public class Vehicle {
     }
 
     Vehicle() {
-     this.brand = "";
-     this.driver= "";
-     this.colour ="";
+        this.brand = "";
+        this.driver= "";
+        this.colour ="";
     }
 
-    Vehicle(String driver) {
+    Vehicle(String driver, String colour) {
         this();
         this.driver = driver;
     }
 
     public void wash() {
     }
+
+    public void showNumberOfSeats() {
+   }
 }

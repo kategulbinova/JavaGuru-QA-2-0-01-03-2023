@@ -10,8 +10,16 @@ package irinav.homework.vehicleManagement;
       super(driver, numberPlate);
       this.seats = numberOfSeats;
   }
+  public void showNumberOfSeats(){
+      System.out.println("There are 4 places in your car.");
+  }
+
   @Override
   public void wash() {
-     System.out.println("This sedan just used the automatic carwash at the station. Sparking clean!");
+     System.out.println("This sedan just used the automatic car wash at the station. Sparking clean!");
+  }
+  void checkTechnicalCondition(){
+         //super.checkTechnicalCondition();
+  System.out.println("Your sedan is safe to use.");
   }
 }
