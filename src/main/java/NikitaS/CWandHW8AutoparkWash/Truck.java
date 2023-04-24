@@ -1,16 +1,9 @@
-package aleksejs_lukins.PracticeLesson8VehiclePark;
+package NikitaS.CWandHW8AutoparkWash;
 
 public class Truck extends Car {
-
     int maxLoad;
 
-    @Override
-    public void wash() {
-        super.wash();
-        System.out.println("Truck are really difficult to wash!");
-    }
-
-    public void loadUp(){
+    public void loadUp() {
         System.out.println("Car is fully loaded");
     }
 
@@ -18,4 +11,10 @@ public class Truck extends Car {
         super(driver, numberPlate);
         this.maxLoad = maxLoad;
     }
+    @Override
+    public void wash() {
+        super.wash();
+        System.out.println("Truck are really difficult to wash!");
+    }
+
 }
