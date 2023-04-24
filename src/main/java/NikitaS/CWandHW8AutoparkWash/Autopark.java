@@ -2,6 +2,7 @@ package NikitaS.CWandHW8AutoparkWash;
 
 public class Autopark {
     public static void main(String[] args) {
+        //Classwork 7
         /*Vehicle bus = new Vehicle();
         Vehicle motorcycle = new Vehicle("Jack");
         Car car = new Car("Nick", "XYZ123");
@@ -39,6 +40,9 @@ public class Autopark {
         for (Vehicle v : groupOfVehicles) {
             System.out.println(v.getDriverInfo());
             v.wash();
+            // I added method wash() to the vehicle also which does nothing so that the loop would work for the whole array.
+            // So had to add @Override the Car's wash method also. Otherwise could just call the method for each Car separately e.g.:
+            // truck1.wash(); sedan1.wash(); car1.wash() ... etc.
             System.out.println();
         }
     }
