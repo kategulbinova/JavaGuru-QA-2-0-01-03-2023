@@ -1,4 +1,4 @@
-package AlekseiKrevnev.vehiclePark;
+package AlekseiKrevnev.Homeworks.vehiclePark;
 
 public class Bicycle extends Vehicle {
     boolean isFolded;
