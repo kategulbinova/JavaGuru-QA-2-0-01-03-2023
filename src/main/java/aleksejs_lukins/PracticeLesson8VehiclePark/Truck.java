@@ -4,6 +4,12 @@ public class Truck extends Car {
 
     int maxLoad;
 
+    @Override
+    public void wash() {
+        super.wash();
+        System.out.println("Truck are really difficult to wash!");
+    }
+
     public void loadUp(){
         System.out.println("Car is fully loaded");
     }
