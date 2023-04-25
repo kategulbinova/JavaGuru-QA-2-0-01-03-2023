@@ -1,4 +1,4 @@
-package lieneJekabsone;
+package lieneJekabsone.Homeworks;
 
 public class Homework6MethodArrayNumbers {
 

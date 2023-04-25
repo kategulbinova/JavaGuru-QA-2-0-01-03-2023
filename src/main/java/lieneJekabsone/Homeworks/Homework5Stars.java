@@ -1,9 +1,11 @@
-package lieneJekabsone;
+package lieneJekabsone.Homeworks;
 
 public class Homework5Stars {
     public static void main(String[] args) {
-        for (int starString = 1; starString <= 8; starString++) {
-            for (int star = 1; star <= 15; star++) {
+        int rows = 8;
+        int columns = 15;
+        for (int i = 1; i <= rows; i++) {
+            for (int j = 1; j <= columns; j++) {
                 System.out.print("*" + " ");
             }
             System.out.println();

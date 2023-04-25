@@ -1,4 +1,4 @@
-package lieneJekabsone;
+package lieneJekabsone.Practice6;
 
 public class Practice6MethodCalculator {
     public static int addition(int a, int b) {

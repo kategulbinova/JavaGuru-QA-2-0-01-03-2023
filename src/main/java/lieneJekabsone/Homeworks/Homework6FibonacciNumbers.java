@@ -1,4 +1,4 @@
-package lieneJekabsone;
+package lieneJekabsone.Homeworks;
 
 public class Homework6FibonacciNumbers {
     public static void main(String[] args) {
