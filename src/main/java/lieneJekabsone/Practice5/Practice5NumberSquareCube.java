@@ -1,4 +1,4 @@
-package lieneJekabsone;
+package lieneJekabsone.Practice5;
 
 public class Practice5NumberSquareCube {
     public static void main(String[] args) {

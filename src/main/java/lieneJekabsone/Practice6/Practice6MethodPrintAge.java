@@ -1,4 +1,4 @@
-package lieneJekabsone;
+package lieneJekabsone.Practice6;
 
 public class Practice6MethodPrintAge {
     static void printAge(int year) {
