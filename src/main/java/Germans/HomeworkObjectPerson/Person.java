@@ -1,10 +1,10 @@
-package Germans.HomeworkObjectPerson;
+package germans.HomeworkObjectPerson;
 
 public class Person {
         String name;
         String surname;
         int age;
-        boolean statusIsHired;
+        boolean IsHired;
 
         public Person(String name, int yearOfBirth) {
                 this.name = name;
@@ -25,15 +25,11 @@ public class Person {
                 this.surname = surname;
         }
 
-        public void hire() {
-                this.statusIsHired = true;
-                if (this.age > 18)
+        public void IsHired () {
+                this.IsHired = true;
+                if (this.age > 18 || this.age < 65)
                         System.out.println("This person is hired");
-        }
-
-        public void fire() {
-                this.statusIsHired = false;
-                if (this.age < 18)
+                else
                         System.out.println("This person is fired");
         }
 
@@ -41,4 +37,3 @@ public class Person {
                 this.age++;
         }
 }
-

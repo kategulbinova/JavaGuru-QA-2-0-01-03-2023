@@ -1,4 +1,4 @@
-package germans.transports;
+package lpudnika.homework8VehiclePark.vehiclePark;
 
 public class Sedan extends Car {
 
@@ -10,9 +10,10 @@ public class Sedan extends Car {
         super(driver, numberPlate);
         this.seats = numberOfSeats;
     }
+
+    //new method for Sedan wash() and method should only print out text “This sedan just used the automatic carwash at the gas station. Sparkling clean!”.
     @Override
-    void wash() {
-        super.wash();
+    public void wash() {
         System.out.println("This sedan just used the automatic carwash at the gas station. Sparkling clean!");
     }
 

@@ -1,6 +1,6 @@
-package germans.transports;
+package lpudnika.homework8VehiclePark.vehiclePark;
 
-public class Truck extends Car{
+public class Truck extends Car {
 
     double maxLoad;
     Truck(String driver, String numberPlate) {
@@ -13,18 +13,18 @@ public class Truck extends Car{
     }
 
     void loadUp() {
-
         System.out.println("Truck is fully loaded now.");
     }
     @Override
     void checkTechnicalCondition() {
-
         System.out.println("This truck is in wonderful state!");
     }
+
+    //new method for Truck wash() and method should call parent method and additionally print out text “Truck are really difficult to wash!”
     @Override
-    void wash(){
+    public void wash() {
         super.wash();
-        System.out.println("Truck are really difficult to wash!");
+        System.out.println("Trucks are really difficult to wash!");
     }
 
 }

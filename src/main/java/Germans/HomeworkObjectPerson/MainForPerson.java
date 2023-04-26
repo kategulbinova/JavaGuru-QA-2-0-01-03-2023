@@ -1,4 +1,4 @@
-package Germans.HomeworkObjectPerson;
+package germans.HomeworkObjectPerson;
 
 public class MainForPerson {
     public static void main(String[] args) {
@@ -8,8 +8,7 @@ public class MainForPerson {
         System.out.println("Name: " + firstPerson.name);
         System.out.println("Surname: " + firstPerson.getSurname());
         System.out.println("Age: " + firstPerson.age);
-        firstPerson.hire();
-        firstPerson.fire();
+        firstPerson.IsHired();
         firstPerson.getOlder();
         System.out.println("Happy birthday " + firstPerson.name + " you are " + firstPerson.age + " years old!");
 
@@ -21,8 +20,7 @@ public class MainForPerson {
         System.out.println("Name: " + secondPerson.name);
         System.out.println("Surname: " + secondPerson.getSurname());
         System.out.println("Age: " + secondPerson.age);
-        secondPerson.hire();
-        secondPerson.fire();
+        secondPerson.IsHired();;
         secondPerson.getOlder();
         System.out.println("Happy birthday " + secondPerson.name + " you are " + secondPerson.age + " years old!");
 
