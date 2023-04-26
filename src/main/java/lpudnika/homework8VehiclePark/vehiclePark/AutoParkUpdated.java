@@ -17,8 +17,8 @@ public class AutoParkUpdated {
         vehicles[8] = new Car("Toms", "TU-7890");
         vehicles[9] = new Sedan("Mikelis", "OP-9012", 4);
 
-        //using loop, call method “getDriverInfo()” for each of the cars
-        //using loop, call method "wash()" for each of the cars and notice the difference
+        //using loop, call method getDriverInfo() for each of the cars
+        //using loop, call method wash() for each of the cars and notice the difference
         for (Vehicle vehicle : vehicles) {
             vehicle.getDriverInfo();
             vehicle.getNumberPlate();
