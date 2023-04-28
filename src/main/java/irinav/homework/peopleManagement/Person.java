@@ -6,12 +6,11 @@ public class Person {
     int age;
     boolean isHired;
 
-     public  Person(String name, int birthYear) {
+    public Person(String name, int birthYear) {
         this.name = name;
         this.age = 2023 - birthYear;
-
-
     }
+
     public Person(String name) {
         this.name = name;
         this.age = 0;
@@ -27,20 +26,22 @@ public class Person {
 
     public void hire() {
         this.isHired = true;
-            }
+    }
 
     public void fire() {
         this.isHired = false;
-            }
+    }
+
     public void makeOlder() {
         age++;
-        if(age>=18) {
+        if (age >= 18) {
             isHired = true;
-        }else{
+        } else {
             isHired = false;
-            }
         }
     }
+}
+
 
 
 

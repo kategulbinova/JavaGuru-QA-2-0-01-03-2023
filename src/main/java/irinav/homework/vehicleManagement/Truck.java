@@ -8,9 +8,9 @@ public class Truck extends Car{
     }
 
     @Override
-   public void wash(){
-       System.out.println("Trucks are really difficult to wash!");
-   }
+    public void wash(){
+        super.wash();
+        System.out.println("Trucks are really difficult to wash!");}
 
    Truck(String driver, String numberPlate) {
        super(driver, numberPlate);

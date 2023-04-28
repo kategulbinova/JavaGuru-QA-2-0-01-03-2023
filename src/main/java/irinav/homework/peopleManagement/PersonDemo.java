@@ -6,15 +6,15 @@ public class PersonDemo {
     Person john = new Person("John");
     Person lara = new Person("Lara", 1980);
 
-    john.setSurname("Pickwick");
-    lara.setSurname("Holmes");
+        john.setSurname("Pickwick");
+        lara.setSurname("Holmes");
 
-    System.out.println("Person 1");
+        System.out.println("Person 1");
 
-    System.out.println("Name: " + john.name + " " + john.getSurname());
-    System.out.println("Age: " + john.age);
+        System.out.println("Name: " + john.name + " " + john.getSurname());
+        System.out.println("Age: " + john.age);
 
-    System.out.println("Employment: ");
+        System.out.println("Employment: ");
     if (john.age >= 18) {
          john.hire();
         System.out.println("Name: " + john.name + " " + john.getSurname() + ", you can be hired!");
@@ -43,9 +43,9 @@ public class PersonDemo {
             lara.fire();
         System.out.println("Name: " + lara.name + " " + lara.getSurname() + ", you can be hired!");
 
-           }
-       }
-          }
+      }
+    }
+  }
 
 
 

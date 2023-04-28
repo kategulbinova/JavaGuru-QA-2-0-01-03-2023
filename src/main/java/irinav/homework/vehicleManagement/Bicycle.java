@@ -1,7 +1,7 @@
 package irinav.homework.vehicleManagement;
 
 
-    /*public class Bicycle extends Vehicle {
+    public class Bicycle extends Vehicle {
         boolean isFolded;
         int numberOPdSpeeds;
 
@@ -10,8 +10,8 @@ package irinav.homework.vehicleManagement;
             isFolded = true;
         }
         Bicycle(String driver, int numberOPdSpeeds) {
-            //this.driver = driver;
+            this.driver = driver;
             this.numberOPdSpeeds = numberOPdSpeeds;
         }
-    }*/
+    }
 
