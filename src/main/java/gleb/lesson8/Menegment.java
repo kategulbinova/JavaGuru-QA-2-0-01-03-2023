@@ -4,7 +4,7 @@
 
 //public class Menegment {
     //public static void main(String[] args) {
-    //// String a = "Test";
+    // String a = "Test";
     // Animal myCat = new Animal("mal");
     //  Animal mySecondCat = new Animal("Murka");
 //
