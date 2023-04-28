@@ -1,9 +1,9 @@
-package gleb.lesson8;
+// gleb.lesson8;
 
-public class Dog extends AnimalDadMom{
-    String breed;
-    Dog(){
-        super();
-        breed="Shepard";
-    }
-}
+//public class Dog extends AnimalDadMom{
+//String breed;
+// Dog(){
+//      super();
+//       breed="Shepard";
+//   }
+//}
