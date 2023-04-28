@@ -1,4 +1,4 @@
-package gleb.Homework.Homework7;
+package gleb.Homework.Homework7.Person;
 
 public class Person {
     private String name;

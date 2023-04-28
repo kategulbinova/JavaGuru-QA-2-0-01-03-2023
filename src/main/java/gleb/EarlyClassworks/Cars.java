@@ -1,4 +1,4 @@
-package gleb;
+package gleb.EarlyClassworks;
 
 public class Cars {
     public static void main(String[] args) {

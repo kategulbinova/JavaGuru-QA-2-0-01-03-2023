@@ -5,7 +5,7 @@ import teacher.farm.Animal;
 public class Menegment {
     public static void main(String[] args) {
         String a = "Test";
-        Animal myCat = new Animal();
+        Animal myCat = new Animal("mal");
         Animal mySecondCat = new Animal("Murka");
 
         System.out.println("My first animal: " + myCat.name);

@@ -1,4 +1,4 @@
-package gleb;
+package gleb.EarlyClassworks;
 
 public class Stringi {
     public static void main(String[] args) {

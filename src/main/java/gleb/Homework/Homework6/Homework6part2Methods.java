@@ -1,4 +1,4 @@
-package gleb.Homework;
+package gleb.Homework.Homework6;
 
 public class Homework6part2Methods {
     public static void myArray(int[] array) {

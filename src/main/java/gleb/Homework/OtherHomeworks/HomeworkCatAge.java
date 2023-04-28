@@ -1,6 +1,6 @@
-package gleb;
+package gleb.Homework.OtherHomeworks;
 
-public class HelloWorld {
+public class HomeworkCatAge {
     public static void main(String[] args) {
         //declaring variables
         int myAge = 24;

@@ -1,4 +1,4 @@
-package gleb;
+package gleb.EarlyClassworks;
 
 public class CallItManyTimes {
     static void print1(){

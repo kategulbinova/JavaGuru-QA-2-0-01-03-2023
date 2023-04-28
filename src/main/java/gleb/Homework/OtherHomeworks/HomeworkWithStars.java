@@ -1,4 +1,4 @@
-package gleb.Homework;
+package gleb.Homework.OtherHomeworks;
 
 public class HomeworkWithStars {
     public static void main(String[] args) {
