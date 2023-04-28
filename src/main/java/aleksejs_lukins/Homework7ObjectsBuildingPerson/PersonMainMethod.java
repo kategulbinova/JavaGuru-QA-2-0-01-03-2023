@@ -2,12 +2,7 @@ package aleksejs_lukins.Homework7ObjectsBuildingPerson;
 
 public class PersonMainMethod {
 
-
     public static void main(String[] args) {
-
-//        String names[] = {"Alexander", "Max", "Irina", "Olga", "Olaf", "Kamila", "Kirill", "Dmitry", "Daniil", "German"};
-//        int birthYears[] = {1990, 0, 1978, 1999, 0, 1991, 1500, 1480, 0, 1801};
-//        Person[] people = new Person[10];
 
         Person victor = new Person("Victor");
         Person alex = new Person("Alex", 32);

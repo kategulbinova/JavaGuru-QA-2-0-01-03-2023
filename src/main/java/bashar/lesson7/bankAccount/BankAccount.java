@@ -3,20 +3,20 @@ package bashar.lesson7.bankAccount;
 public class BankAccount {
 
     /*
-    * Create a class «BankAccount» (object description) where you have 3 following methods:
-    1. deposit(); prints text “You have deposited 1000 euros”
-    2. withdraw(); prints text “You have withdrawn 1000 euros”
-    3. checkBalance(); prints text “Your current balance is 1 000 000 euros”
-    • From main method create a new object of this class and call each method.
+    * Create a class &laquo;BankAccount&raquo; (object description) where you have 3 following methods:
+    1. deposit(); prints text &ldquo;You have deposited 1000 euros&rdquo;
+    2. withdraw(); prints text &ldquo;You have withdrawn 1000 euros&rdquo;
+    3. checkBalance(); prints text &ldquo;Your current balance is 1 000 000 euros&rdquo;
+    &bull; From main method create a new object of this class and call each method.
     *
     *
     * To your previous class (object description) add the following code:
     1. Field that will hold current balance;
-    2. Method that will deposit(int amount); - add money to current balance and print text – “You have deposited {amount} euros”
-    3. Method that will withdraw(int amount); - subtract money from your current balance and print text: “You have withdrawn {amount} euros”
-    4. Method checkBalance(); - print text: “Your current balance is {amount} euros”.
+    2. Method that will deposit(int amount); - add money to current balance and print text &ndash; &ldquo;You have deposited {amount} euros&rdquo;
+    3. Method that will withdraw(int amount); - subtract money from your current balance and print text: &ldquo;You have withdrawn {amount} euros&rdquo;
+    4. Method checkBalance(); - print text: &ldquo;Your current balance is {amount} euros&rdquo;.
     5. Improve your program so that it does not allow to withdraw more than is available in the account
-      (you can use return type boolean for the method so that it returns true or false – withdrawn or not).
+      (you can use return type boolean for the method so that it returns true or false &ndash; withdrawn or not).
   */
 
     int currentBalance = 10;

@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ArrayPracticeL4 {
     public static void main(String[] args) {
 
-        int[] testArray = {55, 87, 84, 52, 2, 1885, -51, 784};
+        //int[] testArray = {55, 87, 84, 52, 2, 1885, -51, 784};
 
         /*for (int i = 0; i < testArray.length; i++) {
             if (i % 2 != 0) {
@@ -18,7 +18,7 @@ public class ArrayPracticeL4 {
         }
 System.out.println();*/
 
-        for (int i = 0; i < testArray.length; i++) {
+      /*  for (int i = 0; i < testArray.length; i++) {
             testArray[i] += 5;
             System.out.println(testArray[i]);
         }
@@ -34,6 +34,20 @@ System.out.println();*/
                 factArray[i] = factArray[i - 1] * factArray[i];
                 System.out.println(factArray[i]);
 
+            }
+        }*/
+        int[] factArray2 = new int[10];
+
+        for (int i = 0; i < factArray2.length; i++) {
+            if (i == 0) {
+                factArray2[i] = 1;
+                System.out.println(factArray2[i]);
+            } else if (i == 1) {
+                factArray2[i] = 1;
+                System.out.println(factArray2[i]);
+            } else {
+                factArray2[i] = factArray2[i - 1] + factArray2[i - 2];
+                System.out.println(factArray2[i]);
             }
         }
     }
