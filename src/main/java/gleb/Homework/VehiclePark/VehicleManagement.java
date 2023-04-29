@@ -8,23 +8,28 @@ public class VehicleManagement {
 
         bus.getDriverInfo();
         motorcycle.getDriverInfo();
+        bus.checkTechnicalCondition();
+        motorcycle.checkTechnicalCondition();
         System.out.println("");
 
         //Step 8
         Car audi = new Car("Gleb", "MR-4200");
         audi.getDriverInfo();
         audi.wash();
+        audi.checkTechnicalCondition();
         System.out.println("");
 
         Truck volvo = new Truck("Mihail", "A-0000", 20000);
         volvo.getDriverInfo();
         volvo.loadUp();
         volvo.wash();
+        volvo.checkTechnicalCondition();
         System.out.println("");
 
         Sedan avant = new Sedan("Gleb", "MR-4200", 5);
         avant.getDriverInfo();
         avant.wash();
+        avant.checkTechnicalCondition();
         System.out.println("");
 
         Bicycle porcheBicycle = new Bicycle("Aleksey", 12);

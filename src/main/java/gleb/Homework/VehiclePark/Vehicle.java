@@ -7,6 +7,9 @@ public class Vehicle {
      void getDriverInfo() {
        System.out.println("Vehicle operated by "+ driver);
     }
+    void checkTechnicalCondition() {
+         System.out.println("This vehicle is in good technical condition. It is safe to use it.");
+    }
 
     Vehicle() {
         this.driver="";

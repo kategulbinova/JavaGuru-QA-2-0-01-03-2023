@@ -1,14 +1,14 @@
 package teacher.farm;
 
 public class Animal {
-    String name;
-    String sound;
+    public String name;
+    public String sound;
     int age;
     double weight;
     boolean isAwake;
 
 
-    Animal() {
+    public Animal() {
         this.name = "No name";
         this.isAwake = true;
         this.age = 0;
@@ -27,7 +27,7 @@ public class Animal {
         this.isAwake = isAwake;
     }
 
-    Animal(String name) {
+    public Animal(String name) {
         this.name = name;
         this.isAwake = true;
         this.age = 0;
@@ -44,7 +44,7 @@ public class Animal {
 */
 
 
-    String makeSound() {
+    public String makeSound() {
         if (isAwake) {
             return this.sound + "-" + this.sound;
         } else {
@@ -54,7 +54,7 @@ public class Animal {
     void eat(double amount) {
         this.weight = this.weight + (amount / 10);
     }
-    void goToSleep() {
+    public void goToSleep() {
         this.isAwake = false;
     }
 
