@@ -1,4 +1,4 @@
-package olgaZikova.homework7.ObjectsManagements;
+package olgaZikova.homework7.ObjectsManagement;
 
 public class Person {
     /*3. Inside this class define fields:

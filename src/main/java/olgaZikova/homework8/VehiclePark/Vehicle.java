@@ -16,8 +16,8 @@ public class Vehicle {
     }
 
     Vehicle() {
-        this.brand = brand;
-        this.colour = colour;
+        this.brand = "";
+        this.colour = "";
         this.driver = "no name";
     }
 
