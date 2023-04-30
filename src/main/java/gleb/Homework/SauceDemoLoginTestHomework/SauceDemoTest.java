@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import static java.lang.Thread.sleep;
+//import static java.lang.Thread.sleep;
 
 public class SauceDemoTest {
     public static void main(String[] args) throws InterruptedException {
@@ -16,7 +16,7 @@ public class SauceDemoTest {
         driver.get("https://www.saucedemo.com/");
 
         WebElement loginField =driver.findElement(By.id("user-name"));
-        loginField.sendKeys("standard_user1");
+        loginField.sendKeys("standard_user");
 
         WebElement passwordField= driver.findElement(By.id("password"));
         passwordField.sendKeys("secret_sauce");
