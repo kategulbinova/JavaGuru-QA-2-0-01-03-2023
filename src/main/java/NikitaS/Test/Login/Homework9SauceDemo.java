@@ -19,7 +19,7 @@ public class Homework9SauceDemo {
         username.sendKeys("standard_user"); //Try other options instead of standard_user to see that test works fine for any user type scenario (exists, doesn't exist, banned)
 
         WebElement password = dr.findElement(By.id("password"));
-        password.sendKeys("secret_sauce");
+        password.sendKeys("secret_sauce"); //Try other options instead of secret_sauce to see that test works fine for any password type scenario (correct or incorrect)
 
         WebElement login = dr.findElement(By.id("login-button"));
         login.click();
@@ -27,7 +27,7 @@ public class Homework9SauceDemo {
         if (dr.getCurrentUrl().contains("inventory")) {
             System.out.println("Login was successful");
         } else {
-            System.out.println("Login was not successful");
+            System.out.println("Login was not successful. The user is either locked out or username and password do not match any user in this service");
         }
 
         sleep(5000);
