@@ -26,6 +26,7 @@ public class Truck extends Car {
 
     @Override
     public void wash () {
-        System.out.println("Trucks are really dificult to wash");
+        super.wash ();
+        System.out.println("Trucks are really difficult to wash");
     }
 }
