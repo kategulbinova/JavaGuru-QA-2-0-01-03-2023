@@ -19,15 +19,11 @@ public class LoginTest {
 
         driver.get("https://www.saucedemo.com/");
 
-        WebElement fieldUsername = driver.findElement(By.id("user-name"));
-        fieldUsername.sendKeys("standard_user");
+        WebElement usernameField = driver.findElement(By.id("user-name"));
+        usernameField.sendKeys("standard_user");
 
-        sleep (2000);
-
-        WebElement fieldPassword = driver.findElement(By.id("password"));
-        fieldPassword.sendKeys("secret_sauce");
-
-        sleep(2000);
+        WebElement passwordField = driver.findElement(By.id("password"));
+        passwordField.sendKeys("secret_sauce");
 
         WebElement buttonLogin = driver.findElement(By.id("login-button"));
         buttonLogin.click();
@@ -35,7 +31,7 @@ public class LoginTest {
         String currentUrl = driver.getCurrentUrl();
         System.out.println(currentUrl);
 
-        if (link.contains("inventory")) {
+        if (driver.getCurrentUrl().contains("inventory")) {
             System.out.println();
             System.out.println("The url is " + currentUrl + " The result of the test is successful.");
 
@@ -44,31 +40,25 @@ public class LoginTest {
             System.out.println("The test is failed.");
         }
 
-        sleep(2000);
-
         WebElement buttonMenu = driver.findElement(By.id("react-burger-menu-btn"));
         buttonMenu.click();
-
-        sleep(1000);
 
         WebElement buttonLogout = driver.findElement(By.id("logout_sidebar_link"));
         buttonLogout.click();
 
-        sleep(2000);
+        sleep(2000); // to devided positive and negative tests
 
         //Test of the test
-        fieldUsername = driver.findElement(By.id("user-name"));
-        fieldUsername.sendKeys("standard_userr");
+        usernameField = driver.findElement(By.id("user-name"));
+        usernameField.sendKeys("standard_userr");
 
-        fieldPassword = driver.findElement(By.id("password"));
-        fieldPassword.sendKeys("secret_sauces");
-
-        sleep(1000);
+        passwordField = driver.findElement(By.id("password"));
+        passwordField.sendKeys("secret_sauces");
 
         buttonLogin = driver.findElement(By.id("login-button"));
         buttonLogin.click();
 
-        sleep(5000);
+        sleep(2000); //to noticed the notification
 
         if (driver.getCurrentUrl().contains("inventory")) {
             System.out.println();
