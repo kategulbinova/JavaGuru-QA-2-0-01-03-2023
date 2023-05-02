@@ -15,10 +15,10 @@ public class LoginTest {
 
         driver.get("https://www.saucedemo.com/");
 
-        WebElement usernameField = driver.findElement(By.id("user-name"));
-        usernameField.sendKeys("standard_user");
-        WebElement passwordField = driver.findElement(By.id("password"));
-        passwordField.sendKeys("secret_sauce");
+        WebElement username = driver.findElement(By.id("user-name"));
+        username.sendKeys("standard_user");
+        WebElement password = driver.findElement(By.id("password"));
+        password.sendKeys("secret_sauce");
 
         sleep(5000);
 
