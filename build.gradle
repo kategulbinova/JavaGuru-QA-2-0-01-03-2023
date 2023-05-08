@@ -18,7 +18,6 @@ dependencies {
     implementation 'io.github.bonigarcia:webdrivermanager:5.1.1'
 
     // TestNG
-    //implementation 'org.testng:testng:7.4.0'
-    //testImplementation 'org.testng:testng:7.4.0'
+    testImplementation 'org.testng:testng:7.4.0'
 }
 
