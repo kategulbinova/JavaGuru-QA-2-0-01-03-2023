@@ -46,8 +46,6 @@ public class LoginTest {
         WebElement buttonLogout = driver.findElement(By.id("logout_sidebar_link"));
         buttonLogout.click();
 
-        sleep(2000); // to devided positive and negative tests
-
         //Test of the test
         usernameField = driver.findElement(By.id("user-name"));
         usernameField.sendKeys("standard_userr");
@@ -57,8 +55,6 @@ public class LoginTest {
 
         buttonLogin = driver.findElement(By.id("login-button"));
         buttonLogin.click();
-
-        sleep(2000); //to noticed the notification
 
         if (driver.getCurrentUrl().contains("inventory")) {
             System.out.println();
