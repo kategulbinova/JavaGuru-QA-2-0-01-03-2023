@@ -1,4 +1,4 @@
-package margo;
+package margo.classWork;
 
 public class HelloWorld {
     public static void main(String[] args) {

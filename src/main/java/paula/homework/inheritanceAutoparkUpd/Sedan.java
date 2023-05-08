@@ -1,7 +1,6 @@
-package lpudnika.homework8VehiclePark.vehiclePark;
+package paula.homework.inheritanceAutoparkUpd;
 
 public class Sedan extends Car {
-
     int seats;
     Sedan(String driver, String numberPlate) {
         super(driver, numberPlate);
@@ -10,11 +9,8 @@ public class Sedan extends Car {
         super(driver, numberPlate);
         this.seats = numberOfSeats;
     }
-
-    //new method for Sedan wash() and method should only print out text "This sedan just used the automatic carwash at the gas station. Sparkling clean!".
     @Override
     public void wash() {
-        System.out.println("This sedan just used the automatic carwash at the gas station. Sparkling clean!");
+        System.out.println("Go to wash station, clean your car");
     }
-
 }
