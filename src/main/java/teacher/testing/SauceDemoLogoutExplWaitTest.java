@@ -1,22 +1,23 @@
-package aleksejs_lukins.Lesson9HomeworkLoggingInCheckingLink;
+package teacher.testing;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static java.lang.Thread.sleep;
+import java.time.Duration;
 
-public class Homework9CheckingLoginWithDriver {
-
+public class SauceDemoLogoutExplWaitTest {
     public static void main(String[] args) throws InterruptedException {
-        WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
+        WebDriverManager.chromedriver().setup();
 
-        String actualLink;
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
-        driver.get("https://www.saucedemo.com/");
+        driver.get("https://saucedemo.com");
 
         WebElement loginField = driver.findElement(By.id("user-name"));
         loginField.sendKeys("standard_user");
@@ -27,16 +28,13 @@ public class Homework9CheckingLoginWithDriver {
         WebElement loginButton = driver.findElement(By.id("login-button"));
         loginButton.click();
 
-        actualLink = driver.getCurrentUrl();
+        WebElement openMenuButton = driver.findElement(By.id("react-burger-menu-btn"));
+        openMenuButton.click();
 
-        if (actualLink.contains("inventory")) {
-            System.out.println("Login confirmed");
-        }
-        else {
-            System.out.println("Login failed, current URL does not contain 'inventory' text");
-        }
+        WebElement logoutMenuItem = driver.findElement(By.id("logout_sidebar_link"));
+        wait.until(ExpectedConditions.elementToBeClickable(logoutMenuItem));
+        logoutMenuItem.click();
 
-        sleep(5000);
         driver.quit();
     }
 }
