@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import static java.lang.Thread.sleep;
 
-public class Homework9SuccessfulLoginPracticeTest {
+public class homework9SuccessfulLoginPracticeTest {
     public static void main(String[] args) throws InterruptedException{
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
