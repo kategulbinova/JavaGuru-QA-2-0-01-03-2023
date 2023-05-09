@@ -22,8 +22,10 @@ public class Lect6Fibonacci {
     }*/
     static int[] arrFib = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
     static void printFib(int[] arrFib) {
-        for (int i = 0; i < arrFib.length; i++) {
-            System.out.print(arrFib[i] + " ");
+        /*for (int i = 0; i < arrFib.length; i++) {
+            System.out.print(arrFib[i] + " ");*/
+        for (int i : arrFib) {
+            System.out.print(i + " ");
         }
         System.out.println();
     }
