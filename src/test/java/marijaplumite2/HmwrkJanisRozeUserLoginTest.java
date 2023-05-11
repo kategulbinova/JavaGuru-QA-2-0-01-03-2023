@@ -31,7 +31,7 @@ public class HmwrkJanisRozeUserLoginTest {
     }
 
     @Test
-    public void janisRozeLogin(){
+    public void janisRozeLoginTest(){
 
         WebElement lietotajaProfilsItem = driver.findElement(By.xpath("//ul[@class='account-dropdown long']"));
 
@@ -54,7 +54,7 @@ public class HmwrkJanisRozeUserLoginTest {
 
     }
     @Test
-    public void optionalTaskJsScroll(){
+    public void optionalTaskJsScrollTest(){
 
         WebElement footerCopyright = driver.findElement(By.xpath("//div[@class='footer-copyright']"));
 
