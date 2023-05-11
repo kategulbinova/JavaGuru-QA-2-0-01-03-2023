@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
 
-public class AliexpressSearchHW10 {
+public class AliexpressSearchTestHW10 {
     public static void main(String[] args) {
         WebDriverManager.chromedriver().setup();
 
