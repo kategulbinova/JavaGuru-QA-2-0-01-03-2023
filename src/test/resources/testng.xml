@@ -2,7 +2,7 @@
 <suite name="All Tests Suite">
     <test name="All Tests">
         <classes>
-            <class name="teacher.PrintTextOutSequentiallyTest"/>
+            <class name="marijaplumite2.HmwrkJanisRozeUserLoginTest"/>
         </classes>
     </test>
     <listeners>
