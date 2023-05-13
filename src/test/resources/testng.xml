@@ -2,7 +2,7 @@
 <suite name="All Tests Suite">
     <test name="All Tests">
         <classes>
-            <class name="teacher.TestTest"/>
+            <class name="teacher.HelloWorld"/>
         </classes>
     </test>
     <listeners>
