@@ -21,9 +21,9 @@ public class JRoseLoginTest {
     @BeforeMethod
 
     public void setUp(){
-
+        driver= new ChromeDriver();
         WebDriverManager.chromedriver().setup();
-        WebDriver driver= new ChromeDriver();
+        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
         driver.get("https://www.janisroze.lv/");
     }
@@ -36,7 +36,6 @@ public class JRoseLoginTest {
 
         //Step 1 finding login button;
         WebElement loginBtn = driver.findElement(By.id("header-account"));
-        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.elementToBeClickable(loginBtn));
         loginBtn.click();
 
