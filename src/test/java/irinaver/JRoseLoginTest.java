@@ -17,7 +17,7 @@ import java.time.Duration;
 
 public class JRoseLoginTest {
     WebDriver driver;
-    WebDriver wait;
+    WebDriverWait wait;
     @BeforeMethod
 
     public void setUp(){
@@ -36,7 +36,7 @@ public class JRoseLoginTest {
 
         //Step 1 finding login button;
         WebElement loginBtn = driver.findElement(By.id("header-account"));
-        wait = (WebDriver) new WebDriverWait(driver, Duration.ofSeconds(5));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.elementToBeClickable(loginBtn));
         loginBtn.click();
 
@@ -61,7 +61,7 @@ public class JRoseLoginTest {
     }
     @AfterMethod
 
-    public void tearDown(){
+    public void tearDown() {
         driver.quit();
     }
   }
