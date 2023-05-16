@@ -42,7 +42,7 @@ public class Homework11JanisRozeUserLoginTest {
         actions.moveToElement(lietotajaProfilsIcon).build().perform();
 
         //finding ielogoties button
-        WebElement ielogotiesLink = driver.findElement(By.id("header-account"));
+        WebElement ielogotiesLink = driver.findElement(By.xpath("//*[@id='header-account']/ul/li/ul/li[3]/a"));
         wait.until(ExpectedConditions.elementToBeClickable(ielogotiesLink));
         ielogotiesLink.click();
 
@@ -54,10 +54,9 @@ public class Homework11JanisRozeUserLoginTest {
         WebElement paroleField = driver.findElement(By.id("pass"));
         paroleField.sendKeys("zaq1xsw2");
 
-        WebElement ielogotiesButton = driver.findElement(By.id("send2"));
-        ielogotiesButton.click();
+        paroleField.submit();
 
-        if (driver.getCurrentUrl().contains("customer/account/")) {
+        if (driver.getCurrentUrl().contains("customer/account")) {
             System.out.println("Login successful!");
         } else {
             System.out.println("Login failed: invalid username or password.");
