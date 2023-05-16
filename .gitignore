@@ -9,3 +9,5 @@ build
 *.iml
 *.ipr
 *.iws
+
+src/test/resources/testng.xml
