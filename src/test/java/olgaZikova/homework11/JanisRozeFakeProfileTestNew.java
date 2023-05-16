@@ -39,7 +39,7 @@ public class JanisRozeFakeProfileTestNew {
 
         WebElement lietotajaKontsDropDown = driver.findElement(By.linkText("Ielogoties"));
         lietotajaKontsDropDown.click();
-        //wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("email")));
+        ///wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("email")));
 
         WebElement emailField = driver.findElement(By.id("email"));
         emailField.sendKeys("abc@abc.lv");
