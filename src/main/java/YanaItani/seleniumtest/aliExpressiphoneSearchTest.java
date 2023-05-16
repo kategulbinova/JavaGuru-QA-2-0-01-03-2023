@@ -10,7 +10,7 @@ import java.util.List;
 
 import static java.lang.Thread.sleep;
 
-public class aliExpressSearchTest {
+public class aliExpressiphoneSearchTest {
     public static void main(String[] args) throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         WebDriver dr = new ChromeDriver();
