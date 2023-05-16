@@ -1,4 +1,4 @@
-package marijaplumite.tests;
+package lpudnika.lessons.lesson11;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -9,22 +9,23 @@ import org.openqa.selenium.interactions.Actions;
 
 import static java.lang.Thread.sleep;
 
-public class PracticeJanisRozeWaitMenuToAppearTest {
+public class JanisRozeMouseHoverTest {
+
     public static void main(String[] args) throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://www.janisroze.lv/");
 
-        WebElement lietotajaProfilsItem = driver.findElement(By.xpath("//ul[@class='account-dropdown long']"));
-
+        WebElement userIcon = driver.findElement(By.xpath("//*[@id='header-account']/ul/li/a/span[1]"));
 
         Actions actions = new Actions(driver);
-        actions.moveToElement(lietotajaProfilsItem).build().perform();
+        actions.moveToElement(userIcon).build().perform();
 
         sleep(2000);
 
-        driver.quit();
+        userIcon.click();
 
+        driver.quit();
     }
 }

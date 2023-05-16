@@ -14,20 +14,23 @@ public class LoginTest {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
-        driver.get("http://www.draugiem.lv");
+       driver.get("http://www.draugiem.lv");
 
-        WebElement  myEmail = driver.findElement(By.id("email"));
-        myEmail.sendKeys("iren7465");
+       WebElement  myEmail = driver.findElement(By.id("email"));
+       myEmail.sendKeys("iren7465@gmail.com");
 
-        WebElement myPassword = driver.findElement(By.id("password"));
-        myPassword.sendKeys("qwrtt67899");
+       WebElement myPassword = driver.findElement(By.id("password"));
+       myPassword.sendKeys("qwrtt67899");
 
-        sleep(5000);
+       WebElement ienaktButton = driver.findElement(By.xpath("/button[@name='login']"));
+       ienaktButton.click();
 
-        WebElement ienaktButton = driver.findElement(By.id("loginSubmit"));
-        ienaktButton.click();
+        WebElement wrongCredentialsErrorMSg = driver.findElement(By.xpath("//div[@class='infoMsg errorIcon radius3']"));
 
-        sleep(5000);
+        if(wrongCredentialsErrorMSg.isDisplayed()){
+            System.out.println(wrongCredentialsErrorMSg.getText());
+        } else System.out.println("Error message is not displayed");
+
         driver.quit();
     }
 }

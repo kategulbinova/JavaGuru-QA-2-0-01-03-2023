@@ -1,4 +1,4 @@
-package margo.classWork.Lect7ObjectsBankAccount;
+package margo.classWork.lect7ObjectsBankAccount;
 
 public class BankProgram {
     public static void main(String[] args) {
