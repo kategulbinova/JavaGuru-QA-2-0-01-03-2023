@@ -2,9 +2,11 @@ package natuksa;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
@@ -16,30 +18,38 @@ import java.time.Duration;
 public class JanisRozeHomeworkTestTestTest {
     WebDriver driver;
     WebDriverWait wait;
+
+    JavascriptExecutor js;
     @BeforeTest
     public void setUp() {
         WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+        driver = new ChromeDriver();
+        wait = new WebDriverWait(driver, Duration.ofSeconds(2));
         driver.get("https://www.janisroze.lv/");
+        js = (JavascriptExecutor) driver;
     }
     @Test
     public void LoginCheck() {
-        WebElement loginField = driver.findElement(By.id("user-name"));
-        loginField.sendKeys("standard_user");
+        WebElement lietotajaIkonka = driver.findElement(By.xpath("//ul[@class='account-dropdown long']"));
+        Actions actions = new Actions(driver);
+        actions.moveToElement(lietotajaIkonka).build().perform();
 
-        WebElement passwordField = driver.findElement(By.id("password"));
-        passwordField.sendKeys("secret_sauce");
+        WebElement ielogotiesElement = driver.findElement(By.xpath("//li/a[@title='Ielogoties']"));
+        wait.until(ExpectedConditions.elementToBeClickable(ielogotiesElement));
+        ielogotiesElement.click();
 
-        WebElement submitButton = driver.findElement(By.id("login-button"));
-        submitButton.click();
+        WebElement loginField = driver.findElement(By.id("email"));
+        loginField.sendKeys("akakij@inbox.lv");
 
-        WebElement burgerMenuIcon = driver.findElement(By.id("react-burger-menu-btn"));
-        burgerMenuIcon.click();
+        WebElement passwordField = driver.findElement(By.id("pass"));
+        passwordField.sendKeys("Akakij9090");
 
-        WebElement logoutButton = driver.findElement(By.id("logout_sidebar_link"));
-        wait.until(ExpectedConditions.elementToBeClickable(logoutButton));
-        logoutButton.click();
+        WebElement loginButton = driver.findElement(By.id("send2"));
+        loginButton.click();
+
+        js.executeScript("arguments[0].scrollIntoView(true);", driver.findElement(By.className("footer-container")));
+
+
     }
     @AfterTest
     public void tearDown() {
