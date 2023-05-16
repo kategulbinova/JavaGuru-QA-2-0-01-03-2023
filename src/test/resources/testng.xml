@@ -2,7 +2,7 @@
 <suite name="All Tests Suite">
     <test name="All Tests">
         <packages>
-            <package name="teacher"/>
+            <package name="nikita"/>
         </packages>
     </test>
     <listeners>
