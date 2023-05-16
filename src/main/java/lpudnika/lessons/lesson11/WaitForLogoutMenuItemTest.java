@@ -1,33 +1,26 @@
-package natuksa.tests;
+package lpudnika.lessons.lesson11;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
 public class WaitForLogoutMenuItemTest {
-    public static void main(String[] args) throws InterruptedException {
 
+    public static void main(String[] args) throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-
-        FluentWait wait = new FluentWait(driver)
-        .withTimeout(Duration.ofMillis(5000))
-        .pollingEvery(Duration.ofMillis(500))
-        .ignoring(NoSuchElementException.class);
-
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
 
         driver.get("http://www.saucedemo.com");
 
-        WebElement loginField = driver.findElement(By.id("user-name"));
-        loginField.sendKeys("standard_user");
+        WebElement usernameField = driver.findElement(By.id("user-name"));
+        usernameField.sendKeys("standard_user");
 
         WebElement passwordField = driver.findElement(By.id("password"));
         passwordField.sendKeys("secret_sauce");

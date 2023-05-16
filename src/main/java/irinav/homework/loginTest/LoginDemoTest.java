@@ -31,7 +31,7 @@ public class LoginDemoTest {
         } else {
             System.out.println("Test failed." + driver.findElement(By.cssSelector("[data-test=error]")).getText());
         }
-        sleep(5000);
+        sleep(3000);
         driver.quit();
     }
 }

@@ -10,4 +10,4 @@ build
 *.ipr
 *.iws
 
-src/test/resources/testng.xml
+/src/test/resources/testng.xml
