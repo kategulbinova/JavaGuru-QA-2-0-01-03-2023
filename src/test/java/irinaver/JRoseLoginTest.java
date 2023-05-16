@@ -23,7 +23,7 @@ public class JRoseLoginTest {
     public void setUp(){
         driver= new ChromeDriver();
         WebDriverManager.chromedriver().setup();
-        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(2));
 
         driver.get("https://www.janisroze.lv/");
     }
