@@ -42,7 +42,7 @@ public class Homework11JanisRozeUserLoginTest {
         actions.moveToElement(lietotajaProfilsIcon).build().perform();
 
         //finding ielogoties button
-        WebElement ielogotiesLink = driver.findElement(By.xpath("//*[@id='header-account']/ul/li/ul/li[3]/a"));
+        WebElement ielogotiesLink = driver.findElement(By.xpath("//li/a[@title='Ielogoties']"));
         wait.until(ExpectedConditions.elementToBeClickable(ielogotiesLink));
         ielogotiesLink.click();
 
