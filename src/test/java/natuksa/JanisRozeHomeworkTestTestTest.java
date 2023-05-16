@@ -49,7 +49,6 @@ public class JanisRozeHomeworkTestTestTest {
 
         js.executeScript("arguments[0].scrollIntoView(true);", driver.findElement(By.className("footer-container")));
 
-
     }
     @AfterTest
     public void tearDown() {
