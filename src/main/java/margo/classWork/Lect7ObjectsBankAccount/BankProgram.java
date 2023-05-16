@@ -1,8 +1,9 @@
-package margo.classWork.lect7ObjectsBankAccount;
+package margo.classWork.Lect7ObjectsBankAccount;
 
+import BankAccount;
 public class BankProgram {
     public static void main(String[] args) {
-        BankAccount existingClient = new BankAccount();
+        margo.classWork.lect7ObjectsBankAccount.BankAccount existingClient = new BankAccount();
         existingClient.customerName = "Crystal";
         existingClient.customerSurname = "Clear";
         existingClient.currentBalance = 1789;

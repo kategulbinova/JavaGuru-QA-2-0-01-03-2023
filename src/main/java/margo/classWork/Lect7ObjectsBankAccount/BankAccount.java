@@ -1,4 +1,4 @@
-package margo.classWork.lect7ObjectsBankAccount;
+package margo.classWork.Lect7ObjectsBankAccount;
 
 public class BankAccount {
     String customerName;
