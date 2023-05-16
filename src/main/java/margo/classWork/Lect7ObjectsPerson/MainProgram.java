@@ -1,4 +1,4 @@
-package margo.classWork.lect7ObjectsPerson;
+package margo.classWork.Lect7ObjectsPerson;
 
 public class MainProgram {
     public static void main(String[] args) {
