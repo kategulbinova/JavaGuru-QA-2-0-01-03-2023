@@ -57,7 +57,7 @@ public class Homework11JanisRozeUserLoginTest {
         paroleField.submit();
 
         if (driver.getCurrentUrl().contains("customer/account")) {
-            System.out.println("Login successful!");
+            System.out.println("Login successful!!!");
         } else {
             System.out.println("Login failed: invalid username or password.");
         }
