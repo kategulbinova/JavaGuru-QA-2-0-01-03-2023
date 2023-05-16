@@ -2,7 +2,7 @@
 <suite name="All Tests Suite">
     <test name="All Tests">
         <packages>
-            <package name="natuksa"/>
+            <package name="teacheer"/>
         </packages>
     </test>
     <listeners>

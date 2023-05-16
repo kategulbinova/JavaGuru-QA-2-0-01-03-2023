@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class WaitForLogoutMenuItemTest {
+public class SaucedemoBurgerMenuExplicitWaitTest {
     public static void main(String[] args) throws InterruptedException {
 
         WebDriverManager.chromedriver().setup();

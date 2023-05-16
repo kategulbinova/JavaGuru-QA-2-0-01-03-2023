@@ -1,4 +1,4 @@
-package marijaplumite.tests;
+package natuksa.tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -9,7 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 
 import static java.lang.Thread.sleep;
 
-public class PracticeJanisRozeWaitMenuToAppearTest {
+public class JanisRozeActionsTest {
     public static void main(String[] args) throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
