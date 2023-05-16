@@ -16,7 +16,7 @@ import java.time.Duration;
 
 import static java.lang.Thread.sleep;
 
-public class JanisRozeFakeProfileTestNew {
+public class JanisRozeFakeProfileTest {
     WebDriver driver;
     WebDriverWait wait;
 
@@ -29,23 +29,23 @@ public class JanisRozeFakeProfileTestNew {
         driver.get("https://www.janisroze.lv/");
     }
     @Test
-    public void fakeLogin () throws InterruptedException {
+    public void loginTest (){
 
         WebElement userIcon = driver.findElement(By.id("header-account"));
-        sleep(2000);
+
         Actions actions = new Actions(driver);
-        sleep(2000);
+
         actions.moveToElement(userIcon).build().perform();
 
-        WebElement lietotajaKontsDropDown = driver.findElement(By.linkText("Ielogoties"));
+        WebElement lietotajaKontsDropDown = driver.findElement(By.xpath("//a[@title='Ielogoties']"));
         lietotajaKontsDropDown.click();
-        //wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("email")));
+        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("email")));
 
         WebElement emailField = driver.findElement(By.id("email"));
         emailField.sendKeys("abc@abc.lv");
 
         WebElement pswdField = driver.findElement(By.id("pass"));
-        pswdField.sendKeys("12345");
+        pswdField.sendKeys("1234567");
 
         WebElement ielogotiesBtn = driver.findElement(By.id("send2"));
         ielogotiesBtn.click();
