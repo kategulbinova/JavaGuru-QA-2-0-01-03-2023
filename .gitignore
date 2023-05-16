@@ -11,4 +11,9 @@ build
 *.iws
 
 /src/test/resources/testng.xml
-/test-output/All Tests Suite/All Tests.html
+testng.xml
+src/test/resources/testng.xml
+resources/testng.xml
+/testng.xml
+/src/test/resources/testng.xml
+/resources/testng.xml
