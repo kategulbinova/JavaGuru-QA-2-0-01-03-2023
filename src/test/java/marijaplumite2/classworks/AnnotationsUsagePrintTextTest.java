@@ -1,4 +1,4 @@
-package marijaplumite2;
+package marijaplumite2.classworks;
 
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
