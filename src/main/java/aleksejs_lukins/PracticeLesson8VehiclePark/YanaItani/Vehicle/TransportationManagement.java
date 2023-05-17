@@ -1,4 +1,4 @@
-package YanaItani.Vehicle;
+package aleksejs_lukins.PracticeLesson8VehiclePark.YanaItani.Vehicle;
 
 public class TransportationManagement {
     public static void main(String[] args) {

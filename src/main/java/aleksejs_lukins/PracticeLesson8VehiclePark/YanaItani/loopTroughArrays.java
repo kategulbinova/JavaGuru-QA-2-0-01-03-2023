@@ -1,4 +1,4 @@
-package YanaItani;
+package aleksejs_lukins.PracticeLesson8VehiclePark.YanaItani;
 
 import java.lang.constant.DynamicCallSiteDesc;
 

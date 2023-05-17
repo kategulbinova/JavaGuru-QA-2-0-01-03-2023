@@ -1,4 +1,4 @@
-package YanaItani;
+package aleksejs_lukins.PracticeLesson8VehiclePark.YanaItani;
 
 public class methods {
     static void printHelloText() {

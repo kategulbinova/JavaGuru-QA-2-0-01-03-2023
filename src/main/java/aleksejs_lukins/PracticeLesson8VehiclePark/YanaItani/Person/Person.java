@@ -1,4 +1,4 @@
-package YanaItani.Person;
+package aleksejs_lukins.PracticeLesson8VehiclePark.YanaItani.Person;
 
 public class Person {
     String name;
