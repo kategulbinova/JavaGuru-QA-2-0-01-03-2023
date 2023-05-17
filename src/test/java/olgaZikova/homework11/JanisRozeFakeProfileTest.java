@@ -31,7 +31,7 @@ public class JanisRozeFakeProfileTest {
     @Test
     public void loginTest (){
 
-        WebElement userIcon = driver.findElement(By.id("header-account"));
+        WebElement userIcon = driver.findElement(By.xpath("//*[@id=\"header-account\"]/ul/li/a/span[1]"));
 
         Actions actions = new Actions(driver);
 
@@ -39,7 +39,7 @@ public class JanisRozeFakeProfileTest {
 
         WebElement lietotajaKontsDropDown = driver.findElement(By.xpath("//a[@title='Ielogoties']"));
         lietotajaKontsDropDown.click();
-        
+
         wait.until(ExpectedConditions.urlContains("https://www.janisroze.lv/lv/customer/account/login/"));
 
         WebElement emailField = driver.findElement(By.id("email"));
