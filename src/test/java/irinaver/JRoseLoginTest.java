@@ -35,7 +35,7 @@ public class JRoseLoginTest {
         actions.moveToElement(userIcon).build().perform();
 
         //Step 1 finding login button;
-        WebElement loginBtn = driver.findElement(By.id("header-account"));
+        WebElement loginBtn = driver.findElement(By.xpath("//a[@title='Ielogoties']"));
         wait.until(ExpectedConditions.elementToBeClickable(loginBtn));
         loginBtn.click();
 
@@ -46,13 +46,11 @@ public class JRoseLoginTest {
         //Step 3 sending password;
         WebElement passwordField = driver.findElement(By.id("pass"));
         passwordField.sendKeys("BookTest23#");
-
-        //Step 4 submitting credentials;
-        WebElement submitField = driver.findElement(By.id("send2"));
-        submitField.click();
+        passwordField.submit();
     }
 
     //information found on the internet "GURU99";
+    @Test
     public void optionalTask(){
         WebElement findFooter = driver.findElement(By.xpath("//div[@class='footer-copyright']"));
         JavascriptExecutor js = (JavascriptExecutor)driver;
