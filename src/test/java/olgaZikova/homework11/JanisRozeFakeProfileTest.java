@@ -24,7 +24,7 @@ public class JanisRozeFakeProfileTest {
     public void setUP () {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
         driver.get("https://www.janisroze.lv/");
     }
@@ -39,6 +39,8 @@ public class JanisRozeFakeProfileTest {
 
         WebElement lietotajaKontsDropDown = driver.findElement(By.xpath("//a[@title='Ielogoties']"));
         lietotajaKontsDropDown.click();
+        
+        wait.until(ExpectedConditions.urlContains("https://www.janisroze.lv/lv/customer/account/login/"));
 
         WebElement emailField = driver.findElement(By.id("email"));
         emailField.sendKeys("abc@abc.lv");
