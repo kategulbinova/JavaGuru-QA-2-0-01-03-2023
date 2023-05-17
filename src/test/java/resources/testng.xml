@@ -1,9 +1,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="All Tests Suite">
     <test name="All Tests">
-        <packages>
-            <package name="nikita"/>
-        </packages>
+        <classes>
+            <class name="olgaZikova.homework11.JanisRozeFakeProfileTest"/>
+        </classes>
     </test>
     <listeners>
         <listener class-name="org.testng.reporters.TestHTMLReporter"/>

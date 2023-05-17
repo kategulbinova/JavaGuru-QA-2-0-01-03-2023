@@ -39,9 +39,9 @@ public class JanisRozeFakeProfileTest {
 
         WebElement lietotajaKontsDropDown = driver.findElement(By.xpath("//a[@title='Ielogoties']"));
         lietotajaKontsDropDown.click();
-        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("email")));
 
         WebElement emailField = driver.findElement(By.id("email"));
+        //wait.until(ExpectedConditions.());
         emailField.sendKeys("abc@abc.lv");
 
         WebElement pswdField = driver.findElement(By.id("pass"));
