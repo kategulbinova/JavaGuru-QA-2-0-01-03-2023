@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class LoginExample {
     public static void main(String[] args) {
         // Set the path to the ChromeDriver executable
-        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
+        System.setProperty("web-driver.chrome.driver", "path/to/chromedriver");
 
         // Create a new instance of the ChromeDriver
         WebDriver driver = new ChromeDriver();
