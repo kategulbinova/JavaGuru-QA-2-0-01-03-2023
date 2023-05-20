@@ -6,6 +6,7 @@ public class Sedan extends Car {
 
     @Override
     public void wash () {
+
         System.out.println("This sedan just used the automatic carwash at the gas station");
     }
 

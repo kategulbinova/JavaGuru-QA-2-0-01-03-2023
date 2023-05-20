@@ -3,13 +3,13 @@ package olgaZikova.homework8.VehiclePark;
 public class VehicleManagement<cars> {
     public static void main(String[] args) {
 
-        Vehicle car = new Vehicle ();
+        Vehicle car = new Vehicle();
         Vehicle motobike = new Vehicle("Olga");
 
         car.getDriverinfo();
         motobike.getDriverinfo();
 
-        Car car1 = new Car("Mike","NN1234");
+        Car car1 = new Car("Mike", "NN1234");
         car1.wash();
         car1.getDriverinfo();
 
@@ -19,7 +19,7 @@ public class VehicleManagement<cars> {
 
         Sedan sedan = new Sedan("Anna", "MM7878", 5);
 
-        Bicycle bicycle = new Bicycle("Kate",10);
+        Bicycle bicycle = new Bicycle("Kate", 10);
         bicycle.getDriverinfo();
 
         bicycle.numberOfSpeeds = 10;
@@ -31,7 +31,6 @@ public class VehicleManagement<cars> {
 
         scooter.checkTechnicalConditions();
         subaru.checkTechnicalConditions();
-
 
 
         //Homework 8
@@ -47,8 +46,8 @@ public class VehicleManagement<cars> {
         Car kia = new Car("Anzela", "AN27");
         Car ford = new Car("Anastasia", "AN29");
 
-        Car [] cars = new Car[]{bmw, jeep, audi, johnDeer, volvo, saab, nissan, kia, ford, opel};
-        for (Car c: cars) {
+        Car[] cars = new Car[]{bmw, jeep, audi, johnDeer, volvo, saab, nissan, kia, ford, opel};
+        for (Car c : cars) {
             c.wash();
             c.getDriverinfo();
 

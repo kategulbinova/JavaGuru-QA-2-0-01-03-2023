@@ -1,4 +1,4 @@
-package gleb.lesson8;
+//package gleb.lesson8;
 
-public class SonAnimal {
-}
+//public class SonAnimal {
+//}

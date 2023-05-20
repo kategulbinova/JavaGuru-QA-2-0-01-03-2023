@@ -1,0 +1,51 @@
+body {
+	background-image: url('coffee_backgr.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: 100% 100%;
+}
+
+a {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+.table-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 90vh;
+}
+
+table {
+	margin-top: 100px;
+	width: 100%;
+	max-width: 1000px;
+	horizontal-align: center;
+	text-align: center;
+}
+
+th {
+	font-family: "Baguet Script";
+	font-weight: bold;
+	font-size: 35px;
+	text-align: center;
+	border: none;
+}
+
+td {
+	padding: 10px;
+	font-style: italic;
+	border: none;
+}
+
+img {
+	max-width: 70%;
+	max-height: 100%;
+	display: block;
+	margin: auto;
+}	

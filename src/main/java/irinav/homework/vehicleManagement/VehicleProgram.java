@@ -18,42 +18,42 @@ public class VehicleProgram {
         Car myPurpleSedan = new Sedan("Kevin", "AS6563", 4);
         Car myYellowTruck = new Truck("Sean", 800.20, "GH5334");
 
-        Vehicle[] Car = {myNewCar, myWorkCar, myGreenTruck, myRedTruck, myYellowSedan,
+        Vehicle[] differentVehicles = {myNewCar, myWorkCar, myGreenTruck, myRedTruck, myYellowSedan,
                 myWorkSedan, myfancyCar, myBlueCar, myPurpleSedan, myYellowTruck};
 
         System.out.println("Who is the vehicle operated by?");
         System.out.println();
 
-        for (Vehicle v : Car){
+        for (Vehicle v : differentVehicles){
             v.getDriverInfo();
         }
         System.out.println();
         System.out.println("Are my vehicles clean?");
         System.out.println();
 
-        for (Vehicle i : Car){
+        for (Vehicle i : differentVehicles){
             i.wash();
         }
         System.out.println();
         System.out.println("What are my vehicles' number plates?");
         System.out.println();
 
-        for (Car car : Arrays.asList(myNewCar, myWorkCar, myGreenTruck, myRedTruck, myYellowSedan,
+        for (Car myVehicles : Arrays.asList(myNewCar, myWorkCar, myGreenTruck, myRedTruck, myYellowSedan,
                 myWorkSedan, myfancyCar, myBlueCar, myPurpleSedan, myYellowTruck)){
 
-            System.out.println("My vehicle's number plate is: " + car.numberPlate);
+            System.out.println("My vehicle's number plate is: " + myVehicles.numberPlate);
         }
 
         System.out.println();
         System.out.println("In what technical condition are my vehicles?");
         System.out.println();
 
-        for (Vehicle n : Car) {
+        for (Vehicle n : differentVehicles) {
             n.checkTechnicalCondition();
         }
         System.out.println();
 
-        for (Vehicle b : Car) {
+        for (Vehicle b : differentVehicles) {
             b.showNumberOfSeats();
         }
     }

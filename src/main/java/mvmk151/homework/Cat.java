@@ -11,4 +11,5 @@ package mvmk151.homework;
             System.out.println("Cat's age in 'human' age is: " + answer);
 
         }
+
     }

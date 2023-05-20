@@ -1,6 +1,6 @@
 package olgaZikova.homework8.VehiclePark;
 
-public class Car extends Vehicle {
+public class Car extends Vehicle{
     String numberPlate;
 
     public void wash () {

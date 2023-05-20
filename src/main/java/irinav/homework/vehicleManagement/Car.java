@@ -12,11 +12,11 @@ package irinav.homework.vehicleManagement;
 
     public Car(String driver, String numberPlate) {
         this.driver = driver;
-       // super(driver);
+       //super(driver);
         this.numberPlate = numberPlate;
     }
      @Override
     void checkTechnicalCondition(){
-         //super.checkTechnicalCondition();
+         super.checkTechnicalCondition();
          System.out.println("Car's oil level is sufficient.");}
  }
