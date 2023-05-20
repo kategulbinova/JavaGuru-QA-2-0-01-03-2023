@@ -1,4 +1,4 @@
-package marijaplumite2.classworks.saucedemo.tests;
+package marijaplumite2.classworks.janisroze.tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -9,7 +9,6 @@ import org.testng.annotations.BeforeMethod;
 
 import java.time.Duration;
 
-
 public class BaseTest {
     WebDriver driver;
 
@@ -19,9 +18,10 @@ public class BaseTest {
         driver = new ChromeDriver();
         WebDriverManager.chromedriver().setup();
 
-        wait = new WebDriverWait(driver, Duration.ofSeconds(2));
 
-        driver.get("https://www.saucedemo.com/");
+        wait = new WebDriverWait(driver, Duration.ofSeconds(8));
+
+        driver.get("https://www.janisroze.lv/");
 
     }
 

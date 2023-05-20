@@ -14,7 +14,7 @@ public class InventoryPage {
     }
 
     public boolean isOpen(){
-        WebElement burgerMenuIcon = driver.findElement(By.id("react-burger-menu-btn"));
+        WebElement burgerMenuIcon = driver.findElement(By.id(burgerMenuIconId));
 
         if ( burgerMenuIcon.isDisplayed() ) return true;
         else return false;
