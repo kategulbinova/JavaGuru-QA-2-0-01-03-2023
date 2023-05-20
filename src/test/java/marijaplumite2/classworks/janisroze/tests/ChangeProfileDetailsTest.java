@@ -12,7 +12,7 @@ public class ChangeProfileDetailsTest extends  BaseTest {
     @Parameters({"email", "password"})
     public void checkProductAddingToCart(String email, String password){
         LoginPage loginPage = new LoginPage(driver, wait);
-        ChangeDetailsPage changeDetailsPage = new ChangeDetailsPage(driver, wait);
+        ChangeDetailsPage changeDetailsPage = new ChangeDetailsPage(driver);
 
         loginPage.login(email, password);
         changeDetailsPage.changeProfileInfo();
