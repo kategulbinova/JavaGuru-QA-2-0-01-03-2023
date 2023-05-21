@@ -1,18 +1,16 @@
 package aleksejs_lukins.sauceDemo.tests;
 
-import aleksejs_lukins.sauceDemo.pages.BikeLightPage;
-import aleksejs_lukins.sauceDemo.pages.InventoryPage;
+import aleksejs_lukins.sauceDemo.pages.ProductListPage;
 import aleksejs_lukins.sauceDemo.pages.LoginPage;
-import aleksejs_lukins.sauceDemo.pages.LogoutPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class BikeLightTest extends BaseTest {
+public class ProductListTest extends BaseTest {
     @Test
     public void successfulLogoutCheck() {
         // create all necessary page objects
         LoginPage loginPage = new LoginPage(driver);
-        BikeLightPage bikeLightPage = new BikeLightPage(driver);
+        ProductListPage productListPage = new ProductListPage(driver);
 
         // run scenario
         loginPage.login("standard_user", "secret_sauce");
@@ -20,12 +18,12 @@ public class BikeLightTest extends BaseTest {
 
 
         // clicking on bike light
-        bikeLightPage.bikeLightClick();
+        productListPage.bikeLightClick();
 
         // clicking on back to products
-        bikeLightPage.backToProductsClick();
+        productListPage.backToProductsClick();
 
         // asserting that we can see other product in shop
-        Assert.assertTrue(bikeLightPage.isOpen());
+        Assert.assertTrue(productListPage.isAllProductPageOpened());
     }
 }

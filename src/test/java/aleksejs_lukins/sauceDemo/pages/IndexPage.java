@@ -8,14 +8,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class LogoutPage {
-    private WebDriver driver; // null
+public class IndexPage {
+    private WebDriver driver;
 
     private String burgerMenuId = "react-burger-menu-btn";
     private String  logoutButtonId = "logout_sidebar_link";
     private String loginButtonId = "login-button";
 
-    public LogoutPage(WebDriver driver) {
+    public IndexPage(WebDriver driver) {
         this.driver = driver;
     }
 
