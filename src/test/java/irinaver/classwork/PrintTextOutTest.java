@@ -1,4 +1,4 @@
-package irinaver;
+package irinaver.classwork;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
