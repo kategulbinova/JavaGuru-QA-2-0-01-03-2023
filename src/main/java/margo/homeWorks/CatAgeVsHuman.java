@@ -1,4 +1,4 @@
-package margo;
+package margo.homeWorks;
 
 public class CatAgeVsHuman {
     public static void main(String[] args) {
