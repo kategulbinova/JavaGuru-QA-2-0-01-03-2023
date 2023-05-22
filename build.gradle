@@ -6,14 +6,11 @@ repositories {
 }
 
 dependencies {
-    //implementation 'junit:junit:4.13.2'
-    implementation 'org.hamcrest:hamcrest:2.2'
-
     // Selenium WebDriver
     implementation 'org.seleniumhq.selenium:selenium-java:4.1.0'
-
     implementation 'org.seleniumhq.selenium:selenium-chrome-driver:4.8.3'
     implementation 'org.seleniumhq.selenium:selenium-devtools-v112:4.9.0'
+
     // WebDriverManager
     implementation 'io.github.bonigarcia:webdrivermanager:5.1.1'
 

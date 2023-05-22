@@ -31,7 +31,7 @@ public class Homework11JanisRozeTestLogIn {
 
         waitLoginBtn = new WebDriverWait(driver, Duration.ofSeconds(2));
 
-        waitLoginField = new WebDriverWait(driver, Duration.ofSeconds(10));
+        waitLoginField = new WebDriverWait(driver, Duration.ofSeconds(2));
 
         driver.get("https://www.janisroze.lv/");
     }
