@@ -7,7 +7,7 @@ public class PersonProgram {
         paula.age = 29;
         paula.name = "Paula Cvikova";
         paula.isMale = false;
-        paula.getOlder(); //подтягивает из Person
+        paula.getOlder(); //pull from Person
         System.out.println(paula.name + "'s age is " + paula.age);
     }
 }
