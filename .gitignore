@@ -9,3 +9,6 @@ build
 *.iml
 *.ipr
 *.iws
+
+*/testng.xml
+/test-output
