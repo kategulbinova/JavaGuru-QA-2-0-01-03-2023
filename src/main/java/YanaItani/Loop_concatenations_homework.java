@@ -1,4 +1,4 @@
-package aleksejs_lukins.PracticeLesson8VehiclePark.YanaItani;
+package YanaItani;
 
 public class Loop_concatenations_homework {
     public static void main(String[] args) {

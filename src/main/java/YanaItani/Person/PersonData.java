@@ -1,4 +1,4 @@
-package aleksejs_lukins.PracticeLesson8VehiclePark.YanaItani.Person;
+package YanaItani.Person;
 
 public class PersonData {
     public static void main(String[] args) {

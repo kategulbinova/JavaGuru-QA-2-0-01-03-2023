@@ -12,6 +12,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import java.time.Duration;
 
+import static java.lang.Thread.sleep;
+
 public class Homework11TestNGJanisRozeLoginTest {
 
     WebDriver driver;
@@ -30,12 +32,10 @@ public class Homework11TestNGJanisRozeLoginTest {
     }
 
     @Test
-    public void JanisRozeTest() {
+    public void JanisRozeTest() throws InterruptedException {
         Actions actions = new Actions(driver);
         String loginName = "aleksejslukins@gmail.com";
         String password = "javaguru";
-
-        driver.manage().window().maximize();
 
         WebElement userProfileIcon = driver.findElement(By.xpath("//*[@id='header-account']/ul/li/a/span[1]"));
         actions.moveToElement(userProfileIcon).build().perform();
@@ -51,6 +51,7 @@ public class Homework11TestNGJanisRozeLoginTest {
         WebElement passwordField = driver.findElement(By.xpath("//input[@name='login[password]']"));
         passwordField.sendKeys(password);
 
+        //Step 5: Click login button
         WebElement clickLogin = driver.findElement(By.id("send2"));
         clickLogin.click();
 

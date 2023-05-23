@@ -1,4 +1,4 @@
-package aleksejs_lukins.PracticeLesson8VehiclePark.YanaItani.Vehicle;
+package YanaItani.Vehicle;
 
 public class Vehicle {
     String brand;
