@@ -9,6 +9,8 @@ public class InventoryPage {
 
     private String burgerMenuIconId = "react-burger-menu-btn";
 
+    private String prodItemId = "item_4_img_link";
+
     public InventoryPage(WebDriver driver){
         this.driver = driver;
     }
@@ -20,4 +22,14 @@ public class InventoryPage {
         else return false;
     }
 
+    public void selectProd(){
+        WebElement prodItem = driver.findElement(By.id(prodItemId));
+        prodItem.click();
+    }
+
+    public void burgerMenuButtonClick(){
+
+        WebElement burgerMenuButton = driver.findElement(By.id(burgerMenuIconId));
+        burgerMenuButton.click();
+    }
 }
