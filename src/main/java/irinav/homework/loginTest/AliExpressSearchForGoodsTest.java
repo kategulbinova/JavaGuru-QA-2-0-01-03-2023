@@ -42,8 +42,8 @@ public class AliExpressSearchForGoodsTest {
         System.out.println();
 
        //finding the size of the element
-        WebElement getButtonSize = driver.findElement(By.xpath("//*[@id=\"form-searchbar\"]/div[1]/input"));
-        Dimension image = getButtonSize.getSize();
+       WebElement getButtonSize = driver.findElement(By.xpath("//*[@id=\"form-searchbar\"]/div[1]/input"));
+       Dimension image = getButtonSize.getSize();
 
        System.out.println("The size of the button is: " + getButtonSize.getSize());
        System.out.println("The height of the search button is : " + image.getHeight() + "px.");
@@ -51,7 +51,7 @@ public class AliExpressSearchForGoodsTest {
 
        System.out.println();
 
-       //  getting the tag name, attribute and location of the search field box
+       //getting the tag name, attribute and location of the search field box
 
        WebElement searchKeyBox = driver.findElement(By.xpath("//div[@class='search-key-box']"));
        System.out.println("The tag name of the search field is : " + searchKeyBox.getTagName() + ".");
@@ -66,14 +66,14 @@ public class AliExpressSearchForGoodsTest {
 
        System.out.println();
 
-        List<String> listOfFoundLinks = new ArrayList<String>();
+       List<String> listOfFoundLinks = new ArrayList<String>();
         for (WebElement findings : foundItemsLinks) {
            String myLinks = findings.getAttribute("href");
 
        listOfFoundLinks.add(myLinks);
        System.out.println(listOfFoundLinks);
        }
-        driver.quit();
+       driver.quit();
    }
  }
 
