@@ -10,8 +10,6 @@ public class AboutPage {
     private WebDriver driver;
 
     private WebDriverWait wait;
-
-    private String burgerMenuIconId = "react-burger-menu-btn";
     private String aboutButtonId = "about_sidebar_link";
 
 
@@ -21,10 +19,8 @@ public class AboutPage {
         this.wait = wait;
     }
     public void aboutLinkCheck() {
-        WebElement burgerMenuButton = driver.findElement(By.id(burgerMenuIconId));
         WebElement aboutButton = driver.findElement(By.id(aboutButtonId));
 
-        burgerMenuButton.click();
         wait.until(ExpectedConditions.elementToBeClickable(aboutButton));
         aboutButton.click();
 

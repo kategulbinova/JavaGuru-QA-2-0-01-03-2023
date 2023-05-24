@@ -7,12 +7,7 @@ import org.openqa.selenium.WebElement;
 
 public class ChangeDetailsPage {
     private WebDriver driver;
-
-
     private String changeProfileInfoBtnId = "//a[text()='Mainit profila iestatijumus']";
-
-
-
 
     public ChangeDetailsPage(WebDriver driver){
         this.driver=driver;
@@ -25,7 +20,7 @@ public class ChangeDetailsPage {
     }
     public boolean isOpen(){
      String currentUrl = driver.getCurrentUrl();
-       if (currentUrl.contains("account/edit/")) return true;
+       if (currentUrl.contains("edit")) return true;
        else return false;
     }
 
