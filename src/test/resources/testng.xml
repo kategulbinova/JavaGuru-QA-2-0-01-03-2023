@@ -2,8 +2,11 @@
         SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Test Suite">
     <test name="Login Test">
-        <packages>
-            <package name="kristiana"/>
-        </packages>
+       <packages>
+               <package name ="kristiana.sauceDemoNew.tests"/>
+       </packages>
     </test>
+    <listeners>
+        <listener class-name="org.testng.reporters.TestHTMLReporter"/>
+    </listeners>
 </suite>
