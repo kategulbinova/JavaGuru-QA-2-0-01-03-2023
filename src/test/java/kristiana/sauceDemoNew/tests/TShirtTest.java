@@ -1,19 +1,19 @@
 package kristiana.sauceDemoNew.tests;
 
-import kristiana.sauceDemoNew.pages.TShirtPage;
+import kristiana.sauceDemoNew.pages.ProductPage;
 import olgaZikova.homework12.sauceDemoTestHwrk.pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TShirtTest extends BaseTest{
     @Test
-    public void tShirtPageOpenCheck () {
+    public void productPageOpenCheck () {
         LoginPage loginPage = new LoginPage(driver);
-        TShirtPage tShirtPage = new TShirtPage(driver);
+        ProductPage productPage = new ProductPage(driver);
 
         loginPage.login("standard_user", "secret_sauce");
-        tShirtPage.checkLinkToTShirtPage();
-        Assert.assertTrue(tShirtPage.isOpenTshirtPage());
+        productPage.checkLinkToTProductPage();
+        Assert.assertTrue(productPage.isOpenProductPage());
 
 
     }
