@@ -6,13 +6,13 @@ import org.openqa.selenium.WebElement;
 
 
 
-public class TshirtPage {
+public class ProductPage {
     private WebDriver driver;
 
     private String addToCartButton="add-to-cart-sauce-labs-bolt-t-shirt";
     private String removeFromCartButton="remove-sauce-labs-bolt-t-shirt";
 
-    public TshirtPage(WebDriver driver){
+    public ProductPage(WebDriver driver){
         this.driver=driver;
     }
     public void addToCartTshirt(){
