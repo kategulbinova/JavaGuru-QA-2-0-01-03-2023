@@ -12,3 +12,4 @@ build
 
 */testng.xml
 /test-output
+/src/test/resources/testng.xml

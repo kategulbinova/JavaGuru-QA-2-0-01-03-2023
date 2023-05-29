@@ -27,4 +27,11 @@ public class LoginPage {
         loginButton.click();
     }
 
+    public boolean isOpen() {
+        WebElement burgerMenuIcon = driver.findElement(By.id(loginButtonId));
+
+        if ( burgerMenuIcon.isDisplayed() )  return true;
+        else return false;
+    }
+
 }

@@ -4,14 +4,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class ProductListPage {
+public class InventoryItemPage {
     private WebDriver driver; // null
 
     private String bikeLightXpath = "//*[@id='item_0_title_link']/div";
     private String  backToProductsXpath = "//*[@id='back-to-products']";
     private String sortingOptionsXpath = "//*[@id='header_container']/div[2]/div/span/select";
 
-    public ProductListPage(WebDriver driver) {
+    public InventoryItemPage(WebDriver driver) {
         this.driver = driver;
     }
 
