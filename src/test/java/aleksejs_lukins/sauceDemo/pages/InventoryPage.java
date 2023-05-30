@@ -17,7 +17,6 @@ public class InventoryPage {
     private String sortingOptionsXpath = "//*[@id='header_container']/div[2]/div/span/select";
     private String bikeLightXpath = "//*[@id='item_0_title_link']/div";
 
-
     public InventoryPage(WebDriver driver) {
         this.driver = driver;
     }
