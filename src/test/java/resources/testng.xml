@@ -2,10 +2,12 @@
 <suite name="All Tests Suite">
     <test name="All Tests">
         <packages>
-                <packages name="germans.JanisRozeHomeworkTest"/>
+            <package name="aleksejs_lukins.sauceDemo.tests"/>
         </packages>
     </test>
     <listeners>
         <listener class-name="org.testng.reporters.TestHTMLReporter"/>
     </listeners>
+    <parameter name="loginField" value="standard_user"/>
+    <parameter name="passwordField" value="secret_sauce"/>
 </suite>

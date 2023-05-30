@@ -28,9 +28,9 @@ public class LoginPage {
     }
 
     public boolean isOpen() {
-        WebElement burgerMenuIcon = driver.findElement(By.id(loginButtonId));
+        WebElement loginButton = driver.findElement(By.id(loginButtonId));
 
-        if ( burgerMenuIcon.isDisplayed() )  return true;
+        if ( loginButton.isDisplayed() )  return true;
         else return false;
     }
 

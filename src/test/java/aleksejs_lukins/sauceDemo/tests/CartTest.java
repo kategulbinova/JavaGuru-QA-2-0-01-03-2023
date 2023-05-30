@@ -19,7 +19,9 @@ public class CartTest extends BaseTest{
 
         inventoryPage.clickCartButton();
 
-        cartPage.isCartPageOpened();
+        // asserting that cart page is opened(checkout button is displayed)
+        Assert.assertTrue(cartPage.isCartPageOpened());
+
 
     }
 }

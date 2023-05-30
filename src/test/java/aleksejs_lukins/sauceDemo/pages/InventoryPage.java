@@ -14,6 +14,9 @@ public class InventoryPage {
     private String burgerMenuIconId = "react-burger-menu-btn";
     private String  logoutButtonId = "logout_sidebar_link";
     private String cartButtonId = "shopping_cart_container";
+    private String sortingOptionsXpath = "//*[@id='header_container']/div[2]/div/span/select";
+    private String bikeLightXpath = "//*[@id='item_0_title_link']/div";
+
 
     public InventoryPage(WebDriver driver) {
         this.driver = driver;
@@ -47,4 +50,20 @@ public class InventoryPage {
         WebElement cartButton = driver.findElement(By.id(cartButtonId));
         cartButton.click();
     }
+
+    // assertion to see if we see product sorting option on all product list
+    public boolean isAllProductPageOpened() {
+        WebElement sortingOptions = driver.findElement(By.xpath(sortingOptionsXpath));
+        if ( sortingOptions.isDisplayed() )  return true;
+        else return false;
+    }
+
+    public void bikeLightClick () {
+        // Initialize all necessary elements
+        WebElement bikeLight = driver.findElement(By.xpath(bikeLightXpath));
+
+        // clicking to bike light
+        bikeLight.click();
+    }
+
 }
