@@ -1,20 +1,20 @@
 package olgaZikova.homework12.sauceDemoTestHwrk.tests;
 
 import olgaZikova.homework12.sauceDemoTestHwrk.pages.LoginPage;
-import olgaZikova.homework12.sauceDemoTestHwrk.pages.LogoutPage;
+import olgaZikova.homework12.sauceDemoTestHwrk.pages.AboutPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class LogoutLinkTest extends BaseTest {
+public class AboutLinkTest extends BaseTest {
 
     @Test
     public void successfullLogout (){
         LoginPage loginPage = new LoginPage(driver);
-        LogoutPage logoutPage = new LogoutPage(driver,wait);
+        AboutPage aboutPage = new AboutPage(driver,wait);
 
         loginPage.login("standard_user", "secret_sauce");
-        logoutPage.makeLogout();
+        aboutPage.makeLogout();
 
-        Assert.assertTrue(logoutPage.isLogout());
+        Assert.assertTrue(aboutPage.isLogout());
     }
 }

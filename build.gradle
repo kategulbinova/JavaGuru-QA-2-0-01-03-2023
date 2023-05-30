@@ -13,6 +13,7 @@ dependencies {
 
     // WebDriverManager
     implementation 'io.github.bonigarcia:webdrivermanager:5.1.1'
+    implementation 'org.testng:testng:7.1.0'
 
     // TestNG
     testImplementation 'org.testng:testng:7.4.0'

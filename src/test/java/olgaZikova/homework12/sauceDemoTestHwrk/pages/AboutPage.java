@@ -6,23 +6,23 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class LogoutPage {
+public class AboutPage {
 
     private WebDriver driver;
     private WebDriverWait wait;
 
     private String burgerMenuIconID = "react-burger-menu-btn";
-    private String logoutBtnID = "logout_sidebar_link";
+    private String aboutBtnID = "logout_sidebar_link";
 
 
-    public LogoutPage(WebDriver driver, WebDriverWait wait) {
+    public AboutPage(WebDriver driver, WebDriverWait wait) {
         this.driver = driver;
         this.wait = wait;
     }
 
     public void makeLogout () {
         WebElement burgerMenuIcon = driver.findElement(By.id(burgerMenuIconID));
-        WebElement logoutBtn = driver.findElement(By.id(logoutBtnID));
+        WebElement logoutBtn = driver.findElement(By.id(aboutBtnID));
         burgerMenuIcon.click();
         wait.until(ExpectedConditions.elementToBeClickable(logoutBtn));
         logoutBtn.click();
@@ -31,7 +31,7 @@ public class LogoutPage {
     public boolean isLogout () {
         String currentUrl = driver.getCurrentUrl() ;
 
-        if (currentUrl.contains("inventory")) return false;
+        if (currentUrl.contains("saucelabs")) return false;
         else return true;
 
     }
