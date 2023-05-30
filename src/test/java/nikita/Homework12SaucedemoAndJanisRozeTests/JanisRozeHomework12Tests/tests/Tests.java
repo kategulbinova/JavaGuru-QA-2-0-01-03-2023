@@ -1,8 +1,8 @@
-package nikita.JanisRozeHomework12Tests.tests;
+package nikita.Homework12SaucedemoAndJanisRozeTests.JanisRozeHomework12Tests.tests;
 
-import nikita.JanisRozeHomework12Tests.pages.LoginPage;
-import nikita.JanisRozeHomework12Tests.pages.MainPage;
-import nikita.JanisRozeHomework12Tests.pages.ProfilePage;
+import nikita.Homework12SaucedemoAndJanisRozeTests.JanisRozeHomework12Tests.pages.LoginPage;
+import nikita.Homework12SaucedemoAndJanisRozeTests.JanisRozeHomework12Tests.pages.MainPage;
+import nikita.Homework12SaucedemoAndJanisRozeTests.JanisRozeHomework12Tests.pages.ProfilePage;
 import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;

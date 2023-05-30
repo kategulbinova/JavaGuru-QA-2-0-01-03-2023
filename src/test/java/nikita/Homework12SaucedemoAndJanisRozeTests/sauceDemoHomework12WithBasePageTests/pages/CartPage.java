@@ -1,4 +1,4 @@
-package nikita.sauceDemoHomework12WithBasePageTests.pages;
+package nikita.Homework12SaucedemoAndJanisRozeTests.sauceDemoHomework12WithBasePageTests.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

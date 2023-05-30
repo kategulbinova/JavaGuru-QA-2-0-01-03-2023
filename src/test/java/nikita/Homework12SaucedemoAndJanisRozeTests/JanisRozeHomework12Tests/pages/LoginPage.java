@@ -1,4 +1,4 @@
-package nikita.JanisRozeHomework12Tests.pages;
+package nikita.Homework12SaucedemoAndJanisRozeTests.JanisRozeHomework12Tests.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

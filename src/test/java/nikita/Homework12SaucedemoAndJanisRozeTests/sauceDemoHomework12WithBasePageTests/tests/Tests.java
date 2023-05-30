@@ -1,6 +1,10 @@
-package nikita.sauceDemoHomework12WithBasePageTests.tests;
+package nikita.Homework12SaucedemoAndJanisRozeTests.sauceDemoHomework12WithBasePageTests.tests;
 
-import nikita.sauceDemoHomework12WithBasePageTests.pages.*;
+import nikita.Homework12SaucedemoAndJanisRozeTests.sauceDemoHomework12WithBasePageTests.pages.CartPage;
+import nikita.Homework12SaucedemoAndJanisRozeTests.sauceDemoHomework12WithBasePageTests.pages.CheckoutInfoPage;
+import nikita.Homework12SaucedemoAndJanisRozeTests.sauceDemoHomework12WithBasePageTests.pages.InventoryPage;
+import nikita.Homework12SaucedemoAndJanisRozeTests.sauceDemoHomework12WithBasePageTests.pages.LoginPage;
+//import nikita.sauceDemoHomework12WithBasePageTests.pages.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

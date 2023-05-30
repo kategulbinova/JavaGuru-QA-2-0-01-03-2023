@@ -1,4 +1,4 @@
-package nikita.JanisRozeHomework12Tests.tests;
+package nikita.Homework12SaucedemoAndJanisRozeTests.sauceDemoHomework12WithBasePageTests.tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -11,19 +11,16 @@ import java.time.Duration;
 
 public class BaseTest {
     WebDriver driver;
-
     @BeforeMethod
     public void setUp() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-
-        driver.get("https://www.janisroze.lv/");
+        driver.get("https://www.saucedemo.com");
     }
+
 
     @AfterMethod
     public void tearDown() {
         driver.quit();
     }
-
 }
-
