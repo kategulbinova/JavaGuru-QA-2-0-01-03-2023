@@ -9,8 +9,8 @@ public class LoginTest extends BaseTest{
     @Test
     public void successfulLoginCheck() {
         // create all necessary page objects
-        LoginPage loginPage = new LoginPage(driver);
-        InventoryPage inventoryPage = new InventoryPage(driver);
+        LoginPage loginPage = new LoginPage();
+        InventoryPage inventoryPage = new InventoryPage();
 
         // run scenario
         loginPage.login("standard_user", "secret_sauce");

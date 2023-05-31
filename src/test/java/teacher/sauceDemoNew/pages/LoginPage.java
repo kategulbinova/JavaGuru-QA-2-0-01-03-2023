@@ -1,25 +1,20 @@
 package teacher.sauceDemoNew.pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import static teacher.sauceDemoNew.utils.DriverProvider.getCurrentDriver;
 
 public class LoginPage {
-    private WebDriver driver; // null
-
     private String loginFieldId = "user-name";
     private String passwordFieldId = "password";
     private String  loginButtonId = "login-button";
 
-    public LoginPage(WebDriver driver) {
-        this.driver = driver;
-    }
 
     public void login(String login, String password) {
         // Initialize all necessary elements
-        WebElement loginField = driver.findElement(By.id(loginFieldId));
-        WebElement passwordField = driver.findElement(By.id(passwordFieldId));
-        WebElement loginButton = driver.findElement(By.id(loginButtonId));
+        WebElement loginField = getCurrentDriver().findElement(By.id(loginFieldId));
+        WebElement passwordField = getCurrentDriver().findElement(By.id(passwordFieldId));
+        WebElement loginButton = getCurrentDriver().findElement(By.id(loginButtonId));
 
         // Perform login
         loginField.sendKeys(login);
