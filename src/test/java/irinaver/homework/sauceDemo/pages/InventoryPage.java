@@ -19,6 +19,5 @@ public class InventoryPage {
         if ( burgerMenuIcon.isDisplayed() ) return true;
         else return false;
     }
-
 }
 

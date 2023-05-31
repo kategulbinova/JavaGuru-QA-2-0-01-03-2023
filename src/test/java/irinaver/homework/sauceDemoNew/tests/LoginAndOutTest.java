@@ -8,8 +8,8 @@ import org.testng.annotations.Test;
 public class LoginAndOutTest extends BaseTest{
     @Test
     public void loginLogoutCheck(){
-        LoginPage loginPage = new LoginPage(driver);
-        InventoryPage inventoryPage  = new InventoryPage(driver);
+        LoginPage loginPage = new LoginPage();
+        InventoryPage inventoryPage  = new InventoryPage();
 
         loginPage.login("standard_user", "secret_sauce");
         //add asserts

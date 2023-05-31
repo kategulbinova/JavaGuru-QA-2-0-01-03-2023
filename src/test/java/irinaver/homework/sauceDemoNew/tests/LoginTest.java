@@ -11,10 +11,10 @@ public class LoginTest extends BaseTest{
     @Test
     public void successfulLoginCheck() throws InterruptedException {
         //create objects
-        LoginPage loginPage = new LoginPage(driver);
-        InventoryPage inventoryPage  = new InventoryPage(driver);
-        ViewCartPage viewCartPage = new ViewCartPage(driver);
-        CheckOutStepPage checkOutStepPage = new CheckOutStepPage(driver);
+        LoginPage loginPage = new LoginPage();
+        InventoryPage inventoryPage  = new InventoryPage();
+        ViewCartPage viewCartPage = new ViewCartPage();
+        CheckOutStepPage checkOutStepPage = new CheckOutStepPage();
 
         //run scenario
        loginPage.login("standard_user", "secret_sauce");

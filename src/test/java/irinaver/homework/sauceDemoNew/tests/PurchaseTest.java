@@ -12,10 +12,10 @@ import static java.lang.Thread.sleep;
 public class PurchaseTest extends BaseTest {
     @Test
     public void successfulPurchaseImitation() throws InterruptedException {
-        LoginPage loginPage = new LoginPage(driver);
-        InventoryPage inventoryPage  = new InventoryPage(driver);
-        ViewCartPage viewCartPage = new ViewCartPage(driver);
-        CheckOutStepPage checkOutStepPage = new CheckOutStepPage(driver);
+        LoginPage loginPage = new LoginPage();
+        InventoryPage inventoryPage  = new InventoryPage();
+        ViewCartPage viewCartPage = new ViewCartPage();
+        CheckOutStepPage checkOutStepPage = new CheckOutStepPage();
         //login
 
         loginPage.login("standard_user", "secret_sauce");

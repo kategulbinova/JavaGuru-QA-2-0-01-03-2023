@@ -1,4 +1,4 @@
-package irinaver;
+package irinaver.classwork;
 
 import org.testng.annotations.Test;
 

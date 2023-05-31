@@ -9,13 +9,13 @@ import org.testng.annotations.Test;
 
 import static java.lang.Thread.sleep;
 
-public class InventoryTest extends BaseTest {
+public class InventoryConsistentStoringTest extends BaseTest {
     @Test
     public void addAndRemoveItems() throws InterruptedException {
-        LoginPage loginPage = new LoginPage(driver);
-        InventoryPage inventoryPage  = new InventoryPage(driver);
-        ViewCartPage viewCartPage = new ViewCartPage(driver);
-        CheckOutStepPage checkOutStepPage = new CheckOutStepPage(driver);
+        LoginPage loginPage = new LoginPage();
+        InventoryPage inventoryPage  = new InventoryPage();
+        ViewCartPage viewCartPage = new ViewCartPage();
+        CheckOutStepPage checkOutStepPage = new CheckOutStepPage();
 
         //login;
         loginPage.login("standard_user", "secret_sauce");
@@ -53,6 +53,5 @@ public class InventoryTest extends BaseTest {
         Assert.assertTrue(inventoryPage.isOpen());
         //logging out;
         loginPage.logout();
-
     }
 }
