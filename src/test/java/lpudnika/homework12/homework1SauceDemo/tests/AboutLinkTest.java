@@ -6,12 +6,12 @@ import lpudnika.homework12.homework1SauceDemo.pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class AboutTest extends BaseTest {
+public class AboutLinkTest extends BaseTest {
     @Test
     public void aboutTestPageCheck() {
         //Creating objects of all necessary pages
         LoginPage loginPage = new LoginPage(driver);
-        InventoryPage inventoryPage = new InventoryPage(driver);
+        InventoryPage inventoryPage = new InventoryPage(driver, wait);
         AboutPage aboutPage = new AboutPage(driver);
 
         //Send login and password
@@ -21,7 +21,8 @@ public class AboutTest extends BaseTest {
         Assert.assertTrue(inventoryPage.isOpen());
 
         //Open about
-        aboutPage.aboutPageOpen();
+        inventoryPage.openMenu();
+        inventoryPage.openAboutPage();
 
         //Check via Assert
         Assert.assertTrue(aboutPage.isOpen());

@@ -2,17 +2,17 @@ package lpudnika.homework12.homework1SauceDemo.tests;
 
 import lpudnika.homework12.homework1SauceDemo.pages.InventoryPage;
 import lpudnika.homework12.homework1SauceDemo.pages.LoginPage;
-import lpudnika.homework12.homework1SauceDemo.pages.OpenSauceLabsBackpackProductPage;
+import lpudnika.homework12.homework1SauceDemo.pages.ViewProductPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class OpenSauceLabsBackpackProductTest extends BaseTest{
+public class ViewProductTest extends BaseTest{
     @Test
     public void successfulProductOpenCheck(){
         //Creating objects of all necessary pages
         LoginPage loginPage = new LoginPage(driver);
-        InventoryPage inventoryPage = new InventoryPage(driver);
-        OpenSauceLabsBackpackProductPage openSauceLabsBackpackProductPage = new OpenSauceLabsBackpackProductPage(driver);
+        InventoryPage inventoryPage = new InventoryPage(driver, wait);
+        ViewProductPage openSauceLabsBackpackProductPage = new ViewProductPage(driver);
 
         //Send login and password
         loginPage.login("standard_user", "secret_sauce");

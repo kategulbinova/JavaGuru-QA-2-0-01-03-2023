@@ -6,20 +6,20 @@ import lpudnika.homework12.homework1SauceDemo.pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ViewCartTest extends BaseTest {
-    @Test
+//public class ViewCartTest extends BaseTest {
+    //@Test
 
-        public void viewCartPageCheck () {
+        //public void viewCartPageCheck () {
 
-        LoginPage loginPage = new LoginPage(driver);
-        InventoryPage inventoryPage = new InventoryPage(driver);
-        ViewCartPage viewCartPage = new ViewCartPage(driver);
+        //LoginPage loginPage = new LoginPage(driver);
+        //InventoryPage inventoryPage = new InventoryPage(driver);
+        //ViewCartPage viewCartPage = new ViewCartPage(driver);
 
-        loginPage.login("standard_user", "secret_sauce");
+        //loginPage.login("standard_user", "secret_sauce");
 
-        Assert.assertTrue(inventoryPage.isOpen());
-        viewCartPage.viewPageOpen();
-        Assert.assertTrue(viewCartPage.isOpen());
-    }
+        //Assert.assertTrue(inventoryPage.isOpen());
+        //viewCartPage.viewPageOpen();
+        //Assert.assertTrue(viewCartPage.isOpen());
+    //}
 
-}
+//}

@@ -12,7 +12,7 @@ public class LoginTest extends BaseTest {
     public void successfulLoginCheck(){
         //Creating objects of all necessary pages
         LoginPage loginPage = new LoginPage(driver);
-        InventoryPage inventoryPage = new InventoryPage(driver);
+        InventoryPage inventoryPage = new InventoryPage(driver, wait);
 
         //Send login and password
         loginPage.login("standard_user", "secret_sauce");

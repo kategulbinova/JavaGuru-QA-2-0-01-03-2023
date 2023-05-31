@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class OpenSauceLabsBackpackProductPage {
+public class ViewProductPage {
 
     //save driver and element locators as object fields of type String
     private WebDriver driver;
@@ -16,7 +16,7 @@ public class OpenSauceLabsBackpackProductPage {
     private String backToProductsButtonId = "back-to-products";
 
     //initialize WebDriver in constructor
-    public OpenSauceLabsBackpackProductPage(WebDriver driver){
+    public ViewProductPage(WebDriver driver){
         this.driver = driver;
     }
 

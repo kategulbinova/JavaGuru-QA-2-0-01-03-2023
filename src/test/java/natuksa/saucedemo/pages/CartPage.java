@@ -12,7 +12,6 @@ public class CartPage {
 
     public void goToCheckoutPage() {
         WebElement checkoutButton = driver.findElement(By.id(checkoutButtonId));
-
         checkoutButton.click();
     }
 }

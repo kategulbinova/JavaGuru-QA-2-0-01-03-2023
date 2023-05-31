@@ -20,7 +20,7 @@ public class BaseTest {
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, Duration.ofSeconds(2));
         driver.get("https://www.saucedemo.com/");
-
+        driver.manage().window().maximize();
     }
 
     @AfterMethod

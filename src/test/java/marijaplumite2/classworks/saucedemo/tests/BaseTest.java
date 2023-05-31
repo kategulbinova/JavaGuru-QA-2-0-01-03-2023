@@ -22,7 +22,6 @@ public class BaseTest {
         wait = new WebDriverWait(driver, Duration.ofSeconds(2));
 
         driver.get("https://www.saucedemo.com/");
-
     }
 
     @AfterMethod

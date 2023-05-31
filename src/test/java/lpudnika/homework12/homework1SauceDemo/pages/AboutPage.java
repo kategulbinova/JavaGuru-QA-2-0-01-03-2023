@@ -19,16 +19,6 @@ public class AboutPage {
         this.driver = driver;
     }
 
-    //Open cart
-    public void aboutPageOpen() {
-        //Initialize elements inside methods
-        WebElement burgerMenuIcon = driver.findElement(By.id(burgerMenuIconId));
-        burgerMenuIcon.click();
-
-        WebElement aboutLink = driver.findElement(By.id(aboutButtonId));
-        aboutLink.click();
-    }
-
     //Check whether burger menu icon is now visible
     public boolean isOpen() {
         WebElement tryItFreeButton = driver.findElement(By.xpath("//*[@id='__next']/div[2]/div[1]/div/div[1]/div[1]/div/div[4]/div[1]/a/button"));
