@@ -4,21 +4,22 @@ import marijaplumite2.classworks.saucedemo.pages.AboutPage;
 import marijaplumite2.classworks.saucedemo.pages.InventoryPage;
 import marijaplumite2.classworks.saucedemo.pages.LoginPage;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class AboutLinkTest extends BaseTest{
 
     @Test
-    public void aboutSideBarLinkCheck() {
+    @Parameters({"login", "password"})
+    public void aboutSideBarLinkCheck(String login, String password) {
         LoginPage loginPage = new LoginPage(driver);
-        InventoryPage inventoryPage = new InventoryPage(driver);
-        AboutPage aboutPage = new AboutPage(driver, wait);
+        InventoryPage inventoryPage = new InventoryPage(driver, wait);
+        AboutPage aboutPage = new AboutPage(driver);
 
-        loginPage.login("standard_user", "secret_sauce");
+        loginPage.login(login, password);
 
-        inventoryPage.burgerMenuButtonClick();
-
-        aboutPage.aboutLinkCheck();
+        inventoryPage.openMenu();
+        inventoryPage.goToAboutPage();
 
         Assert.assertTrue( aboutPage.isOpen());
 
