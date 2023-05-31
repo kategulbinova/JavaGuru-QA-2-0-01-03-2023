@@ -6,18 +6,18 @@ import glebs.classworks.sauceDemo.packagesAndTests.pages.ProductPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TshirtAddToCartTest extends BaseTest{
+public class AddTshirtToCartTest extends BaseTest{
     @Test
-    public void ProductAddToCart(){
+    public void AddProductToCart(){
         LoginPage loginPage=new LoginPage(driver);
         InventoryPage inventoryPage=new InventoryPage(driver);
         ProductPage productPage =new ProductPage(driver);
 
         loginPage.login("standard_user","secret_sauce");
 
-        inventoryPage.shirtClickCheck();
+        inventoryPage.clickTShirtCheck();
 
-        productPage.addToCartTshirt();
+        productPage.addTshirtToCart();
 
         Assert.assertTrue(productPage.isPressed());
     }

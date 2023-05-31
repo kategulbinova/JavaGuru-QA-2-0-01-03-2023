@@ -16,7 +16,7 @@ public class EndToEndTest extends BaseTest{
         CheckoutCompletePage checkoutCompletePage=new CheckoutCompletePage(driver);
 
         loginPage.login("standard_user","secret_sauce");
-        inventoryPage.fleeceJacketAddToCartButton();
+        inventoryPage.addJacketToCart();
         inventoryPage.yourCartButton();
 
         Assert.assertTrue(yourCartPage.isActuallyOpen());

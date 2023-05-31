@@ -23,11 +23,11 @@ public class InventoryPage {
         if(burgerMenuIcon.isDisplayed()) return true;
         else return false;
     }
-    public void shirtClickCheck() {
+    public void clickTShirtCheck() {
         WebElement sirtImage = driver.findElement(By.id(tshirtImageId));
         sirtImage.click();
     }
-    public void fleeceJacketAddToCartButton(){
+    public void addJacketToCart(){
         WebElement addToCartButton=driver.findElement(By.id(addToCartButtonId));
         addToCartButton.click();
     }

@@ -15,7 +15,7 @@ public class ProductPage {
     public ProductPage(WebDriver driver){
         this.driver=driver;
     }
-    public void addToCartTshirt(){
+    public void addTshirtToCart(){
         WebElement addToCart=driver.findElement(By.id(addToCartButton));
         addToCart.click();
     }
