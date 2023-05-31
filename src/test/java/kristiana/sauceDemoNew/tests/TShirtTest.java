@@ -1,7 +1,7 @@
 package kristiana.sauceDemoNew.tests;
 
 import kristiana.sauceDemoNew.pages.ProductPage;
-import olgaZikova.homework12.sauceDemoTestHwrk.pages.LoginPage;
+import kristiana.sauceDemoNew.pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

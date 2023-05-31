@@ -1,8 +1,8 @@
 package kristiana.sauceDemoNew.tests;
 
 import kristiana.sauceDemoNew.pages.ViewCartPage;
-import lpudnika.homework12.homework1SauceDemo.pages.InventoryPage;
-import lpudnika.homework12.homework1SauceDemo.pages.LoginPage;
+import kristiana.sauceDemoNew.pages.InventoryPage;
+import kristiana.sauceDemoNew.pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
