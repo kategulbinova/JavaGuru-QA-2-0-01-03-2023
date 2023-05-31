@@ -2,7 +2,9 @@ package irinaver.homework.sauceDemoNew.tests;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import static irinaver.homework.sauceDemoNew.utils.DriverProvider.*;
+import static irinaver.homework.sauceDemoNew.utils.DriverProvider.closeCurrentDriver;
+import static irinaver.homework.sauceDemoNew.utils.DriverProvider.getCurrentDriver;
+
 
 public class BaseTest {
 
@@ -12,7 +14,7 @@ public class BaseTest {
         }
         @AfterMethod
         public void tearDown() {
-            getCurrentDriver().quit();
+            closeCurrentDriver();
         }
     }
 

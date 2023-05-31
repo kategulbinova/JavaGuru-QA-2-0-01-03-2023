@@ -17,4 +17,11 @@ public class DriverProvider {
         driver = new ChromeDriver();
     }
 
+    public static void closeCurrentDriver() {
+        if (driver != null) {
+            driver.quit();
+            driver = null;
+        }
+    }
+
 }
