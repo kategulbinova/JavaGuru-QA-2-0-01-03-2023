@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 public class ProductPage {
     private WebDriver driver;
     private String bikeLightImg = "//img[@alt='Sauce Labs Bike Light']";
+    private String addToCartBtnId = "add-to-cart-sauce-labs-bike-light";
     public ProductPage(WebDriver driver) {
         this.driver = driver;
     }
@@ -18,9 +19,17 @@ public class ProductPage {
         //Choose specific item from all products
         bikeLightItem.click();
     }
-    public Boolean isPresent() {
-        WebElement backToProducts = driver.findElement(By.xpath("//button[@class='btn btn_secondary back btn_large inventory_details_back_button']"));
-        if (backToProducts.isDisplayed()) return true;
+    public void addingToCart() {
+        //Initialized elements
+        WebElement addToCartBtn = driver.findElement(By.id(addToCartBtnId));
+
+        //Perform adding product to cart
+        addToCartBtn.click();
+    }
+    public Boolean isRmvBtnPresent() {
+        WebElement removeBtn = driver.findElement(By.id("remove-sauce-labs-bike-light"));
+        if (removeBtn.isDisplayed()) return true;
         else return false;
     }
+
 }

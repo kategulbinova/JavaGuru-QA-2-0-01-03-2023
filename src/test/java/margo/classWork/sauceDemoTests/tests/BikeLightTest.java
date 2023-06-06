@@ -5,10 +5,9 @@ import margo.classWork.sauceDemoTests.pages.ProductPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-
 public class BikeLightTest extends BaseTest{
     @Test
-    public void bikeLightDescription() {
+    public void bikeLightCheckAndAddToCart() {
         //Create all necessary page objects
         LoginPage loginPage = new LoginPage(driver);
         ProductPage productPage = new ProductPage(driver);
@@ -16,8 +15,9 @@ public class BikeLightTest extends BaseTest{
         //Run scenario
         loginPage.login("standard_user", "secret_sauce");
         productPage.chooseBikeLight();
+        productPage.addingToCart();
 
         //Add assert
-        Assert.assertTrue(productPage.isPresent());
+        Assert.assertTrue(productPage.isRmvBtnPresent());
     }
 }
