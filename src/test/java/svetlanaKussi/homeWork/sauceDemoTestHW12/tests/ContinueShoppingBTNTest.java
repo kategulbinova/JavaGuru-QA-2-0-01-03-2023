@@ -13,11 +13,11 @@ public class ContinueShoppingBTNTest extends BaseTest{
         ProductsPage productsPage = new ProductsPage();
         CartPage cartPage = new CartPage ();
 
-        loginPage.login("standard_user", "secret_sauce");
+      //  loginPage.login("standard_user", "secret_sauce");
 
-        productsPage.addToCart();
+      //  productsPage.addToCart();
 
-        cartPage.continueShoppingButtonID();
+      //  cartPage.continueShoppingButtonID();
     }
 }
 

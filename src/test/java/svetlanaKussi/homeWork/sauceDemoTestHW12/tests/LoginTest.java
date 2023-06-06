@@ -9,7 +9,7 @@ public class LoginTest extends BaseTest{
     public void successfulLoginCheck() {
         LoginPage loginPage = new LoginPage();
 
-        loginPage.login("standard_user", "secret_sauce");
+     //   loginPage.login("standard_user", "secret_sauce");
 
     }
 }

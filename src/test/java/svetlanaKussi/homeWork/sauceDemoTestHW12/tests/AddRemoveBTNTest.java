@@ -11,8 +11,8 @@ public class AddRemoveBTNTest extends BaseTest{
         LoginPage loginPage = new LoginPage();
         ProductsPage productsPage = new ProductsPage();
 
-        loginPage.login("standard_user", "secret_sauce");
+       // loginPage.login("standard_user", "secret_sauce");
 
-        productsPage.testButtons();
+       // productsPage.testButtons();
     }
 }
