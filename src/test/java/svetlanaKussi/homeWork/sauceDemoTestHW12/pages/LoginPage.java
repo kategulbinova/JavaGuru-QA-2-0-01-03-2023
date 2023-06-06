@@ -1,19 +1,15 @@
-package svetlanaKussi.sauceDemo.pages;
+package svetlanaKussi.homeWork.sauceDemoTestHW12.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class LoginPage {
-
     public WebDriver driver;
     public String loginFieldID = "user-name";
     public String passwordFieldID = "password";
     public String loginButtonID = "login-button";
 
-    public LoginPage(WebDriver driver){
-        this.driver = driver;
-    }
 
     public void login(String login, String password){
         WebElement loginField = driver.findElement(By.id(loginFieldID));
@@ -25,4 +21,14 @@ public class LoginPage {
         loginButton.click();
 
     }
+
+    public void enterUsername(String standardUser) {
+    }
+
+    public void enterPassword(String secretSauce) {
+    }
+
+    public void clickLoginButton() {
+    }
 }
+
