@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <test name="Login Test">
+        <packages>
+            <package name="test.germans.JanisRozeHomeworkTest"/>
+        </packages>
+    </test>
+    <listeners>
+        <listener class-name="org.testng.reporters.TestHTMLReporter"/>
+    </listeners>
+    <parameter name="good_login" value="standard_user"/>
+    <parameter name="good_password" value="secret_sauce"/>
+</suite>
