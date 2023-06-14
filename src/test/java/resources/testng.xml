@@ -2,12 +2,12 @@
 <suite name="Test Suite">
     <test name="Login Test">
         <packages>
-            <package name="test.germans.JanisRozeHomeworkTest"/>
+            <package name="test.germans.sauceDemo.tests.LoginTest"/>
         </packages>
     </test>
     <listeners>
         <listener class-name="org.testng.reporters.TestHTMLReporter"/>
     </listeners>
-    <parameter name="good_login" value="standard_user"/>
-    <parameter name="good_password" value="secret_sauce"/>
+    <parameter name="standard_user" value="standard_user"/>
+    <parameter name="secret_sauce" value="secret_sauce"/>
 </suite>

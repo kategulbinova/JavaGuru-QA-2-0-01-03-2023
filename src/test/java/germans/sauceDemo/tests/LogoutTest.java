@@ -10,6 +10,7 @@ public class LogoutTest extends BaseTest{
     @Test
     public void successfulLogoutCheck() {
 
+
         LoginPage loginPage = new LoginPage(driver);
         InventoryPage inventoryPage = new InventoryPage(driver);
         LogoutPage LogoutPage = new LogoutPage(driver);
