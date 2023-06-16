@@ -1,4 +1,4 @@
-package romansmakna;
+package romansmakna.tests;
 import org.testng.annotations.Test;
 
 public class MyImportantTest {
