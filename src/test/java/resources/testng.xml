@@ -1,9 +1,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Test Suite">
     <test name="Login Test">
-        <packages>
-            <package name="test.germans.sauceDemo.tests.LoginTest"/>
-        </packages>
+        <classes>
+            <class name="germans.sauceDemo.tests.LoginTest"/>
+        </classes>
     </test>
     <listeners>
         <listener class-name="org.testng.reporters.TestHTMLReporter"/>
