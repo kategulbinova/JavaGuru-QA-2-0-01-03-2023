@@ -1,0 +1,16 @@
+			
+
+
+			table {
+				border: 1px solid white;
+				border-collapse: collapse;
+			}
+			td {
+				background-color: lightgrey;
+			}
+			h1 {
+				text-align: center;
+				color: red;
+				font-size:45px;
+
+			}
