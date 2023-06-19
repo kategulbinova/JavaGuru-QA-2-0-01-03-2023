@@ -23,5 +23,12 @@ public class LoginPage {
         passwordField.sendKeys(password);
         loginButton.click();
     }
+
+    public boolean isOpen() {
+        WebElement loginButton = driver.findElement(By.id(loginButtonId));
+
+        if (loginButton.isDisplayed()) return true;
+        else return false;
+    }
 }
 

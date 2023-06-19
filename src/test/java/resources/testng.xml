@@ -2,7 +2,7 @@
 <suite name="Test Suite">
     <test name="Login Test">
         <classes>
-            <class name="germans.sauceDemo.tests.LoginTest"/>
+            <class name="germans.sauceDemo.tests.LogoutTest"/>
         </classes>
     </test>
     <listeners>
