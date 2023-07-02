@@ -10,6 +10,10 @@ public class LoginPage {
     public String passwordFieldID = "password";
     public String loginButtonID = "login-button";
 
+    public LoginPage(WebDriver driver) {
+        this.driver = driver;
+    }
+
 
     public void login(String login, String password){
         WebElement loginField = driver.findElement(By.id(loginFieldID));
@@ -22,13 +26,5 @@ public class LoginPage {
 
     }
 
-    public void enterUsername(String standardUser) {
-    }
-
-    public void enterPassword(String secretSauce) {
-    }
-
-    public void clickLoginButton() {
-    }
 }
 

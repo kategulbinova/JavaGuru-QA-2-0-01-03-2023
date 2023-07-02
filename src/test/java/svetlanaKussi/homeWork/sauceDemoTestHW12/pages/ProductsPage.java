@@ -8,6 +8,12 @@ public class ProductsPage {
     public WebDriver driver;
     public String addToCartButtonID = "add-to-cart-sauce-labs-backpack";
     public String removeFromCartButtonID = "remove-sauce-labs-backpack";
+    public String productInventoryID = "inventory_container";
+
+
+    public ProductsPage(WebDriver driver) {
+        this.driver = driver;
+    }
 
 
     public void testButtons(){
@@ -23,6 +29,16 @@ public class ProductsPage {
         addToCartButton.click();
 
 
+    }
+    public void removeFromCart(){
+        WebElement removeFromCartButton = driver.findElement(By.id(removeFromCartButtonID));
+        removeFromCartButton.click();
+    }
+
+    public Boolean isOpen() {
+        WebElement burgerMenuIcon = driver.findElement(By.id(productInventoryID));
+        if ( burgerMenuIcon.isDisplayed() ) return true;
+        else return false;
     }
 
 }
