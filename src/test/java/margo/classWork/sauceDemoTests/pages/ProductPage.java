@@ -6,20 +6,12 @@ import org.openqa.selenium.WebElement;
 
 public class ProductPage {
     private WebDriver driver;
-    private String bikeLightImg = "//img[@alt='Sauce Labs Bike Light']";
     private String addToCartBtnId = "add-to-cart-sauce-labs-bike-light";
+    private String shoppingCartId = "shopping_cart_container";
     public ProductPage(WebDriver driver) {
         this.driver = driver;
     }
-
-    public void chooseBikeLight() {
-        //Initialized element
-        WebElement bikeLightItem = driver.findElement(By.xpath(bikeLightImg));
-
-        //Choose specific item from all products
-        bikeLightItem.click();
-    }
-    public void addingToCart() {
+    public void addToCart() {
         //Initialized elements
         WebElement addToCartBtn = driver.findElement(By.id(addToCartBtnId));
 
@@ -31,5 +23,11 @@ public class ProductPage {
         if (removeBtn.isDisplayed()) return true;
         else return false;
     }
+    public void goToCart() {
+        //Initialized elements
+        WebElement shoppingCart = driver.findElement(By.id(shoppingCartId));
 
+        //Adding product to cart
+        shoppingCart.click();
+    }
 }

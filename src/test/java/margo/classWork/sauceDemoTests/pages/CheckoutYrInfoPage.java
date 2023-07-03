@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 
 public class CheckoutYrInfoPage {
     private WebDriver driver;
-    private String checkoutBtnId = "checkout";
     private String firstNameFieldId = "first-name";
     private String lastNameFieldId = "last-name";
     private String continueBtnId = "continue";
@@ -15,10 +14,7 @@ public class CheckoutYrInfoPage {
     public CheckoutYrInfoPage(WebDriver driver) {
         this.driver = driver;
     }
-    public void checkoutBtnPress() {
-        WebElement checkoutBtn = driver.findElement(By.id(checkoutBtnId));
-        checkoutBtn.click();
-    }
+
     public void checkoutProcess() {
         //Initialized elements
         WebElement firstNameField = driver.findElement(By.id(firstNameFieldId));
