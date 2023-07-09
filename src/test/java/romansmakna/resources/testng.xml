@@ -2,7 +2,7 @@
 <suite name="All Tests Suite">
     <test name="All Tests">
         <packages>
-            <package name="romansmakna.tests"/>
+            <package name="romansmakna.homework10.tests"/>
         </packages>
     </test>
     <listeners>
